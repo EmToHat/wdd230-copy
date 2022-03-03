@@ -16,19 +16,13 @@ body
 
 
 /*__________________ HEADER FOOTER __________________*/
-header, footer 
+header 
     {
         background-color: rgb(202, 103, 71);
         color: rgb(255, 255, 255);
         
         display: flex;
 	    flex-flow: column;
-    }
-
-footer
-    {
-        align-items: center;
-        text-align: center;
     }
 
 .title
@@ -53,10 +47,58 @@ img
         width: 120px;
     }
 
+/* -- FOOTER -- */    
+footer
+    {
+        background-color: rgb(202, 103, 71);
+        color: rgb(255, 255, 255);
+        
+        display: flex;
+	    flex-flow: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+footer h3
+    {
+        font-size: 30px;
+    }
+
 footer div img
     {
         width: 30px;
         height: auto;
+    }
+
+footer section.box1,
+footer section.box3,
+footer section.box4
+    {
+        text-align: left;
+        padding: 8px;
+        width: 200px;
+    }
+
+footer section.box2
+    {
+        padding: 8px;
+    }
+
+footer section.box5
+    {
+        padding: 8px; 
+        text-align: center;
+    }
+
+footer section p
+    {
+        padding-top: 9px;
+    }
+
+footer section.box4 p
+    {
+        padding-bottom: 9px;
     }
 
 

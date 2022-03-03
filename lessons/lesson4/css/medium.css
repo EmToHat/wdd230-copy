@@ -1,11 +1,11 @@
 @media (min-width: 600px) 
 {
-    /*__________________ CONTENT HEADER __________________*/
+    /*__________________ HEADER FOOTER __________________*/
 
 
 
 
-    /*__________________ CONTENT MAIN __________________*/
+    /*__________________ HOME __________________*/
     main.home
         {
             display: flex;
@@ -56,13 +56,12 @@
         {
             grid-row: 4 / 5;
             grid-column: 1 / 2;
-            height: 100%;
+            
         }
 
     main section.weather
         {
             grid-row: 4 / 5;
             grid-column: 2 / 3;
-            height: 100%;
         }
 }
