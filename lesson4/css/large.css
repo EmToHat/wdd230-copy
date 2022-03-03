@@ -57,7 +57,7 @@
             row-gap: 10px;
         }
 
-    main section.welcome
+    main.home section.welcome
         {
             grid-row-start: 1;
             grid-row-end: 2;
@@ -66,7 +66,7 @@
             grid-column-end: 4;
         }
 
-    main section.news
+    main.home section.news
         {
             grid-row-start: 2;
             grid-row-end: 4;
@@ -76,7 +76,7 @@
             height: 100%;
         }
 
-    main section.event
+    main.home section.event
         {
             grid-row-start: 2;
             grid-row-end: 3;
@@ -87,7 +87,7 @@
             height: 100%;
         }
     
-    main section.weather
+    main.home section.weather
         {
             grid-row-start: 3;
             grid-row-end: 4;
@@ -97,7 +97,7 @@
             height: 100%;
         }
 
-    main section.spotlight
+    main.home section.spotlight
         {
 
             grid-row-start: 2;

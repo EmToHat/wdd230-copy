@@ -43,19 +43,19 @@
             column-gap: 10px;
         }
 
-    main section.welcome
+    main.home section.welcome
         {
             grid-row: 1 / 2;
             grid-column: span 2;
         }
 
-    main section.news
+    main.home section.news
         {
             grid-row: 2 / 3;
             grid-column: span 2;
         }
 
-    main section.spotlight
+    main.home section.spotlight
         {
             grid-row: 3 / 4;
             grid-column: 1 / 3;
@@ -66,20 +66,20 @@
             column-gap: 8px;
         }
 
-    main section div.spot1,
-    main section div.spot2
+    main.home section div.spot1,
+    main.home section div.spot2
         {
             padding: 10px;
         }
     
-    main section.event
+    main.home section.event
         {
             grid-row: 4 / 5;
             grid-column: 1 / 2;
             
         }
 
-    main section.weather
+    main.home section.weather
         {
             grid-row: 4 / 5;
             grid-column: 2 / 3;
