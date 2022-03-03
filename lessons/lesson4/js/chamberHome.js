@@ -24,7 +24,7 @@ function dayOfweek(){
 
     if (weekdayValue == 3) 
     {
-        message = "Come join us for the chamber meet & greet Wednesday at 7:00 p.m.";
+        message = "Join us for the chamber meet & greet Wednesday at 7:00 p.m.";
         document.getElementById("greeting").innerHTML = message;
     }
     /*else if (weekdayValue == 3)

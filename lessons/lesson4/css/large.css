@@ -1,0 +1,60 @@
+/* Large View */
+
+@media (min-width: 765px) {
+    main.containerIndexmain
+        {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(auto, 1fr);
+        }
+
+    main section.hero
+        {
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+    main section.news
+        {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+    main section.event
+        {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+    
+    main section.weather
+        {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+    main section.spot
+        {
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+            
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+            display: flex;
+            flex-direction: column;
+        }
+}
