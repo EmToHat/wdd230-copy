@@ -24,18 +24,100 @@
     <!--------------------BODY---------------------->
     <body>
         <!--------------Header--------------->
-        <header>hello</header>
+        <header>
+            <!--JavaScript Banner-->
+            <span id="greeting" class="greeting"></span>
+
+            <div class="title">
+                <img src="/lessons/lesson4/images/sun250x250.png" alt="Sun image">
+            
+                <h1>
+                    St George <br>
+                    Chamber of Commerce
+                </h1>
+            </div>
+
+            <nav role="navigation">
+                <ul class="navigation">
+                  <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Discover</a></li>
+                  <li><a href="index.html">Join</a></li>
+                  <li><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         
         <!--------------Main--------------->
-        <main>hello</main>
+        <main class="clearfix">
+            <section>
+                <h2>Welcome to St. George</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+            </section>
+
+            <section>
+                <h2>event</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+            </section>
+
+            <section>
+                <h2>weather</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+            </section>
+            <section>
+                <h2>news release</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+            </section>
+            <section>
+                <div>
+                    <h2>spotlight 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+                </div>
+                <div>
+                    <h2>spotlight 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+                </div>
+            </section>
+        </main>
         
         <!--------------Footer--------------->
         <footer>
+            <span>
+                <h3>Contact Us!</h3>
+                <p>
+                    St. George <br>
+                    Chamber of Commerce <br>
+                    175 E 200 N, St. George, UT 84770 <br>
+                    info-sgcc@gmail.com
+                    <br>
+                    +14356274000
+                </p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101862.33242617044!2d-113.60634493720359!3d37.076593491677926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca44ce90467f7d%3A0x77948a1ded6ed8fd!2sCity%20of%20St.%20George!5e0!3m2!1sen!2sus!4v1646279642256!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </span>
+            
+            <span>
+                <h3>Additional Resources</h3>
+            </span>
+            
+            <span>
+                <h3>Stay Connected!</h3>
+                <div>
+                    <img src="/lessons/lesson4/images/facebook64x64.png" alt="Facebook">
+                    <img src="/lessons/lesson4/images/linkedin64x64.png" alt="Linkedin">
+                    <img src="/lessons/lesson4/images/whatsapp64x64.png" alt="whatsapp">
+                </div>
+            </span>
+            
+
+            <p>___________________________________________________________</p>
+
             <p>&copy;<span id="year"></span> | Emilee Hatch | Utah</p>
             <p>Last Update: <span id="modified"></span></p>
         </footer>
 
         <!--JavaScript-->
         <script src="/lessons/lesson4/js/chamberHome.js"></script>
+        <script src="/lessons/lesson4/js/banner.js"></script>
     </body>
 </html>
