@@ -1,10 +1,30 @@
 @media (min-width: 600px) 
 {
     /*__________________ HEADER FOOTER __________________*/
-
-
-
-
+    footer div
+        {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            padding-top: 30px;
+        }
+    
+    footer section.box1,
+    footer section.box2
+        {
+            grid-row: 1/2;
+        }
+    
+    footer section.box3,
+    footer section.box4
+        {
+            grid-row: 2/3;
+        }
+    
+    footer section.box4 div.social ul
+        {
+            grid-column: span 2;
+        }
+    
     /*__________________ HOME __________________*/
     main.home
         {

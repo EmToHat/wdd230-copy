@@ -1,14 +1,63 @@
 /* Large View */
 
 @media (min-width: 765px) {
-    main.containerIndexmain
+    /*__________________ HEADER FOOTER __________________*/
+    footer div
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+    footer section.box1
+        {
+            grid-column: 1/2;
+            justify-self: center;
+        }
+    
+    footer section.box2
+        {
+            grid-column: 2/3;
+            justify-self: center;
+        }
+    
+    footer section.box3
+        {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+            height: 100%;
+        }
+    
+    footer section.box4
+        {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            justify-self: center;
+            height: 100%;
+        }
+
+    footer section.box5
+            {
+                justify-self: center;
+                text-align: center;
+            }
+    
+    footer section.box4 div.social ul
+        {
+            grid-column: span 3;
+        }
+
+
+    /*__________________ HOME __________________*/
+    main.home
         {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(auto, 1fr);
+            row-gap: 10px;
         }
 
-    main section.hero
+    main section.welcome
         {
             grid-row-start: 1;
             grid-row-end: 2;
@@ -34,6 +83,8 @@
             
             grid-column-start: 1;
             grid-column-end: 2;
+
+            height: 100%;
         }
     
     main section.weather
@@ -43,9 +94,10 @@
             
             grid-column-start: 1;
             grid-column-end: 2;
+            height: 100%;
         }
 
-    main section.spot
+    main section.spotlight
         {
 
             grid-row-start: 2;
@@ -56,5 +108,7 @@
 
             display: flex;
             flex-direction: column;
+
+            height: 100%;
         }
 }

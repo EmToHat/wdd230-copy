@@ -65,10 +65,15 @@ footer h3
         font-size: 30px;
     }
 
-footer div img
+footer div.social img
     {
         width: 30px;
         height: auto;
+    }
+
+footer section.box4 div.social ul li 
+    {
+        display: inline;
     }
 
 footer section.box1,
