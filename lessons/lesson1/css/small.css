@@ -1,0 +1,62 @@
+/* 
+Small View
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+body 
+{
+	font-size: 16px;
+    color: #413641;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img
+{
+    width: 200px;
+    height: auto;
+    padding: 12px;
+    border-radius: 18%;
+}
+
+header, footer
+{
+    background-color: #edc7b7;
+    text-align: center;
+    display: flex;
+	flex-flow: column;
+    align-items: center;
+	padding: 20px;
+}
+
+main
+{
+    background-color: #ffece2;
+    padding: 20px;
+}
+
+a
+{
+    color:#AC3B61;
+}
+
+a:visited
+{
+    color: #d64d7b;
+}
+
+.links
+{
+    padding-left: 30px;
+}
