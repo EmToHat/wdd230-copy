@@ -41,11 +41,14 @@ main div.cards h2
         padding: 8px;
 
         font-size: 18px;
+
+        text-align: center;
     }
 
 main div.cards p
     {
-        padding: 2px;
+        padding: 4px;
+        text-align: center;
     }
 
 main div.cards img

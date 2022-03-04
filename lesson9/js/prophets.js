@@ -25,8 +25,8 @@ function displayProphets(prophet) {
     let deathDate = document.createElement('p');
     let birthPlace = document.createElement('p');
     let children = document.createElement('p');
-    
 
+    
 
     // Change the textContent property of the h2 element to contain the prophet's full name
     prophetName.innerHTML = `${prophet.name} ${prophet.lastname}`;
@@ -45,7 +45,7 @@ function displayProphets(prophet) {
       // element.setAttribute(name, value)
 
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute('alt', 'Portait of ' + `${prophet.name} ${prophet.lastname}` + ' prophet' + ` ${prophet.order}`);
     portrait.setAttribute('loading', 'lazy');
   
 
@@ -53,12 +53,12 @@ function displayProphets(prophet) {
     // Add/append the section(card) with the h2 element
       // element.appendChild(node)
     
-    card.appendChild(portrait);
     card.appendChild(prophetName);
     card.appendChild(birthDate);
     card.appendChild(deathDate);
     card.appendChild(birthPlace);
     card.appendChild(children);
+    card.appendChild(portrait);
     
     // Add/append the existing HTML div with the cards class with the section(card)
       // node.appendChild(node)
