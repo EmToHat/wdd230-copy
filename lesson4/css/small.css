@@ -180,6 +180,28 @@ main.home section
         padding: 10px;
     }
 
+main.home section picture img
+    {
+        width: 100%;
+        height: auto; 
+    }
+
+main.home section.welcome
+    {
+        position: relative;
+    }
+
+main.home section.welcome h2
+    {
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
 
 /*__________________ DISCOVER MAIN __________________*/
 
