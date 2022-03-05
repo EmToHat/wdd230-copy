@@ -22,7 +22,7 @@ function dayOfweek(){
     let currentDate = new Date();
     weekdayValue = currentDate.getDay();
 
-    if (weekdayValue == 3) 
+    if (weekdayValue == 1) 
     {
         message = "Join us for the chamber meet & greet Wednesday at 7:00 p.m.";
         document.getElementById("greeting").innerHTML = message;
