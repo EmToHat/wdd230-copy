@@ -208,6 +208,51 @@ main.home section.welcome h2
 
 /*__________________ JOIN MAIN __________________*/
 
+/*__________________ DIRECTORY MAIN __________________*/
+    main.directory
+        {
+            display: flex;
+            flex-flow: column;
+
+            align-items: center;
+            justify-content: center;
+        }
+
+    main.directory div.businessCards section
+        {
+            background-color: rgb(180, 207, 176);
+            padding: 8px;
+            margin: 8px;
+        }
+
+    main.directory div.businessCards h2
+        {
+            background-color: rgb(148, 180, 159);
+            padding: 8px;
+
+            font-size: 18px;
+
+            text-align: center;
+        }
+
+    main.directory div.businessCards p
+        {
+            padding: 4px;
+            text-align: center;
+        }
+
+    main.directory div.businessCards img
+        {
+            width: 200px;
+
+            display: block;
+            
+            margin-left: auto;
+            margin-right: auto;
+
+            padding-bottom: 8px;
+        }
+
 
 /*__________________ CLEAR FIX __________________*/
 /* --- Clearfix: Force an Element not to collapse (Brother Cheney)--- */
