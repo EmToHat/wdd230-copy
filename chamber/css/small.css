@@ -9,7 +9,6 @@
 
 body 
     {
-        height: 100vh;
         font-size: 16px;
         font-family: 'Lato', Arial, Helvetica;
         background-color: rgb(255, 255, 255);
@@ -214,24 +213,26 @@ main.home section.welcome h2
         {
             display: flex;
             flex-flow: column;
-
+            
             align-items: center;
-            justify-content: center;
         }
 
     main.directory div.businessCards section
         {
             background-color: rgb(180, 207, 176);
+            
             padding: 8px;
-            width: 100%;
+            
             margin: 8px;
+            
+            width: 250px;
         }
 
     main.directory div.businessCards h2
         {
             background-color: rgb(148, 180, 159);
             padding: 8px;
-
+        
             font-size: 18px;
 
             text-align: center;
@@ -245,7 +246,10 @@ main.home section.welcome h2
 
     main.directory section.businessCards img
         {
-            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
 
 
