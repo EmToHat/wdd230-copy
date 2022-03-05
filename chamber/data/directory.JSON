@@ -4,73 +4,73 @@
         "name": "RAM",
         "address": "3172 Deseret Dr, St. George, UT 84790",
         "phone": "(435) 673-4603",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/ram.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/ram500.jpg"
       },
       {
         "name": "TCN",
         "address": "162 N 400 E Suite B200, St. George, UT 84770",
         "phone": "(866) 745-1900",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/tcn.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/tcn500.jpg"
       },
       {
         "name": "Coughlin Company",
         "address": "809 E Commerce Dr, St. George, UT 84770",
         "phone": "(435) 634-1266",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/coughlin.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/coughlin500.jpg"
       },
       {
         "name": "G-Companies",
         "address": "2376 E Red Cliffs Drive Ste 350 B St. George, UT 84790",
         "phone": "(435) 656-0488",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/gco.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/gco500.jpg"
       },
       {
         "name": "Deseret Laboratories",
         "address": "1414 E 3850 S, St. George, UT 84790",
         "phone": "(435) 628-8786",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/deseretlab.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/deseretlab500.jpg"
       },
       {
         "name": "Vaison",
         "address": "432 S Tech Ridge Dr, St. George, UT 84770",
         "phone": null,
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/vasion.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/vasion500.jpg"
       },
       {
         "name": "Plus One",
         "address": "94 S Mall Dr, St. George, UT 84790",
         "phone": "800-295-9295",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/plusone.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/plusone500.jpg"
       },
       {
         "name": "AlphaGraphics",
         "address": "228 W St George Blvd Suite 100, St. George, UT 84770",
         "phone": "(435) 656-5220",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/alpha.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/alpha500.jpg"
       },
       {
         "name": "Barney Trucking",
         "address": "1593 E Venture Dr, St. George, UT 84790",
         "phone": "(435) 673-9846",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/bt.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/bt500.jpg"
       },
       {
         "name": "Utah Safe",
         "address": "551 N 1400 E #2, St. George, UT 84770",
         "phone": "(435) 574-4410",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/utahsafe.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/utahsafe500.jpg"
       },
       {
         "name": "Inwest Title Services, Inc.",
         "address": "444 E Tabernacle St b202, St. George, UT 84770",
         "phone": "(435) 634-5080",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/inwest.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/inwest500.jpg"
       },
       {
         "name": "Peak Alarm",
         "address": "122 N 200 W, St. George, UT 84770",
         "phone": "(435) 656-1888",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/peakalarm.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/dataImages/peakalarm500.jpg"
       }
     ]
   }
