@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/emt0rres/wdd230/blob/main/chamber/data/directory.json';
+const requestURL = 'https://raw.githubusercontent.com/emt0rres/wdd230/main/chamber/data/directory.JSON';
 
 const cards = document.querySelector('.businessCards');
 

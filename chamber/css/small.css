@@ -241,10 +241,8 @@ main.home section.welcome h2
             text-align: center;
         }
 
-    main.directory div.businessCards img
+    main.directory section.businessCards img
         {
-            width: 200px;
-
             display: block;
             
             margin-left: auto;
