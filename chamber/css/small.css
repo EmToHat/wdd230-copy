@@ -9,6 +9,7 @@
 
 body 
     {
+        height: 100vh;
         font-size: 16px;
         font-family: 'Lato', Arial, Helvetica;
         background-color: rgb(255, 255, 255);
@@ -222,6 +223,7 @@ main.home section.welcome h2
         {
             background-color: rgb(180, 207, 176);
             padding: 8px;
+            width: 100%;
             margin: 8px;
         }
 
@@ -243,12 +245,7 @@ main.home section.welcome h2
 
     main.directory section.businessCards img
         {
-            display: block;
-            
-            margin-left: auto;
-            margin-right: auto;
-
-            padding-bottom: 8px;
+            width: 100%;
         }
 
 
