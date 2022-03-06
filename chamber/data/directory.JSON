@@ -38,7 +38,7 @@
       {
         "name": "Vaison",
         "address": "432 S Tech Ridge Dr, St. George, UT 84770",
-        "phone": null,
+        "phone": "none",
         "website": "https://www.vasion.com/",
         "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/vasion.png"
       },

@@ -27,6 +27,8 @@ function displayCompanies(company) {
     companyAddress.innerHTML = 'Address: ' + `${company.address}`;
     companyPhone.innerHTML = 'Phone Number: ' + `${company.phone}`;
     companyWebsite.innerHTML ='Website: ' + `${company.website}`;
+
+
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
       // element.setAttribute(name, value)
