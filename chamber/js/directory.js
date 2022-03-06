@@ -19,9 +19,7 @@ function displayCompanies(company) {
     let companyLogo = document.createElement('img');
     let companyName = document.createElement('h2');
 
-
     
-
     // Change the textContent property of the h2 element to contain the prophet's full name
     companyName.innerHTML = `${company.name}`;
     

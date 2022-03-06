@@ -1,3 +1,11 @@
+/**
+ * @file
+ * Short description describing the file.
+ *
+ * The first sentence of the long description starts here and continues on this
+ * line for a while finally concluding here at the end of this paragraph.
+*/
+
 /* Small View */
 /* --ALL-- */
 * 
@@ -15,7 +23,11 @@ body
     }
 
 
-/*__________________ HEADER FOOTER __________________*/
+
+
+/* ================================= 
+            HEADER CONTENT
+==================================== */
 header 
     {
         background-color: rgb(202, 103, 71);
@@ -47,7 +59,66 @@ img
         width: 120px;
     }
 
-/* -- FOOTER -- */    
+/* -- BANNER -- */
+.greeting
+    {
+        color: rgb(255, 255, 255);
+        background: rgb(182, 75, 46);
+        padding: 13px;
+        text-align: center;
+    }
+
+header nav 
+	{
+		margin: 0 auto;
+		background-color: rgb(182, 75, 46);
+		width: 100%;
+	}
+
+.navigation
+	{
+		list-style: none;
+		text-align: center;
+		padding: 0;
+	}
+
+.navigation li:first-child
+	{
+		display: block;
+	}
+
+.navigation li
+	{
+		display: none;
+	}
+
+.navigation a
+	{
+		display: block;
+		color: rgb(255, 255, 255);
+		padding: 0.75rem;
+		text-align: center;
+		text-decoration: none;
+	}
+
+.navigation a:hover
+	{
+		color: rgb(255, 255, 255);
+		background-color: rgb(235, 155, 106);
+		font-weight: 900;
+	}
+
+.responsive li
+	{
+		display: block;
+	}    
+
+    
+
+    
+/* ================================= 
+            FOOTER CONTENT
+==================================== */   
 footer
     {
         background-color: rgb(202, 103, 71);
@@ -106,60 +177,6 @@ footer section.box4 p
         padding-bottom: 9px;
     }
 
-
-/* -- BANNER -- */
-.greeting
-    {
-        color: rgb(255, 255, 255);
-        background: rgb(182, 75, 46);
-        padding: 13px;
-        text-align: center;
-    }
-
-header nav 
-	{
-		margin: 0 auto;
-		background-color: rgb(182, 75, 46);
-		width: 100%;
-	}
-
-.navigation
-	{
-		list-style: none;
-		text-align: center;
-		padding: 0;
-	}
-
-.navigation li:first-child
-	{
-		display: block;
-	}
-
-.navigation li
-	{
-		display: none;
-	}
-
-.navigation a
-	{
-		display: block;
-		color: rgb(255, 255, 255);
-		padding: 0.75rem;
-		text-align: center;
-		text-decoration: none;
-	}
-
-.navigation a:hover
-	{
-		color: rgb(255, 255, 255);
-		background-color: rgb(235, 155, 106);
-		font-weight: 900;
-	}
-
-.responsive li
-	{
-		display: block;
-	}    
 
 /*__________________ HOME MAIN __________________*/
 main.home
