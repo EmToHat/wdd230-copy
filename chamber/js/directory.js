@@ -20,13 +20,13 @@ function displayCompanies(company) {
     let companyName = document.createElement('h2');
     let companyAddress = document.createElement('p');
     let companyPhone = document.createElement('p');
-    let companyWebsite = document.createElement('p');
+    let companyWebsite = document.createElement('a');
     
     // Change the textContent property of the h2 element to contain the prophet's full name
     companyName.innerHTML = `${company.name}`;
     companyAddress.innerHTML = 'Address: ' + `${company.address}`;
     companyPhone.innerHTML = 'Phone Number: ' + `${company.phone}`;
-    companyWebsite.innerHTML ='Website: ' + `${company.website}`;
+    companyWebsite.innerHTML = `${company.website}`;
 
 
     
@@ -36,6 +36,7 @@ function displayCompanies(company) {
     companyLogo.setAttribute('src', company.imageurl);
     companyLogo.setAttribute('alt', 'Logo of ' + `${company.name}`);
     companyLogo.setAttribute('loading', 'lazy');
+    companyWebsite.setAttribute('href', `${company.website}`)
   
 
 
