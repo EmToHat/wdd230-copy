@@ -1,3 +1,5 @@
+/*----------  SMALL VIEW  ----------*/
+
 /**
  * @file
  * Short description describing the file.
@@ -6,8 +8,12 @@
  * line for a while finally concluding here at the end of this paragraph.
 */
 
-/* Small View */
-/* --ALL-- */
+
+
+
+/*=============================================
+=            ALL and BODY CONTENT             =
+=============================================*/
 * 
     {
         margin: 0;
@@ -22,12 +28,20 @@ body
         background-color: rgb(255, 255, 255);
     }
 
+img
+    {
+        width: 100%;
+    }
+
+/*=====  End of ALL and BODY CONTENT   ======*/
 
 
 
-/* ================================= 
-            HEADER CONTENT
-==================================== */
+
+
+/*=============================================
+=               HEADER CONTENT                =
+=============================================*/
 header 
     {
         background-color: rgb(202, 103, 71);
@@ -47,19 +61,15 @@ header
 .title img
     {
         padding: 8px;
+        width: 120px;
     }
 
 .title h1
     {
         padding: 8px;
     }
-
-img
-    {
-        width: 120px;
-    }
-
-/* -- BANNER -- */
+    
+/*----------  greeting  ----------*/
 .greeting
     {
         color: rgb(255, 255, 255);
@@ -104,7 +114,7 @@ header nav
 .navigation a:hover
 	{
 		color: rgb(255, 255, 255);
-		background-color: rgb(235, 155, 106);
+		background-color: rgba(172, 72, 44, 0.74);
 		font-weight: 900;
 	}
 
@@ -113,12 +123,14 @@ header nav
 		display: block;
 	}    
 
-    
+/*=====  End of HEADER CONTENT  ======*/
+
+
 
     
-/* ================================= 
-            FOOTER CONTENT
-==================================== */   
+/*=============================================
+=               FOOTER CONTENT                =
+=============================================*/  
 footer
     {
         background-color: rgb(202, 103, 71);
@@ -177,8 +189,17 @@ footer section.box4 p
         padding-bottom: 9px;
     }
 
+/*=====  End of FOOTER CONTENT  ======*/
 
-/*__________________ HOME MAIN __________________*/
+
+
+
+
+/*=============================================
+=               MAIN CONTENT                  =
+=============================================*/
+
+/*----------  HOME/INDEX/1ST PG  ----------*/
 main.home
     {
         display: flex;
@@ -207,7 +228,7 @@ main.home section.welcome
     {
         position: relative;
     }
-
+    
 main.home section.welcome h2
     {
         position: absolute;
@@ -218,66 +239,70 @@ main.home section.welcome h2
         padding-left: 20px;
         padding-right: 20px;
     }
-    
-
-/*__________________ DISCOVER MAIN __________________*/
 
 
-/*__________________ JOIN MAIN __________________*/
-
-/*__________________ DIRECTORY MAIN __________________*/
-    main.directory
-        {
-            display: flex;
-            flex-flow: column;
-            
-            align-items: center;
-
-            background-color: rgb(235, 155, 106);
-        }
-
-    main.directory div.businessCards section
-        {
-            background-color: rgb(255, 255, 255);
-            
-            padding: 8px;
-            
-            margin: 8px;
-            
-            width: 250px;
-        }
-
-    main.directory div.businessCards h2
-        {
-            background-color: rgb(148, 180, 159);
-            padding: 8px;
-        
-            font-size: 18px;
-
-            text-align: center;
-        }
-
-    main.directory div.businessCards p
-        {
-            padding: 4px;
-            text-align: center;
-        }
-
-    main.directory section.businessCards img
-        {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
+/*----------  DISCOVER/2ND PG  ----------*/
 
 
-/*__________________ CLEAR FIX __________________*/
-/* --- Clearfix: Force an Element not to collapse (Brother Cheney)--- */
 
-.clearfix:after 
+/*----------  JOIN AND THANKYOU/3RD and 4TH PG  ----------*/
+
+
+
+/*----------  DIRECTORY/5th PG  ----------*/
+main.directory
 {
-content: "";
-display: table;
-clear: both;
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+
+    background-color: rgb(235, 155, 106);
+
+    margin: 0;
 }
+
+main.directory div.businessCards section
+{
+    background-color: rgb(255, 255, 255);
+
+    width: 350px;
+
+    padding: 8px;
+
+    margin: 10px;
+    
+}
+
+main.directory div.businessCards h2
+{
+    background-color: rgb(202, 103, 71);
+    padding: 8px;
+
+    font-size: 18px;
+
+    text-align: center;
+}
+
+main.directory div.businessCards p
+{
+    padding: 4px;
+    text-align: center;
+}
+/*=====  End of MAIN CONTENT  ======*/
+
+
+
+
+/**
+ *
+ * CLEAR FIX BY BRO CHENEY
+ * Clearfix forces an element not to collapse
+ *
+ */
+ .clearfix:after 
+ {
+ content: "";
+ display: table;
+ clear: both;
+ }

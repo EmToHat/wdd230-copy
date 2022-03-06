@@ -18,10 +18,15 @@ function displayCompanies(company) {
     let card = document.createElement('section');
     let companyLogo = document.createElement('img');
     let companyName = document.createElement('h2');
-
+    let companyAddress = document.createElement('p');
+    let companyPhone = document.createElement('p');
+    let companyWebsite = document.createElement('p');
     
     // Change the textContent property of the h2 element to contain the prophet's full name
     companyName.innerHTML = `${company.name}`;
+    companyAddress.innerHTML = `${company.address}`;
+    companyPhone.innerHTML = `${company.phone}`;
+    companyWebsite.innerHTML = `${company.website}`;
     
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
       // element.setAttribute(name, value)
@@ -37,6 +42,10 @@ function displayCompanies(company) {
     
     card.appendChild(companyLogo);
     card.appendChild(companyName);
+    card.appendChild(companyAddress);
+    card.appendChild(companyPhone);
+    card.appendChild(companyWebsite);
+    
     
     // Add/append the existing HTML div with the cards class with the section(card)
       // node.appendChild(node)
