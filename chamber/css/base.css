@@ -258,15 +258,13 @@ main.directory
     align-items: center;
 
     background-color: rgb(235, 155, 106);
-
-    margin: 0;
 }
 
 main.directory div.businessCards section
 {
     background-color: rgb(255, 255, 255);
 
-    width: 350px;
+    width: 380px;
 
     padding: 8px;
 
@@ -279,14 +277,18 @@ main.directory div.businessCards section
 main.directory div.businessCards h2
 {
     background-color: rgb(202, 103, 71);
+    
     padding: 8px;
 
     font-size: 18px;
+
+    color:rgb(255, 255, 255);
 }
 
 main.directory div.businessCards p
 {
     padding: 4px;
+
 }
 /*=====  End of MAIN CONTENT  ======*/
 

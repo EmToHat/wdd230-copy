@@ -24,8 +24,8 @@ function displayCompanies(company) {
     
     // Change the textContent property of the h2 element to contain the prophet's full name
     companyName.innerHTML = `${company.name}`;
-    companyAddress.innerHTML = 'Address: ' + `${company.address}`;
-    companyPhone.innerHTML = 'Phone Number: ' + `${company.phone}`;
+    companyAddress.innerHTML = `${company.address}`;
+    companyPhone.innerHTML = `${company.phone}`;
     companyWebsite.innerHTML = `${company.website}`;
 
 
@@ -54,3 +54,4 @@ function displayCompanies(company) {
       // node.appendChild(node)
     cards.appendChild(card);
 }
+

@@ -1,7 +1,9 @@
 /* Large View */
 
 @media (min-width: 765px) {
-    /*__________________ HEADER FOOTER __________________*/
+    /*=============================================
+    =        HEADER/FOOTER CONTENT                =
+    =============================================*/ 
     footer div
         {
             display: grid;
@@ -46,9 +48,15 @@
         {
             grid-column: span 3;
         }
+    /*=====  End of FOOTER CONTENT  ======*/
+    
 
 
-    /*__________________ HOME __________________*/
+
+    /*=============================================
+    =               MAIN CONTENT                  =
+    =============================================*/ 
+    /*----------  HOME/INDEX/1ST PG  ----------*/
     main.home
         {
             display: grid;
@@ -111,4 +119,20 @@
 
             height: 100%;
         }
+
+    /*----------  DISCOVER/2ND PG  ----------*/
+
+
+    /*----------  JOIN AND THANKYOU/3RD and 4TH PG  ----------*/
+
+
+    /*----------  DIRECTORY/5th PG  ----------*/
+    main.directory div.businessCards
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 10px;
+        }
+
+    /*=====  End of MAIN CONTENT  ======*/
 }
