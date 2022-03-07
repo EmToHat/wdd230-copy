@@ -276,6 +276,8 @@ main.directory div.businessCards section
 main.directory div.businessCards section img
 {
     background-color: rgba(255, 255, 255, 0.486);
+    padding: 10px;
+    max-width: 100%; /* Images are jerks - Seattle*/
 }
 
 main.directory div.businessCards h2
@@ -294,6 +296,19 @@ main.directory div.businessCards p
     padding: 4px;
 
 }
+
+main.directory .menu button
+{
+    padding: 1rem;
+}
+
+main.directory .menu
+{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /*=====  End of MAIN CONTENT  ======*/
 
 

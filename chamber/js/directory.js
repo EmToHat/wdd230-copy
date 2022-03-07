@@ -54,4 +54,3 @@ function displayCompanies(company) {
       // node.appendChild(node)
     cards.appendChild(card);
 }
-

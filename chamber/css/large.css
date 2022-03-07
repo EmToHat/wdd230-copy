@@ -134,5 +134,10 @@
             margin: 10px;
         }
 
+    main.directory 	.list section img 
+    {
+		display: block;
+	}
+
     /*=====  End of MAIN CONTENT  ======*/
 }
