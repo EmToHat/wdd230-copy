@@ -50,7 +50,8 @@ header
         display: flex;
 	    flex-flow: column;
     }
-
+    
+/*----------  Title and Image  ----------*/
 .title
     {
         display: flex;
@@ -78,6 +79,7 @@ header
         text-align: center;
     }
 
+/*----------  Navigation  ----------*/    
 header nav 
 	{
 		margin: 0 auto;
