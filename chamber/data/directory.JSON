@@ -1,88 +1,88 @@
 {
     "companies": [
       {
-        "name": "RAM",
-        "address": "3172 Deseret Dr, St. George, UT 84790",
-        "phone": "(435) 673-4603",
-        "website": "https://ramasd.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/ram.png"
+        "name": "Outdoor Rush",
+        "address": "2042 Westcliff Dr, St George UT 847900",
+        "phone": "(435) 817-4215",
+        "website": "https://outdoorrush.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/rush.png"
       },
       {
-        "name": "TCN",
-        "address": "162 N 400 E Suite B200, St. George, UT 84770",
-        "phone": "(866) 745-1900",
-        "website": "https://www.tcn.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/tcn.png"
+        "name": "Wildland Trekking",
+        "address": "935 N 1300 W #6d, St. George, UT 84770",
+        "phone": "(800) 715-4453",
+        "website": "https://wildlandtrekking.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/wildland.png"
       },
       {
-        "name": "Coughlin Company",
-        "address": "809 E Commerce Dr, St. George, UT 84770",
-        "phone": "(435) 634-1266",
-        "website": "https://coughlincompany.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/coughlin.png"
+        "name": "ATV Rentals Utah",
+        "address": "2643 E 3380 S, St. George, UT 84790",
+        "phone": "(888) 352-4179",
+        "website": "https://www.atvrentalsutah.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/atv.png"
       },
       {
-        "name": "G-Companies",
-        "address": "2376 E Red Cliffs Drive Ste 350 B St. George, UT 84790",
-        "phone": "(435) 656-0488",
-        "website": "https://www.g-companies.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/gco.png"
+        "name": "Southern Utah Scenic Tours",
+        "address": "PO Box 911772 St George, UT 84790",
+        "phone": "(435) 656-1504",
+        "website": "https://utahscenictours.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/scenic.png"
       },
       {
-        "name": "Deseret Laboratories",
-        "address": "1414 E 3850 S, St. George, UT 84790",
-        "phone": "(435) 628-8786",
-        "website": "https://www.deseretlabs.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/deseretlab.png"
+        "name": "Educational Tours",
+        "address": "1079 East Riverside Dr, Suite 101 St George, UT 84790",
+        "phone": "(435)656-4849",
+        "website": "https://ettours.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/et.png"
       },
       {
-        "name": "Vaison",
-        "address": "432 S Tech Ridge Dr, St. George, UT 84770",
-        "phone": "none",
-        "website": "https://www.vasion.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/vasion.png"
+        "name": "Red River Adventures",
+        "address": "1140 S . Main St. Moab, Utah 84532",
+        "phone": "(435) 265-3672",
+        "website": "https://redriveradventures.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/redriver.png"
       },
       {
-        "name": "Plus One",
-        "address": "94 S Mall Dr, St. George, UT 84790",
-        "phone": "800-295-9295",
-        "website": "https://plusonecompany.com/contact-us/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/plusone.png"
+        "name": "Red Rock Bicycle",
+        "address": "446 W 100 S, St. George, UT 84770",
+        "phone": "(435) 674-3185",
+        "website": "https://www.redrockbicycle.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/redrock.png"
       },
       {
-        "name": "AlphaGraphics",
-        "address": "228 W St George Blvd Suite 100, St. George, UT 84770",
-        "phone": "(435) 656-5220",
-        "website": "https://www.alphagraphics.com/us-utah-st-george-us491",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/alpha.png"
+        "name": "Paragon Adventures",
+        "address": "955 N. 1300 W. Suite 4 St. George Utah, 84770",
+        "phone": "(435) 673-1709",
+        "website": "https://paragonadventure.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/paragon.png"
       },
       {
-        "name": "Barney Trucking",
-        "address": "1593 E Venture Dr, St. George, UT 84790",
-        "phone": "(435) 673-9846",
-        "website": "https://www.barneytrucking.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/bt.png"
+        "name": "St. George Ebikes",
+        "address": "491 N Bluff St Suite 102, St. George, UT 84770",
+        "phone": "(435) 522-3035",
+        "website": "https://www.stgeorgeebikes.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/ebikes.png"
       },
       {
-        "name": "Utah Safe",
-        "address": "551 N 1400 E #2, St. George, UT 84770",
-        "phone": "(435) 574-4410",
-        "website": "https://utahsafeco.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/utahsafe.png"
+        "name": "Utah Geology Scenic Tours",
+        "address": "1740 S View Point Dr, St. George, UT 84770",
+        "phone": "(435) 590-0344",
+        "website": "https://utahgeology.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/geology.png"
       },
       {
-        "name": "Inwest Title Services, Inc.",
-        "address": "444 E Tabernacle St b202, St. George, UT 84770",
-        "phone": "(435) 634-5080",
-        "website": "https://www.inwesttitle.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/inwest.png"
+        "name": "St. George Children's Museum",
+        "address": "86 S Main St, St. George, UT 84770",
+        "phone": "(435) 986-4000",
+        "website": "https://www.sgchildrensmuseum.org/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/children.png"
       },
       {
-        "name": "Peak Alarm",
-        "address": "122 N 200 W, St. George, UT 84770",
-        "phone": "(435) 656-1888",
-        "website": "https://www.peakalarm.com/",
-        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/peakalarm.png"
+        "name": "Happy Trails Adventure Tours",
+        "address": "291 N Main St, Leeds, UT 84746",
+        "phone": "(435) 429-4498",
+        "website": "https://www.happytrailsadventure.com/",
+        "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/happy.png"
       }
     ]
   }
