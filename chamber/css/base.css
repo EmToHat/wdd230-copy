@@ -257,21 +257,25 @@ main.directory
     
     align-items: center;
 
-    background-color: rgb(235, 155, 106);
+    background-color: rgb(236, 236, 236);
 }
 
 main.directory div.businessCards section
 {
-    background-color: rgb(255, 255, 255);
-
-    width: 380px;
+    background-color: rgb(235, 156, 107);
 
     padding: 8px;
 
-    margin: 10px;
+    margin: 8px;
 
     text-align: center;
+    align-content: center;
     
+}
+
+main.directory div.businessCards section img
+{
+    background-color: rgba(255, 255, 255, 0.486);
 }
 
 main.directory div.businessCards h2
