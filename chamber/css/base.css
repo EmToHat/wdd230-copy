@@ -25,7 +25,7 @@ body
     {
         font-size: 16px;
         font-family: 'Lato', Arial, Helvetica;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(245, 245, 245);
     }
 
 img
@@ -231,7 +231,7 @@ main.home section.welcome
         position: relative;
     }
     
-main.home section.welcome h2
+/*main.home section.welcome h2
     {
         position: absolute;
         bottom: 30px;
@@ -240,6 +240,19 @@ main.home section.welcome h2
         color: white;
         padding-left: 20px;
         padding-right: 20px;
+    }*/
+ 
+main.home section.weather img
+    {
+       width: 200px; 
+       background-color: aliceblue;
+    }
+
+main.home section.weather,
+main.home section.event
+    {
+        text-align: center;
+        height: 100%;
     }
 
 
