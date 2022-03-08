@@ -53,11 +53,10 @@
         <main class="clearfix home">
             <section class="welcome">
                 <picture>
-                    <source media="(max-width: 200px)" srcset="images/arches200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/arches500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/arches800.jpg">
-                    <img src="images/arches.jpg" alt="church">
-                    <h2>Welcome to St. George</h2>
+                    <source media="(max-width: 200px)" srcset="images/wdd230-org_200.jpg"> 
+                    <source media="(max-width: 500px)" srcset="images/wdd230-org_500.jpg">
+                    <source media="(max-width: 800px)" srcset="images/wdd230-org_800.jpg">
+                    <img src="images/wdd230-org_1100.jpg" alt="WDD230 Picture Week 06">
                 </picture>
             </section>
     
@@ -68,7 +67,17 @@
 
             <section class="weather">
                 <h2>weather</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
+                <picture>
+                    <source media="(max-width: 64px)" srcset="images/sunny_temp_icon64.png"> 
+                    <source media="(max-width: 200px)" srcset="images/sunny_temp_icon200.png">
+                    <source media="(max-width: 500px)" srcset="images/sunny_temp_icon500.png">
+                    <img src="images/sunny_temp_icon4096.png" alt="Weather Icon">
+                </picture>
+                
+                <h3>Sunny</h3>
+                <p>Temperature:<div id="temp">80°F</div></p>
+                <p>Wind Speed:<div id="speed"></div></p>
+                <p>Wind Chill:<div id="chill"></div></p>
             </section>
 
             <section class="news">
@@ -151,5 +160,6 @@
 
         <!--JavaScript-->
         <script src="js/index.js"></script>
+        <script src="js/windchill.js"></script>
     </body>
 </html>
