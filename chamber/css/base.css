@@ -1,15 +1,8 @@
 /*----------  SMALL VIEW  ----------*/
 
 /**
- * @file
- * Short description describing the file.
- *
- * The first sentence of the long description starts here and continues on this
- * line for a while finally concluding here at the end of this paragraph.
+ * This CSS is the small view or phone view of the web page.
 */
-
-
-
 
 /*=============================================
 =            ALL and BODY CONTENT             =
@@ -34,7 +27,6 @@ img
     }
 
 /*=====  End of ALL and BODY CONTENT   ======*/
-
 
 
 
@@ -200,38 +192,87 @@ footer section.box4 p
 /*=============================================
 =               MAIN CONTENT                  =
 =============================================*/
-
-/*----------  HOME/INDEX/1ST PG  ----------*/
+/**
+ *
+ * HOME PAGE
+ *
+ */
 main.home
     {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100%;
     }
 
 main.home section 
     {
         width: 100%;
-        height: auto;
         background-color: rgb(235, 156, 107);
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 10px;
     }
 
-main.home section picture img
+
+/*----------  sections  ----------*/
+main.home section.event h2,
+main.home section.weather h2,
+main.home section.news h2,
+main.home section.spotlight h2
+        {
+            text-align: center;
+        }
+
+/*----------  lines under the headers  ----------*/
+main.home section p.line
     {
-        width: 100%;
-        height: auto; 
+       padding-bottom: 10px; 
+       text-align: center;
     }
 
-main.home section.welcome
+/*----------  Hero section  ----------*/    
+main.home section picture img
+    {
+        max-width: 100%; 
+    }
+
+
+/*----------  Weather section  ----------*/
+main.home section.weather div.weatherFlex
+    {
+        text-align: center;  
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+main.home section.weather img
+    {
+       width: 200px; 
+    }
+
+main.home section div.weatherFlex div.weatherText
+    {
+        background-color: rgba(255, 255, 255, 0.692);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+/*----------  events section  ----------*/
+main.home section.event
+    {
+        height: auto;
+        width: 100%;
+    }
+
+/* main.home section.welcome
     {
         position: relative;
     }
     
-/*main.home section.welcome h2
+main.home section.welcome h2
     {
         position: absolute;
         bottom: 30px;
@@ -241,22 +282,12 @@ main.home section.welcome
         padding-left: 20px;
         padding-right: 20px;
     }*/
- 
-main.home section.weather img
-    {
-       width: 200px; 
-       background-color: aliceblue;
-    }
 
-main.home section.weather,
-main.home section.event
-    {
-        text-align: center;
-        height: 100%;
-    }
-
-
-/*----------  DISCOVER/2ND PG  ----------*/
+/**
+ *
+ * DISCOVER PAGE
+ *
+ */
 
 
 
