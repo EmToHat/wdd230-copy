@@ -1,12 +1,128 @@
-@media (min-width: 550px) 
+@media (min-width: 600px) 
 {
     /*----------  MEDIUM VIEW  ----------*/
     
     
     /*=============================================
-    =           HEADER/FOOTER CONTENT             =
+    =                   HEADER                   =
     =============================================*/
+    header
+        {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 1%;
+        }
     
+    nav 
+        {
+            background-color: rgb(182, 75, 46);
+            margin: 0 auto;
+            width: 100%;
+        }
+
+    .navigation li:first-child
+        {
+            display: none;
+        }
+    
+    .navigation ul
+        {
+            display: inline;
+        }
+    .navigation li
+        {
+            display: inline-block;
+            padding: 0px 10px;
+        }
+
+    .navigation a
+        {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: none;
+        }
+
+    .navigation a:hover
+        {
+            background-color: rgb(158, 61, 34);
+            border-radius: 8px;
+            color: rgb(255, 255, 255);
+        }
+    /*=====  End of HEADER   ======*/
+    
+
+    /*=============================================
+    =                   MAIN                      =
+    =============================================*/
+    /*----------  Subsection Index STRT  ----------*/
+    .home
+        {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+    .welcome
+        {
+            grid-column: span 2;
+        }
+    
+    .welcome img
+        {
+            max-width: 100%;
+        }
+    
+    .weather img
+        {
+            width: 200px;
+            margin-left: 4%;
+        }
+    
+    .weatherText
+        {
+            padding-bottom: 10px;
+        }
+
+    .news img
+        {
+            background-color: rgb(245, 245, 245);
+            width: 200px;
+            padding: 8px;
+            margin-left: 5%;
+        }
+    
+   /* dark background */
+    .spotlight,
+    .event
+        {
+            background-color: rgba(253, 188, 23, 0.795);
+            border-style: none;
+        }
+
+    /* light background */
+    .weather,
+    .news
+        {
+            background-color: rgb(245, 245, 245);
+            border-style: solid;
+        }
+
+    .events h2,
+    .news h2,
+    .spotlight h2,
+    .weather
+        {
+            text-align: center;
+        }
+    /*----------  Subsection Index END  ----------*/
+
+    /*=====  End of MAIN   ======*/
+
+
+    /*=============================================
+    =                   FOOTER                   =
+    =============================================*/
+
     footer div
         {
             display: grid;
@@ -31,73 +147,15 @@
             grid-column: span 2;
         }
     
-    /*=====  End of HEADER/FOOTER CONTENT  ======*/
+    /*=====  End of FOOTER  ======*/
     
+
     
     /*=============================================
     =                 MAIN CONTENT                =
     =============================================*/
     
-    /*----------  HOME/INDEX 1ST PG  ----------*/
-    main.home
-        {
-            display: flex;
-            flex-direction: row;
 
-            justify-content: center;
-            align-items: center;
-            
-            padding: 10px;
-
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(auto, 1fr);
-
-            column-gap: 10px;
-        }
-
-    main.home section.welcome
-        {
-            grid-row: 1 / 2;
-            grid-column: span 2;
-        }
-
-    main.home section.news
-        {
-            grid-row: 2 / 3;
-            grid-column: span 2;
-        }
-
-    main.home section.spotlight
-        {
-            grid-row: 3 / 4;
-            grid-column: 1 / 3;
-
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            
-            column-gap: 8px;
-        }
-
-    main.home section div.spot1,
-    main.home section div.spot2
-        {
-            padding: 10px;
-        }
-    
-    main.home section.event
-        {
-            grid-row: 4 / 5;
-            grid-column: 1 / 2;
-            
-        }
-
-    main.home section.weather
-        {
-            grid-row: 4 / 5;
-            grid-column: 2 / 3;
-        }
-    
     
     /*----------  DISCOVER/2ND PG  ----------*/
     

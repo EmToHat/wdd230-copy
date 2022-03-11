@@ -1,89 +1,79 @@
 /*----------  SMALL VIEW  ----------*/
 
-/**
- * This CSS is the small view or phone view of the web page.
+/*
+    This CSS is the small view or phone view of the web page.
 */
 
 /*=============================================
-=            ALL and BODY CONTENT             =
+=                   CONTENT                   =
 =============================================*/
-* 
+*
     {
-        margin: 0;
-        padding: 0;
         box-sizing: border-box;
+        margin: 0;
+        padding: 0; 
     }
 
 body 
     {
-        font-size: 16px;
         font-family: 'Lato', Arial, Helvetica;
-        background-color: rgb(245, 245, 245);
+        font-size: 16px;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
     }
 
-img
-    {
-        width: 100%;
-    }
-
-/*=====  End of ALL and BODY CONTENT   ======*/
+/*=====  End of CONTENT   ======*/
 
 
 
 
 /*=============================================
-=               HEADER CONTENT                =
+=                   HEADER                   =
 =============================================*/
-header 
+header
     {
         background-color: rgb(202, 103, 71);
         color: rgb(255, 255, 255);
-        
         display: flex;
-	    flex-flow: column;
+        flex-flow: column;
     }
-    
-/*----------  Title and Image  ----------*/
+
+.greeting 
+    {
+        background: rgba(253, 188, 23, 0.795);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
 .title
     {
+        color:rgb(255, 255, 255);
         display: flex;
-        flex-direction: row;
         align-items: center;
+        padding-left: 8px;
     }
 
 .title img
     {
-        padding: 8px;
-        width: 120px;
+        width: 100px;
+        padding-right: 5px;
+        padding-left: 8px;
     }
 
-.title h1
-    {
-        padding: 8px;
-    }
-    
-/*----------  greeting  ----------*/
-.greeting
-    {
-        color: rgb(255, 255, 255);
-        background: rgb(182, 75, 46);
-        padding: 13px;
-        text-align: center;
-    }
-
-/*----------  Navigation  ----------*/    
-header nav 
+nav 
 	{
+	    background-color: rgb(182, 75, 46);
 		margin: 0 auto;
-		background-color: rgb(182, 75, 46);
-		width: 100%;
+        width: 100%;
 	}
 
 .navigation
 	{
 		list-style: none;
-		text-align: center;
 		padding: 0;
+		text-align: center;
 	}
 
 .navigation li:first-child
@@ -98,8 +88,8 @@ header nav
 
 .navigation a
 	{
+	    color: rgb(255, 255, 255);
 		display: block;
-		color: rgb(255, 255, 255);
 		padding: 0.75rem;
 		text-align: center;
 		text-decoration: none;
@@ -107,34 +97,149 @@ header nav
 
 .navigation a:hover
 	{
+	    background-color: rgb(158, 61, 34);
 		color: rgb(255, 255, 255);
-		background-color: rgba(172, 72, 44, 0.74);
-		font-weight: 900;
+        width: 100%;
+        padding: 10px;
 	}
 
 .responsive li
 	{
 		display: block;
-	}    
-
-/*=====  End of HEADER CONTENT  ======*/
-
+	} 
+/*=====  End of HEADER   ======*/
 
 
-    
+
+
 /*=============================================
-=               FOOTER CONTENT                =
-=============================================*/  
+=                   MAIN                      =
+=============================================*/
+
+/*----------  Subsection Index STRT  ----------*/
+.welcome img, 
+.weather img,
+.news img
+    {
+        width: 100%;
+    }
+
+.news img
+    {
+        width: 200px;
+        padding: 8px;
+    }
+
+.weatherGrid
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+
+.weather img
+    {
+        width: 280px;
+    }
+
+.weatherText
+    {
+        padding: 20px;
+    }
+
+.event span
+    {
+        padding: 10px;
+    }
+
+/*Dark*/
+.event,
+.news
+    {
+        background-color: rgb(202, 103, 73);
+        color:rgb(255, 255, 255);
+        border-radius: 8px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+/*Light*/
+.weather,
+.spotlight,
+.welcome
+    {
+        background-color: rgb(255, 255, 255);
+        border-style: solid; 
+        border-radius: 8px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+.home h2
+    {
+        text-align: center;
+    }
+
+.calendar
+    {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 10px;
+    }
+
+.date
+    {
+        background-color: rgb(248, 182, 45);
+        border-radius: 8px;
+        padding: 8px;
+        text-align: center;
+    }
+
+.eventtitle,
+.eventduration
+    {
+        color: rgb(35, 24, 22);
+        margin-left: 20px; 
+    }
+
+
+/*----------  Subsection Index END  ----------*/
+
+
+/*----------  Subsection Discover STRT  ----------*/
+/*----------  Subsection Discover END  ----------*/
+
+/*----------  Subsection Directory STRT ----------*/
+/*----------  Subsection Directory END  ----------*/
+
+
+/*----------  Subsection Join STRT ----------*/
+/*----------  Subsection Join END  ----------*/
+
+
+/*----------  Subsection Thank-you STRT ----------*/
+/*----------  Subsection Thank-you END  ----------*/
+
+
+/*----------  Subsection Contact STRT ----------*/
+/*----------  Subsection Contact END  ----------*/
+
+/*=====  End of MAIN   ======*/
+
+
+
+
+/*=============================================
+=                   FOOTER                   =
+=============================================*/
 footer
     {
+        align-items: center;
         background-color: rgb(202, 103, 71);
         color: rgb(255, 255, 255);
-        
         display: flex;
 	    flex-flow: column;
-
         justify-content: center;
-        align-items: center;
     }
 
 footer h3
@@ -142,10 +247,10 @@ footer h3
         font-size: 30px;
     }
 
-footer div.social img
+.social img
     {
-        width: 30px;
         height: auto;
+        width: 30px;
     }
 
 footer section.box4 div.social ul li 
@@ -153,21 +258,21 @@ footer section.box4 div.social ul li
         display: inline;
     }
 
-footer section.box1,
-footer section.box3,
-footer section.box4
+.box1,
+.box3,
+.box4
     {
-        text-align: left;
         padding: 8px;
+        text-align: left;
         width: 200px;
     }
 
-footer section.box2
+.box2
     {
         padding: 8px;
     }
 
-footer section.box5
+.box5
     {
         padding: 8px; 
         text-align: center;
@@ -178,197 +283,9 @@ footer section p
         padding-top: 9px;
     }
 
-footer section.box4 p
+.box4 p
     {
         padding-bottom: 9px;
     }
 
-/*=====  End of FOOTER CONTENT  ======*/
-
-
-
-
-
-/*=============================================
-=               MAIN CONTENT                  =
-=============================================*/
-/**
- *
- * HOME PAGE
- *
- */
-main.home
-    {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-main.home section 
-    {
-        width: 100%;
-        background-color: rgb(235, 156, 107);
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding: 10px;
-    }
-
-
-/*----------  sections  ----------*/
-main.home section.event h2,
-main.home section.weather h2,
-main.home section.news h2,
-main.home section.spotlight h2
-        {
-            text-align: center;
-        }
-
-/*----------  lines under the headers  ----------*/
-main.home section p.line
-    {
-       padding-bottom: 10px; 
-       text-align: center;
-    }
-
-/*----------  Hero section  ----------*/    
-main.home section picture img
-    {
-        max-width: 100%; 
-    }
-
-
-/*----------  Weather section  ----------*/
-main.home section.weather div.weatherFlex
-    {
-        text-align: center;  
-        display: flex;
-
-        align-items: center;
-        justify-content: center;
-    }
-
-main.home section.weather img
-    {
-       width: 200px; 
-    }
-
-main.home section div.weatherFlex div.weatherText
-    {
-        background-color: rgba(255, 255, 255, 0.692);
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 40px;
-    }
-
-/*----------  events section  ----------*/
-main.home section.event
-    {
-        height: auto;
-        width: 100%;
-    }
-
-/* main.home section.welcome
-    {
-        position: relative;
-    }
-    
-main.home section.welcome h2
-    {
-        position: absolute;
-        bottom: 30px;
-        right: 20px;
-        background-color: black;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-    }*/
-
-/**
- *
- * DISCOVER PAGE
- *
- */
-
-
-
-/*----------  JOIN AND THANKYOU/3RD and 4TH PG  ----------*/
-
-
-
-/*----------  DIRECTORY/5th PG  ----------*/
-main.directory
-{
-    display: flex;
-    flex-flow: column;
-    
-    align-items: center;
-
-    background-color: rgb(236, 236, 236);
-}
-
-main.directory div.businessCards section
-{
-    background-color: rgb(235, 156, 107);
-
-    padding: 8px;
-
-    margin: 8px;
-
-    text-align: center;
-    align-content: center;
-    
-}
-
-main.directory div.businessCards section img
-{
-    background-color: rgba(255, 255, 255, 0.486);
-    padding: 10px;
-    max-width: 100%; /* Images are jerks - Seattle*/
-}
-
-main.directory div.businessCards h2
-{
-    background-color: rgb(202, 103, 71);
-    
-    padding: 8px;
-
-    font-size: 18px;
-
-    color:rgb(255, 255, 255);
-}
-
-main.directory div.businessCards p
-{
-    padding: 4px;
-
-}
-
-main.directory .menu button
-{
-    padding: 1rem;
-}
-
-main.directory .menu
-{
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-/*=====  End of MAIN CONTENT  ======*/
-
-
-
-
-/**
- *
- * CLEAR FIX BY BRO CHENEY
- * Clearfix forces an element not to collapse
- *
- */
- .clearfix:after 
- {
- content: "";
- display: table;
- clear: both;
- }
+/*=====  End of FOOTER   ======*/

@@ -43,7 +43,7 @@
                   <li><a href="#">Home</a></li>
                   <li><a href="discover.html">Discover</a></li>
                   <li><a href="join.html">Join</a></li>
-                  <li><a href="directory.html">Business Directory</a></li>
+                  <li><a href="directory.html">Directory</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -56,32 +56,73 @@
                     <source media="(max-width: 200px)" srcset="images/wdd230-org_200.jpg"> 
                     <source media="(max-width: 500px)" srcset="images/wdd230-org_500.jpg">
                     <source media="(max-width: 800px)" srcset="images/wdd230-org_800.jpg">
-                    <img src="images/wdd230-org_1100.jpg" alt="WDD230 Picture Week 06">
+                    <img class="logo" src="images/wdd230-org_1100.jpg" alt="WDD230 Picture Week 06">
                 </picture>
             </section>
     
             <section class="event">
-                <h2>Events</h2>
-                <p class="line">________________________________________</p>
-                <h3>Craftivity</h3>
-                <p>March 18 @ 11:00 am - 12:00 pm</p>
-                <p>
-                    Every Friday join the craftivity where we create crafts in a fun and educational enviornment. Free to members or paid admission.
-                </p>
+                <h2>Upcoming Events</h2>
+                
+                <!--Event-->
+                <div class="calendar">
+                    <div class="date">
+                        <span class="datename">Thu</span>
+                        <span class="datenumber">10</span>
+                    </div>
+                
+                    <div class="eventinfo">
+                        <h3 class="eventtitle">
+                            <span>MusicTime with Marlene</span>
+                        </h3>
+                        <div class="eventduration">
+                            <span class="eventdate">March 10 @11:00am - 12:00pm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Event-->
+                <div class="calendar">
+                    <div class="date">
+                        <span class="datename">Mon</span>
+                        <span class="datenumber">14</span>
+                    </div>
+                
+                    <div class="eventinfo">
+                        <h3 class="eventtitle">
+                            <span>Zion National Park</span>
+                        </h3>
+                        <div class="eventduration">
+                            <span class="eventdate">March 14 @2:00pm - 3:30pm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Event-->
+                <div class="calendar">
+                    <div class="date">
+                        <span class="datename">Sun</span>
+                        <span class="datenumber">20</span>
+                    </div>
+                
+                    <div class="eventinfo">
+                        <h3 class="eventtitle">
+                            <span>Bikes For Kids</span>
+                        </h3>
+                        <div class="eventduration">
+                            <span class="eventdate">March 20 @9:00am - 4:30pm</span>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="weather">
                 <h2>Weather</h2>
-                <p class="line">________________________________________</p>
-                <div class="weatherFlex">
+                <div class="weatherGrid">
                     <picture>
-                        <source media="(max-width: 64px)" srcset="images/sunny_temp_icon64.png"> 
-                        <source media="(max-width: 200px)" srcset="images/sunny_temp_icon200.png">
-                        <source media="(max-width: 500px)" srcset="images/sunny_temp_icon500.png">
                         <img src="images/sunny_temp_icon4096.png" alt="Weather Icon">
                     </picture>
                     <div class="weatherText">
-                        <h2><span id="temp">80</span>&#176;</h2>
+                        <h3><span id="temp">80</span>&#176; F</h3>
         
                         <h3>Sunny</h3>
                         <p>
@@ -96,21 +137,19 @@
 
             <section class="news">
                 <h2>Local News</h2>
-                <p class="line">________________________________________</p>
+                <img src="images/news.png" alt="News Icon">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
             </section>
 
-
             <section class="spotlight">
+                <h2>Spotlight</h2>
                 <div class="spot1">
-                    <h2>spotlight 1</h2>
-                    <p class="line">________________________________________</p>
+                    <h3>spotlight 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
                 </div>
 
                 <div class="spot2">
-                    <h2>spotlight 2</h2>
-                    <p class="line">________________________________________</p>
+                    <h3>spotlight 2</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nisi eveniet error sit commodi? Aspernatur officiis, necessitatibus corporis nam eum ab illo aliquam optio assumenda tempora tempore illum iusto consequuntur?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit, accusantium ut ratione possimus non laborum inventore aspernatur culpa. Accusantium quisquam dolorum eum excepturi, ex beatae illo at.</p>
                 </div>
             </section>
@@ -169,7 +208,7 @@
             
 
             <section class="box5">
-                <p>______________________________________________</p>
+                <span class="line">________________________________________</span>
                 <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
                 <p>Last Update: <span id="modified"></span></p>
             </section>
