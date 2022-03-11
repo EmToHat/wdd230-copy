@@ -66,54 +66,62 @@
         {
             grid-column: span 2;
         }
-    
-    .welcome img
+
+    /*Dark*/
+    .event,
+    .spotlight
         {
-            max-width: 100%;
+            background-color: rgb(202, 103, 73);
+            color:rgb(255, 255, 255);
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+    /*Light*/
+    .weather,
+    .news,
+    .welcome
+        {
+            background-color: rgb(255, 255, 255);
+            border-style: solid; 
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+    .news,
+    .spotlight h3
+        {
+            color: rgb(35, 24, 22); 
         }
     
-    .weather img
+    .date
         {
-            width: 200px;
-            margin-left: 4%;
+            height: 65px;
+        }
+    
+    .eventtitle,
+    .eventduration
+            {
+                text-align: left; 
+            }
+    
+    .eventtitle
+        {
+          font-size: 14px;
+        }
+    
+    .weatherGrid
+        {
+            display: flex;
         }
     
     .weatherText
         {
-            padding-bottom: 10px;
+            margin-left: 1rem;
         }
 
-    .news img
-        {
-            background-color: rgb(245, 245, 245);
-            width: 200px;
-            padding: 8px;
-            margin-left: 5%;
-        }
-    
-   /* dark background */
-    .spotlight,
-    .event
-        {
-            background-color: rgba(253, 188, 23, 0.795);
-            border-style: none;
-        }
-
-    /* light background */
-    .weather,
-    .news
-        {
-            background-color: rgb(245, 245, 245);
-            border-style: solid;
-        }
-
-    .events h2,
-    .news h2,
-    .spotlight h2,
-    .weather
-        {
-            text-align: center;
-        }
     /*----------  Subsection Index END  ----------*/
 
     /*=====  End of MAIN   ======*/

@@ -27,7 +27,6 @@
             grid-column: 3/4;
             grid-row: 1/2;
             justify-self: center;
-            height: 100%;
         }
     
     footer section.box4
@@ -35,7 +34,6 @@
             grid-column: 4/5;
             grid-row: 1/2;
             justify-self: center;
-            height: 100%;
         }
 
     footer section.box5
@@ -56,88 +54,73 @@
     /*=============================================
     =               MAIN CONTENT                  =
     =============================================*/ 
-    /*----------  HOME/INDEX/1ST PG  ----------*/
-    main.home
+    /*----------Subsection Index STRT  ----------*/
+    .home
         {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(auto, 1fr);
-            row-gap: 10px;
         }
 
-    main.home section.welcome
+    .welcome
         {
             grid-row-start: 1;
             grid-row-end: 2;
-
             grid-column-start: 1;
             grid-column-end: 4;
         }
 
-    main.home section.news
+    .news
         {
             grid-row-start: 2;
             grid-row-end: 4;
-            
             grid-column-start: 2;
             grid-column-end: 3;
-            height: 100%;
         }
 
-    main.home section.event
+    .event
         {
             grid-row-start: 2;
             grid-row-end: 3;
-            
             grid-column-start: 1;
             grid-column-end: 2;
-
-            height: 100%;
         }
     
-    main.home section.weather
+    .weather
         {
             grid-row-start: 3;
             grid-row-end: 4;
-            
             grid-column-start: 1;
             grid-column-end: 2;
-            height: 100%;
         }
 
-    main.home section.spotlight
+    .spotlight
         {
 
             grid-row-start: 2;
             grid-row-end: 4;
-            
             grid-column-start: 3;
             grid-column-end: 4;
-
             display: flex;
             flex-direction: column;
-
-            height: 100%;
         }
-
-    /*----------  DISCOVER/2ND PG  ----------*/
-
-
-    /*----------  JOIN AND THANKYOU/3RD and 4TH PG  ----------*/
+    /*----------  Subsection Index END  ----------*/
 
 
-    /*----------  DIRECTORY/5th PG  ----------*/
-    main.directory div.businessCards
-        {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            margin: 10px;
-        }
+    /*---------- Subsection Discover STRT ----------*/
+    /*---------- Subsection Discover END ----------*/
 
-    main.directory 	.list section img 
-    {
-		display: block;
-	}
 
+    /*---------- Subsection Join STRT ----------*/
+    /*---------- Subsection Join END ----------*/
+
+
+    /*---------- Subsection Thank-you STRT ----------*/
+    /*---------- Subsection Thank-you END ----------*/
+
+    
+    /*---------- Subsection Directory STRT ----------*/
+    /*---------- Subsection Directory END ----------*/
+   
     /*=====  End of MAIN CONTENT  ======*/
 }

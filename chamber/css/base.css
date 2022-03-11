@@ -139,7 +139,7 @@ nav
 
 .weather img
     {
-        width: 280px;
+        width: 200px;
     }
 
 .weatherText
@@ -191,8 +191,9 @@ nav
     {
         background-color: rgb(248, 182, 45);
         border-radius: 8px;
-        padding: 8px;
         text-align: center;
+        height: 50px;
+        padding-top: 15px;
     }
 
 .eventtitle,
@@ -202,7 +203,18 @@ nav
         margin-left: 20px; 
     }
 
+.news p
+    {
+        padding: 10px;
+    }
 
+.center
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 /*----------  Subsection Index END  ----------*/
 
 
