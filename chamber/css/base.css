@@ -22,6 +22,11 @@ body
         background-color: rgb(255, 255, 255);
     }
 
+img
+    {
+        width: 100%;
+    }
+
 /*=====  End of CONTENT   ======*/
 
 
