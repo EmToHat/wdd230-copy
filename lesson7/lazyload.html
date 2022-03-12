@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Emilee Hatch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="WDD 230: Progressive Loading of Images">
+    
+    <!---------------------CSS--------------------->
+    <link rel="stylesheet" href="css/lazyload.css">
+    <link rel="stylesheet" href="css/medium.css">
+    
+    <title>W07 Activity</title>
+  </head>
+
+  <body>
+    <!---------------------Header------------------->
+    <header>
+        <h1>Lazy Loading Activity</h1>
+    </header>
+
+    <!---------------------Main--------------------->
+    <main>
+    <!--Flame img-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/flame300x400.jpg" alt="Flame">
+      </picture>
+
+      <!--Stereo img-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/nightclub300x400.jpg" alt="Stereo">
+      </picture>
+
+      <!--staircase img-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/old-district300x400.jpg" alt="Staircase">
+      </picture>
+
+      <!--Water Drop On Leaf img-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/waterdrop300x400.jpg" alt="Leaves with water droplets">
+      </picture>
+
+      <!--Yellow Italian Car img-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/yellow-italian-car300x400.jpg" alt="Yello Italian Car">
+      </picture>
+
+      <!--Programmer-->
+      <picture>
+        <img src="images/300x400.jpg" data-src="images/programmer300x400.jpg" alt="Programmer">
+      </picture>
+    </main>
+
+    <!---------------------Footer------------------>
+    <footer>
+        <p>&copy;<span id="year"></span> | Emilee Hatch | Utah</p>
+        <p>Last Update: <span id="modified"></span></p>
+    </footer>
+
+    <!-------------------JavaScript---------------->
+    <script src="js/lazyload.js"></script>
+  </body>
+</html>
+
+<!------------------Photo Sources------------------->
+<!--
+    Free Music Stereo
+    https://www.freeimages.com/photo/music-nightclub-1420666 
+
+    Free Water Drop On Leaf 
+    https://www.freeimages.com/photo/water-drop-on-leaf-1639205 
+
+    Programming Image
+    https://free-images.com/display/programming_developing_startup_593312.html 
+
+    Yellow Italian Car
+    https://www.freeimages.com/photo/yellow-italian-car-1195655 
+
+    Flame Image
+    https://www.freeimages.com/photo/flame-1055752 
+
+    Staircase Image
+    https://www.freeimages.com/photo/typical-old-district-4-1219129 
+-->

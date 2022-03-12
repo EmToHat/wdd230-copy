@@ -1,22 +1,21 @@
+/*----------  MEDIUM VIEW  ----------*/
+
 @media (min-width: 600px) 
 {
-    /*----------  MEDIUM VIEW  ----------*/
-    
-    
     /*=============================================
     =                   HEADER                   =
     =============================================*/
     header
-        {
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            padding: 16px 1%;
-        }
+            {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                padding: 16px 1%;
+            }
     
     nav 
         {
-            background-color: rgb(182, 75, 46);
+            background-color: #617794;
             margin: 0 auto;
             width: 100%;
         }
@@ -45,9 +44,9 @@
 
     .navigation a:hover
         {
-            background-color: rgb(158, 61, 34);
+            background-color: #556881;
             border-radius: 8px;
-            color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255); 
         }
     /*=====  End of HEADER   ======*/
     
@@ -62,69 +61,38 @@
             grid-template-columns: 50% 50%;
         }
 
-    .welcome
+    .welcome,
+    .news
         {
             grid-column: span 2;
         }
 
-    /*Dark*/
-    .event,
-    .spotlight
+    /*Events*/
+    .eventinfo
         {
-            background-color: rgb(202, 103, 73);
-            color:rgb(255, 255, 255);
-            border-radius: 8px;
-            margin: 10px;
-            padding: 10px;
-        }
-
-    /*Light*/
-    .weather,
-    .news,
-    .welcome
-        {
-            background-color: rgb(255, 255, 255);
-            border-style: solid; 
-            border-radius: 8px;
-            margin: 10px;
-            padding: 10px;
-        }
-
-    .news,
-    .spotlight h3
-        {
-            color: rgb(35, 24, 22); 
+            padding-left: 30px;
         }
     
-    .date
+    /*Weather*/
+    .weather img
         {
-            height: 65px;
+            width: 150px;
         }
-    
-    .eventtitle,
-    .eventduration
-            {
-                text-align: left; 
-            }
-    
-    .eventtitle
-        {
-          font-size: 14px;
-        }
-    
-    .weatherGrid
-        {
-            display: flex;
-        }
-    
-    .weatherText
-        {
-            margin-left: 1rem;
-        }
-
     /*----------  Subsection Index END  ----------*/
 
+
+
+    /*----------  Subsection Discover STRT  ----------*/
+    .discover
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    /*----------  Subsection Discover END  ----------*/
     /*=====  End of MAIN   ======*/
+
+
 
 
     /*=============================================
@@ -138,60 +106,22 @@
             padding-top: 30px;
         }
     
-    footer section.box1,
-    footer section.box2
+    .box1,
+    .box2
         {
             grid-row: 1/2;
         }
     
-    footer section.box3,
-    footer section.box4
+    .box3,
+    .box4
         {
             grid-row: 2/3;
         }
     
-    footer section.box4 div.social ul
+    .social ul
         {
             grid-column: span 2;
         }
     
-    /*=====  End of FOOTER  ======*/
-    
-
-    
-    /*=============================================
-    =                 MAIN CONTENT                =
-    =============================================*/
-    
-
-    
-    /*----------  DISCOVER/2ND PG  ----------*/
-    
-    
-    /*----------  JOIN/THANKYOU 3RD/4TH PG  ----------*/
-
-    
-    /*----------  DIRECTORY 5TH PG  ----------*/
-    main.directory div.businessCards
-        {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            margin: 10px;
-            padding: 10px;
-        }
-    
-    main.directory div.businessCards section
-        {
-            padding: 8px;
-        
-            margin: 8px;
-        
-            text-align: center;
-            
-        }
-    
-    
-    /*=====  End of MAIN CONTENT  ======*/
-    
-    
+    /*=====  End of FOOTER  ======*/ 
 }

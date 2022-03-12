@@ -1,9 +1,5 @@
 /*----------  SMALL VIEW  ----------*/
 
-/*
-    This CSS is the small view or phone view of the web page.
-*/
-
 /*=============================================
 =                   CONTENT                   =
 =============================================*/
@@ -35,28 +31,31 @@ img
 /*=============================================
 =                   HEADER                   =
 =============================================*/
-header
+.greeting
     {
-        background-color: rgb(202, 103, 71);
+        background-color: #466289;
         color: rgb(255, 255, 255);
-        display: flex;
-        flex-flow: column;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
     }
 
-.greeting 
+header
     {
-        background: rgba(253, 188, 23, 0.795);
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 10px;
-        width: 100%;
+        display: flex;
+        flex-flow: column;
+        background-color: #a0aec1;
     }
 
 .title
     {
-        color:rgb(255, 255, 255);
         display: flex;
         align-items: center;
+        padding-left: 20px;
+    }
+
+.title h1   
+    {
         padding-left: 8px;
     }
 
@@ -67,9 +66,22 @@ header
         padding-left: 8px;
     }
 
+.stg
+    {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+.ch
+    {
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+    }
+
 nav 
 	{
-	    background-color: rgb(182, 75, 46);
+	    background-color: #617794;
 		margin: 0 auto;
         width: 100%;
 	}
@@ -102,16 +114,14 @@ nav
 
 .navigation a:hover
 	{
-	    background-color: rgb(158, 61, 34);
+	    background-color: #556881;
 		color: rgb(255, 255, 255);
-        width: 100%;
-        padding: 10px;
 	}
 
 .responsive li
 	{
 		display: block;
-	} 
+	}
 /*=====  End of HEADER   ======*/
 
 
@@ -122,95 +132,123 @@ nav
 =============================================*/
 
 /*----------  Subsection Index STRT  ----------*/
-.welcome img, 
-.weather img,
-.news img
-    {
-        width: 100%;
-    }
 
-.news img
-    {
-        width: 200px;
-        padding: 8px;
-    }
-
-.weatherGrid
-    {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        align-items: center;
-    }
-
-.weather img
-    {
-        width: 200px;
-    }
-
-.weatherText
-    {
-        padding: 20px;
-    }
-
-.event span
+.home section
     {
         padding: 10px;
     }
 
-/*Dark*/
-.event,
-.news
+div.line
     {
-        background-color: rgb(202, 103, 73);
-        color:rgb(255, 255, 255);
-        border-radius: 8px;
-        margin: 10px;
-        padding: 10px;
+        height: 8px;
+        width: 110px;
+        background-color: #466289;
     }
 
-/*Light*/
-.weather,
-.spotlight,
-.welcome
+/*Upcoming Events*/
+.date
     {
-        background-color: rgb(255, 255, 255);
-        border-style: solid; 
-        border-radius: 8px;
-        margin: 10px;
+        background-color: rgb(253, 187, 20);
+        height: 50px;
+        width: 50px;
         padding: 10px;
-    }
-
-.home h2
-    {
+        border-radius: 9px;
         text-align: center;
+    }
+
+.eventinfo
+    {
+        padding-left: 10px;
     }
 
 .calendar
     {
         display: grid;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 15% 85%;
         padding: 10px;
     }
 
-.date
+/*Weather*/
+.weatherContainer
     {
-        background-color: rgb(248, 182, 45);
-        border-radius: 8px;
+        background-color: rgb(223, 223, 223);
+        margin: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 9px;
         text-align: center;
-        height: 50px;
-        padding-top: 15px;
     }
 
-.eventtitle,
-.eventduration
+.weatherContainer img
     {
-        color: rgb(35, 24, 22);
-        margin-left: 20px; 
+        width: 200px;
     }
 
+.weatherMid
+    {
+        padding: 10px;
+        font-size: 30px;
+        display: flex;
+    }
+
+.weatherMid p
+    {
+        padding-left: 10px;
+    }
+
+.weatherBottom
+    {
+        background-color: rgb(141, 141, 141);
+        width: 100%;
+        border-radius: 0 0 9px 9px;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+.weatherBottom p
+    {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+/*Local News*/
 .news p
     {
         padding: 10px;
+    }
+
+/*Spotlight*/
+.trust
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.trust img
+    {
+        width: 200px;
+        padding: 10px;
+    }
+
+.gold
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+.gold img
+    {
+        width: 300px;
+        padding-top: 10px;
+    }
+
+section h2
+    {
+        font-size: 30px;
     }
 
 .center
@@ -252,7 +290,7 @@ nav
 footer
     {
         align-items: center;
-        background-color: rgb(202, 103, 71);
+        background-color: #a0aec1;
         color: rgb(255, 255, 255);
         display: flex;
 	    flex-flow: column;
@@ -306,3 +344,10 @@ footer section p
     }
 
 /*=====  End of FOOTER   ======*/
+
+.clearfix:after 
+ {
+     clear: both;
+    content: "";
+    display: table;
+ }

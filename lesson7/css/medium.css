@@ -1,0 +1,11 @@
+/* medium view */
+
+@media (min-width: 600px) {
+
+    footer, header
+    {
+        text-align: center;
+        padding: 8px;
+    }
+
+}

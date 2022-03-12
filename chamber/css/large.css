@@ -1,58 +1,9 @@
 /* Large View */
 
-@media (min-width: 765px) {
+@media (min-width: 765px) 
+{
     /*=============================================
-    =        HEADER/FOOTER CONTENT                =
-    =============================================*/ 
-    footer div
-        {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
-    
-    footer section.box1
-        {
-            grid-column: 1/2;
-            justify-self: center;
-        }
-    
-    footer section.box2
-        {
-            grid-column: 2/3;
-            justify-self: center;
-        }
-    
-    footer section.box3
-        {
-            grid-column: 3/4;
-            grid-row: 1/2;
-            justify-self: center;
-        }
-    
-    footer section.box4
-        {
-            grid-column: 4/5;
-            grid-row: 1/2;
-            justify-self: center;
-        }
-
-    footer section.box5
-            {
-                justify-self: center;
-                text-align: center;
-            }
-    
-    footer section.box4 div.social ul
-        {
-            grid-column: span 3;
-        }
-    /*=====  End of FOOTER CONTENT  ======*/
-    
-
-
-
-    /*=============================================
-    =               MAIN CONTENT                  =
+    =                   MAIN                     =
     =============================================*/ 
     /*----------Subsection Index STRT  ----------*/
     .home
@@ -73,41 +24,57 @@
     .news
         {
             grid-row-start: 2;
-            grid-row-end: 4;
-            grid-column-start: 2;
-            grid-column-end: 3;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
 
     .event
         {
             grid-row-start: 2;
             grid-row-end: 3;
-            grid-column-start: 1;
-            grid-column-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
         }
     
     .weather
         {
-            grid-row-start: 3;
-            grid-row-end: 4;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-
-    .spotlight
-        {
-
             grid-row-start: 2;
-            grid-row-end: 4;
+            grid-row-end: 3;
             grid-column-start: 3;
             grid-column-end: 4;
+        }
+
+    .spotlight1
+        {
+
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    .spotlight2
+        {
+
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 3;
+        }
+
+    .trust
+        {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            align-items: center;
         }
     /*----------  Subsection Index END  ----------*/
 
 
     /*---------- Subsection Discover STRT ----------*/
+
+        
+
     /*---------- Subsection Discover END ----------*/
 
 
@@ -118,9 +85,58 @@
     /*---------- Subsection Thank-you STRT ----------*/
     /*---------- Subsection Thank-you END ----------*/
 
-    
+
     /*---------- Subsection Directory STRT ----------*/
     /*---------- Subsection Directory END ----------*/
    
     /*=====  End of MAIN CONTENT  ======*/
+
+
+
+    /*=============================================
+    =                   FOOTER                    =
+    =============================================*/ 
+    footer div
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    
+    .box1
+        {
+            grid-column: 1/2;
+            justify-self: center;
+        }
+    
+    .box2
+        {
+            grid-column: 2/3;
+            justify-self: center;
+        }
+    
+    .box3
+        {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            justify-self: center;
+        }
+    
+    .box4
+        {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            justify-self: center;
+        }
+
+    .box5
+            {
+                justify-self: center;
+                text-align: center;
+            }
+    
+    .social ul
+        {
+            grid-column: span 3;
+        }
+    /*=====  End of FOOTER CONTENT  ======*/
 }
