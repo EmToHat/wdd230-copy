@@ -1,5 +1,5 @@
 function getWeather() {
-    let apiURL = 'api.openweathermap.org/data/2.5/weather?id=5546220&appid=5e8bfdfbf705960fd8680dfebfbf0726';
+    let apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5546220&appid=5e8bfdfbf705960fd8680dfebfbf0726';
 
     let temperature = document.getElementById('temp');
     let tempMeasure = document.getElementById('tempMeasure');
