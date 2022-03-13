@@ -33,7 +33,7 @@ img
 =============================================*/
 .greeting
     {
-        background-color: #466289;
+        background-color: rgb(70, 98, 137);
         color: rgb(255, 255, 255);
         padding: 10px;
         text-align: center;
@@ -44,7 +44,7 @@ header
     {
         display: flex;
         flex-flow: column;
-        background-color: #a0aec1;
+        background-color: rgb(234, 110, 74);
     }
 
 .title
@@ -81,7 +81,7 @@ header
 
 nav 
 	{
-	    background-color: #617794;
+	    background-color: rgb(190, 86, 57);
 		margin: 0 auto;
         width: 100%;
 	}
@@ -114,7 +114,7 @@ nav
 
 .navigation a:hover
 	{
-	    background-color: #556881;
+	    background-color: rgb(167, 75, 49);
 		color: rgb(255, 255, 255);
 	}
 
@@ -142,7 +142,7 @@ div.line
     {
         height: 8px;
         width: 110px;
-        background-color: #466289;
+        background-color: rgb(70, 98, 137);
     }
 
 /*Upcoming Events*/
@@ -171,7 +171,8 @@ div.line
 /*Weather*/
 .weatherContainer
     {
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(70, 98, 137);
+        color:rgb(255, 255, 255);
         margin: 9px;
         display: flex;
         flex-direction: column;
@@ -182,7 +183,8 @@ div.line
 
 .weatherContainer img
     {
-        width: 200px;
+        width: 150px;
+        padding-top: 12px;
     }
 
 .weatherMid
@@ -199,7 +201,7 @@ div.line
 
 .weatherBottom
     {
-        background-color: rgb(141, 141, 141);
+        background-color: rgb(91, 126, 173);
         width: 100%;
         border-radius: 0 0 9px 9px;
         padding: 35px;
@@ -290,7 +292,7 @@ section h2
 footer
     {
         align-items: center;
-        background-color: #a0aec1;
+        background-color: rgb(234, 110, 74);
         color: rgb(255, 255, 255);
         display: flex;
 	    flex-flow: column;
