@@ -279,6 +279,15 @@ section h2
 
 
 /*----------  Subsection Contact STRT ----------*/
+.card
+    {
+        background-color: violet;
+        height: 200px;
+        width: 200px;
+        margin: 9px;
+        padding: 10px;
+        border-radius: 9px;
+    }
 /*----------  Subsection Contact END  ----------*/
 
 /*=====  End of MAIN   ======*/
