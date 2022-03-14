@@ -8,6 +8,8 @@ fetch(apiURL)
         const currentTemp = document.querySelector('#current-temp');
         const weatherIcon = document.querySelector('#weathericon');
 
+        const caption = document.querySelector('figcaption');
+
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
 
         let imgsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
@@ -17,5 +19,6 @@ fetch(apiURL)
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
         weatherIcon.setAttribute('src', imgsrc);
         weatherIcon.setAttribute('alt', imgalt);
+        caption.innerHTML = `Currently: ${imgalt}`;
     });
 
