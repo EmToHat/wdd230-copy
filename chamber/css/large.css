@@ -65,8 +65,7 @@
     .trust
         {
             display: flex;
-            flex-direction: row;
-            align-items: center;
+            flex-direction: column;
         }
     /*----------  Subsection Index END  ----------*/
 

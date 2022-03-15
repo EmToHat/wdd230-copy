@@ -23,12 +23,12 @@ img
         width: 100%;
     }
     
-/*
+
 main    
     {
-        max-width: 960px;
+        margin: 14px;
     }
-*/
+
 
 /*=====  End of CONTENT   ======*/
 
@@ -139,7 +139,6 @@ nav
 =============================================*/
 
 /*----------  Subsection Index STRT  ----------*/
-
 .home section
     {
         padding: 10px;
@@ -186,24 +185,6 @@ div.line
         align-items: center;
         border-radius: 9px;
         text-align: center;
-    }
-
-.weatherContainer img
-    {
-        width: 150px;
-        padding-top: 12px;
-    }
-
-.weatherMid
-    {
-        padding: 10px;
-        font-size: 30px;
-        display: flex;
-    }
-
-.weatherMid p
-    {
-        padding-left: 10px;
     }
 
 .weatherBottom
@@ -271,6 +252,10 @@ section h2
 
 
 /*----------  Subsection Discover STRT  ----------*/
+.discover section
+    {
+        padding: 10px;
+    }
 /*----------  Subsection Discover END  ----------*/
 
 /*----------  Subsection Directory STRT ----------*/
