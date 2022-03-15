@@ -1,4 +1,6 @@
-// variable to get all imgs w/data-src  attribute
+// Lazy Load Images
+function lazyLoad() {
+    // variable to get all imgs w/data-src  attribute
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 
@@ -35,7 +37,11 @@ imagesToLoad.forEach((img) => {
     loadImages(img);
 });
 }
+}
 
+
+
+// Updates 
 function updates()
 {
     let lastUpdate = document.lastModified;
@@ -47,11 +53,14 @@ function updates()
 }
 
 
+
 // Hamburger Menu 
 function toggleMenu()
 {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+
 
 //const now = new Date()
 //date = new Intl.DateTimeFormat().format(now)
@@ -62,7 +71,7 @@ function dayOfweek(){
     let currentDate = new Date();
     weekdayValue = currentDate.getDay();
 
-    if (weekdayValue == 5) 
+    if (weekdayValue == 1) 
     {
         message = "Join us for the chamber meet & greet Wednesday at 7:00 p.m.";
         document.getElementById("greeting").innerHTML = message;
@@ -79,5 +88,6 @@ function dayOfweek(){
 }
 
 //Output
+lazyLoad();
 updates();
 dayOfweek();
