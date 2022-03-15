@@ -1,218 +1,322 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <!--------------------HEAD---------------------->
-    <head>
-        <!--Title-->
-        <title>SGCC</title>
+  <!--------------------HEAD---------------------->
+  <head>
+    <!--Title-->
+    <title>SGCC</title>
 
-        <!--Meta-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="Chamber of Commerce Discover Page">
-        
-        <!--CSS-->
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
+    <!--Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chamber of Commerce Discover Page" />
 
-        <!--Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
-    </head>
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
-    <!--------------------BODY---------------------->
-    <body>
-        <!--------------Header--------------->
-        <header>
-            <!--JavaScript Banner-->
-            <span id="greeting" class="greeting"></span>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <div class="title">
-                <img src="images/sun250x250.png" alt="Sun image" />
-        
-                <h1>
-                  <span class="stg">St. George</span>
-                  <br />
-                  <span class="ch">Chamber of Commerce</span>
-                </h1>
-            </div>
+  <!--------------------BODY---------------------->
+  <body>
+    <!--------------Header--------------->
+    <header>
+      <!--JavaScript Banner-->
+      <span id="greeting" class="greeting"></span>
 
-            <nav role="navigation">
-                <ul class="navigation">
-                  <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="discover.html">Discover</a></li>
-                  <li><a href="join.html">Join</a></li>
-                  <li><a href="directory.html">Directory</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!--------------Main--------------->
-        <main class="clearfix discover">
-            <section class="zion">
-                <!--<picture>
-                    <img src="images/zion_800.jpg" data-src="images/zion_800.jpg" alt="Zion National Park">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/zion_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/zion_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/zion_800.jpg">
-                    <img src="images/zion_1920.jpg" data-src="images/zion_1920.jpg" alt="Zion National Park">
-            </section>
+      <div class="title">
+        <img src="images/icons/sun250x250.png" alt="Sun image" />
 
-            <section class="rafting">
-                <!--<picture>
-                    <img src="images/activity_800.jpg" data-src="images/activity_800.jpg" alt="River Rafting">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/activity_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/activity_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/activity_800.jpg">
-                    <img src="images/activity_1920.jpg" data-src="images/activity_1920.jpg" alt="River Rafting">
-            </section>
+        <h1>
+          <span class="stg">St. George</span>
+          <br />
+          <span class="ch">Chamber of Commerce</span>
+        </h1>
+      </div>
 
-            <section class="narrows">
-                <!--<picture>
-                    <img src="images/narrows_800.jpg" data-src="images/narrows_800.jpg" alt="The Narrows">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/narrows_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/narrows_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/narrows_800.jpg">
-                    <img src="images/narrows_1000.jpg" data-src="images/narrows_1000.jpg" alt="The Narrows">
-            </section>
+      <nav role="navigation">
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <section class="bike">
-                <!--<picture>
-                    <img src="images/activity2_800.jpg" data-src="images/activity2_800.jpg" alt="A Person Bike Riding">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/activity2_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/activity2_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/activity2_800.jpg">
-                    <img src="images/activity2_1920.jpg" data-src="images/activity2_1920.jpg" alt="A Person Bike Riding">
-            </section>
+    <!--------------Main--------------->
+    <main class="clearfix discover">
+      <section class="zion grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/nature/zion200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/nature/zion500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/nature/zion800x628.png"
+        />
+        <img
+          src="images/nature/zion1100x1400.png"
+          data-src="images/nature/zion1100x1400.png"
+          alt="Zion National Park"
+        />
+      </section>
 
-            <section class="mountains">
-                <!--<picture>
-                    <img src="images/redrock3_800.jpg" data-src="images/redrock3_800.jpg" alt="Red Rocks">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/redrock3_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/redrock3_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/redrock3_800.jpg">
-                    <img src="images/redrock3_1920.jpg" data-src="images/redrock3_1920.jpg" alt="Red Rocks">
-            </section>
+      <section class="rafting grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/activities/rafting200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/activities/rafting500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/activities/rafting800x628.png"
+        />
+        <img
+          src="images/activities/rafting1100x1400.png"
+          data-src="images/activities/rafting1100x1400.png"
+          alt="River Rafting"
+        />
+      </section>
 
-            <section class="camping">
-                <!--<picture>
-                    <img src="images/activity3_800.jpg" data-src="images/activity3_800.jpg" alt="Tent under the stars">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/activity3_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/activity3_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/activity3_800.jpg">
-                    <img src="images/activity3_1920.jpg" data-src="images/activity3_1920.jpg" alt="Camping Tent under the stars">
-            </section>
+      <section class="narrows grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/nature/narrows200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/nature/narrows500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/nature/narrows800x628.png"
+        />
+        <img
+          src="images/nature/narrows1100x1400.png"
+          data-src="images/nature/narrows1100x1400.png"
+          alt="The Narrows"
+        />
+      </section>
 
-            <section class="redrock">
-                <!--<picture>
-                    <img src="images/redrock4_800.jpg" data-src="images/redrock4_800.jpg" alt="St. George Red Rocks">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/redrock4_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/redrock4_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/redrock4_800.jpg">
-                    <img src="images/redrock4_1920.jpg" data-src="images/redrock4_1920.jpg" alt="St. George Red Rocks">
-            </section>
+      <section class="bike grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/activities/biking200x157.png"
+        />
+        <source media="(max-width: 500px)"
+        srcset=images/activities/biking500x392.png"> <source media="(max-width:
+        800px)" srcset=images/activities/biking800x628.png">
+        <img
+          src="images/activities/biking1100x1400.png"
+          data-src="images/activities/biking1100x1400.png"
+          alt="A Person Bike Riding"
+        />
+      </section>
 
-            <section class="stgeorge">
-                <!--<picture>
-                    <img src="images/stgeorge_800.jpg" data-src="images/stgeorge_800.jpg" alt="St. George Town">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/stgeorge_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/stgeorge_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/stgeorge_800.jpg">
-                    <img src="images/stgeorge_1920.jpg" data-src="images/stgeorge_1920.jpg" alt="St. George Town">
-            </section>
+      <section class="mountains grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/nature/red3_200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/nature/red3_500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/nature/red3_800x628.png"
+        />
+        <img
+          src="images/nature/red3_1100x1400.png"
+          data-src="images/nature/red3_1100x1400.png"
+          alt="Red Rocks with a trail"
+        />
+      </section>
 
-            <section class="stgeorge2">
-                <!--<picture>
-                    <img src="images/stgeorge2_800.jpg" data-src="images/stgeorge2_800.jpg" alt="St. George Sculptures">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/stgeorge2_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/stgeorge2_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/stgeorge2_800.jpg">
-                    <img src="images/stgeorge2_1920.jpg" data-src="images/stgeorge2_1920.jpg" alt="St. George Town">
-            </section>
+      <section class="camping grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/activities/camping200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/activities/camping500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/activities/camping800x628.png"
+        />
+        <img
+          src="images/activities/camping1100x1400.png"
+          data-src="images/activities/camping1100x1400.png"
+          alt="Camping Tent under the stars"
+        />
+      </section>
 
-            <section class="stgeorge3">
-                <!--<picture>
-                    <img src="images/stgeorge3_800.jpg" data-src="images/stgeorge3_800.jpg" alt="Cacti">
-                </picture>-->
-                <source media="(max-width: 200px)" srcset="images/stgeorge3_200.jpg"> 
-                    <source media="(max-width: 500px)" srcset="images/stgeorge3_500.jpg">
-                    <source media="(max-width: 800px)" srcset="images/stgeorge3_800.jpg">
-                    <img src="images/stgeorge3_1920.jpg" data-src="images/stgeorge3_1920.jpg" alt="St. George Town">
-            </section>
-        </main>
-        
-        <!--------------Footer--------------->
-        <footer>
-            <div>
-                <section class="box1">
-                    <h3>Contact Us!</h3>
-                    <p>
-                        St. George <br>
-                        Chamber of Commerce
-                    </p>
-                    <p>
-                        175 E 200 N, St. George, UT 84770
-                    </p>
-                    <p>
-                        info-sgcc@gmail.com
-                        <br>
-                        +14356274000
-                    </p>
-                </section>
-                
-                <section class="box2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101862.33242617044!2d-113.60634493720359!3d37.076593491677926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca44ce90467f7d%3A0x77948a1ded6ed8fd!2sCity%20of%20St.%20George!5e0!3m2!1sen!2sus!4v1646279642256!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
-                </section>
-    
-                <section class="box3">
-                    <h3>Additional Resources</h3>
-                    <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </section>
-                
-                <section class="box4">
-                    <h3>Stay Connected!</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
-                    </p>
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <img src="images/facebook64x64.png" alt="Facebook">
-                            </li>
-                            <li>
-                                <img src="images/linkedin64x64.png" alt="Linkedin">
-                            </li>
-                            <li>
-                                <img src="images/whatsapp64x64.png" alt="whatsapp">
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-            
+      <section class="holyRedrock grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/nature/red4_200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/nature/red4_500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/nature/red4_800x628.png"
+        />
+        <img
+          src="images/nature/red4_1100x1400.png"
+          data-src="images/nature/red4_1100x1400.png"
+          alt="St. George Red Rocks"
+        />
+      </section>
 
-            <section class="box5">
-                <p>______________________________________________</p>
-                <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
-                <p>Last Update: <span id="modified"></span></p>
-            </section>
-        </footer>
+      <section class="town grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/buildings/town200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/buildings/town500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/buildings/town800x628.png"
+        />
+        <img
+          src="images/buildings/town1100x1400.png"
+          data-src="images/buildings/town1100x1400.png"
+          alt="St. George Town"
+        />
+      </section>
 
-        <!--JavaScript-->
-        <script src="js/index.js"></script>
-    </body>
+      <section class="sculpture grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/buildings/horses200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/buildings/horses500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/buildings/horses800x628.png"
+        />
+        <img
+          src="images/buildings/horses1100x1400.png"
+          data-src="images/buildings/horses1100x1400.png"
+          alt="St. George Horse Sculptures"
+        />
+      </section>
+
+      <section class="cacti grow">
+        <source
+          media="(max-width: 200px)"
+          srcset="images/nature/cacti200x157.png"
+        />
+        <source
+          media="(max-width: 500px)"
+          srcset="images/nature/cacti500x392.png"
+        />
+        <source
+          media="(max-width: 800px)"
+          srcset="images/nature/cacti800x628.png"
+        />
+        <img
+          src="images/nature/cacti1100x1400.png"
+          data-src="images/nature/cacti1100x1400.png"
+          alt="Cacti"
+        />
+      </section>
+    </main>
+
+    <!--------------Footer--------------->
+    <footer>
+      <div>
+        <section class="box1">
+          <h3>Contact Us!</h3>
+          <p>
+            St. George <br />
+            Chamber of Commerce
+          </p>
+          <p>175 E 200 N, St. George, UT 84770</p>
+          <p>
+            info-sgcc@gmail.com
+            <br />
+            +14356274000
+          </p>
+        </section>
+
+        <section class="box2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101862.33242617044!2d-113.60634493720359!3d37.076593491677926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca44ce90467f7d%3A0x77948a1ded6ed8fd!2sCity%20of%20St.%20George!5e0!3m2!1sen!2sus!4v1646279642256!5m2!1sen!2sus"
+            width="200"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            class="map"
+          ></iframe>
+        </section>
+
+        <section class="box3">
+          <h3>Additional Resources</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+        <section class="box4">
+          <h3>Stay Connected!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad
+            modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
+          </p>
+          <div class="social">
+            <ul>
+              <li>
+                <img src="images/icons/facebook64x64.png" alt="Facebook" />
+              </li>
+              <li>
+                <img src="images/icons/linkedin64x64.png" alt="Linkedin" />
+              </li>
+              <li>
+                <img src="images/icons/whatsapp64x64.png" alt="whatsapp" />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="box5">
+        <p>______________________________________________</p>
+        <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
+        <p>Last Update: <span id="modified"></span></p>
+        <p>Weather by: Openweathermap.org</p>
+      </section>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/index.js"></script>
+  </body>
 </html>

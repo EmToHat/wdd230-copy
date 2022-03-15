@@ -1,78 +1,74 @@
 /* Large View */
 
-@media (min-width: 765px) 
-{
+@media (min-width: 765px) {
+
     /*=============================================
     =                   MAIN                     =
-    =============================================*/ 
+    =============================================*/
     /*----------Subsection Index STRT  ----------*/
-    .home
-        {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(auto, 1fr);
-        }
+    .home {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr auto;
+    }
 
-    .welcome
-        {
-            grid-row-start: 1;
-            grid-row-end: 2;
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
+    .welcome {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 
-    .news
-        {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
+    .news {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 
-    .event
-        {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 2;
-            grid-column-end: 3;
-        }
-    
-    .weather
-        {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 3;
-            grid-column-end: 4;
-        }
+    .event {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
 
-    .spotlight1
-        {
+    .weather {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 
-            grid-row-start: 4;
-            grid-row-end: 5;
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
+    .spotlight1 {
 
-    .spotlight2
-        {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
-            grid-row-start: 4;
-            grid-row-end: 5;
-            grid-column-start: 3;
-        }
+    .spotlight2 {
 
-    .trust
-        {
-            display: flex;
-            flex-direction: column;
-        }
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 3;
+    }
+
+    .trust {
+        display: flex;
+        flex-direction: column;
+    }
+
     /*----------  Subsection Index END  ----------*/
 
 
     /*---------- Subsection Discover STRT ----------*/
-
-        
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto;
+    }
 
     /*---------- Subsection Discover END ----------*/
 
@@ -87,55 +83,49 @@
 
     /*---------- Subsection Directory STRT ----------*/
     /*---------- Subsection Directory END ----------*/
-   
+
     /*=====  End of MAIN CONTENT  ======*/
 
 
 
     /*=============================================
     =                   FOOTER                    =
-    =============================================*/ 
-    footer div
-        {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
-    
-    .box1
-        {
-            grid-column: 1/2;
-            justify-self: center;
-        }
-    
-    .box2
-        {
-            grid-column: 2/3;
-            justify-self: center;
-        }
-    
-    .box3
-        {
-            grid-column: 3/4;
-            grid-row: 1/2;
-            justify-self: center;
-        }
-    
-    .box4
-        {
-            grid-column: 4/5;
-            grid-row: 1/2;
-            justify-self: center;
-        }
+    =============================================*/
+    footer div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 
-    .box5
-            {
-                justify-self: center;
-                text-align: center;
-            }
-    
-    .social ul
-        {
-            grid-column: span 3;
-        }
+    .box1 {
+        grid-column: 1/2;
+        justify-self: center;
+    }
+
+    .box2 {
+        grid-column: 2/3;
+        justify-self: center;
+    }
+
+    .box3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .box4 {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .box5 {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .social ul {
+        grid-column: span 3;
+    }
+
     /*=====  End of FOOTER CONTENT  ======*/
 }

@@ -1,106 +1,89 @@
 /*----------  MEDIUM VIEW  ----------*/
 
-@media (min-width: 600px) 
-{
+@media (min-width: 600px) {
+
     /*=============================================
     =                   HEADER                   =
     =============================================*/
-    header
-            {
-                align-items: center;
-                display: flex;
-                justify-content: space-between;
-                padding: 16px 1%;
-            }
-    
-    nav 
-        {
-            margin: 0 auto;
-            width: 100%;
-        }
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 1%;
+    }
 
-    .navigation li:first-child
-        {
-            display: none;
-        }
-    
-    .navigation ul
-        {
-            display: inline;
-        }
-    .navigation li
-        {
-            display: inline-block;
-            padding: 0px 10px;
-        }
+    nav {
+        margin: 0 auto;
+        width: 100%;
+    }
 
-    .navigation a
-        {
-            color: rgb(255, 255, 255);
-            text-align: center;
-            text-decoration: none;
-        }
+    .navigation li:first-child {
+        display: none;
+    }
 
-    .navigation a:hover
-        {
-            border-radius: 8px;
-            color: rgb(255, 255, 255); 
-        }
+    .navigation ul {
+        display: inline;
+    }
+
+    .navigation li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .navigation a {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+    }
+
     /*=====  End of HEADER   ======*/
-    
+
 
     /*=============================================
     =                   MAIN                      =
     =============================================*/
     /*----------  Subsection Index STRT  ----------*/
-    .home
-        {
-            display: grid;
-            grid-template-columns: 50% 50%;
-        }
+    .home {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 
     .welcome,
-    .news
-        {
-            grid-column: span 2;
-        }
+    .news {
+        grid-column: span 2;
+    }
 
     /*Events*/
-    .eventinfo
-        {
-            padding-left: 30px;
-        }
+    .eventinfo {
+        padding-left: 30px;
+    }
+
     /*----------  Subsection Index END  ----------*/
 
 
 
     /*----------  Subsection Discover STRT  ----------*/
-    .discover
-    {
+    .discover {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
 
-    .zion
-        {
-            grid-column: span 2;
-        }
+    .grow img {
+        transition: 1s ease;
+    }
 
-    .rafting,
-    .narrows
-        {
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-    
-    .bike
-        {
-            grid-row-start: 2;
-            grid-row-end: 2;
-            grid-column-start: 2;
-            grid-column-end: 3;
-        }
+    .grow img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1.5s ease;
+    }
 
     /*----------  Subsection Discover END  ----------*/
     /*=====  End of MAIN   ======*/
@@ -112,29 +95,25 @@
     =                   FOOTER                   =
     =============================================*/
 
-    footer div
-        {
-            display: grid;
-            grid-template-columns: repeat(2, 50%);
-            padding-top: 30px;
-        }
-    
+    footer div {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        padding-top: 30px;
+    }
+
     .box1,
-    .box2
-        {
-            grid-row: 1/2;
-        }
-    
+    .box2 {
+        grid-row: 1/2;
+    }
+
     .box3,
-    .box4
-        {
-            grid-row: 2/3;
-        }
-    
-    .social ul
-        {
-            grid-column: span 2;
-        }
-    
-    /*=====  End of FOOTER  ======*/ 
+    .box4 {
+        grid-row: 2/3;
+    }
+
+    .social ul {
+        grid-column: span 2;
+    }
+
+    /*=====  End of FOOTER  ======*/
 }
