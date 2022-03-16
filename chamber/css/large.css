@@ -23,41 +23,37 @@
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
-    .event {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 2;
         grid-column-end: 3;
     }
 
-    .weather {
+    .event {
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 3;
         grid-column-end: 4;
     }
 
+    .weather {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
     .spotlight1 {
 
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
     }
 
     .spotlight2 {
 
-        grid-row-start: 4;
-        grid-row-end: 5;
-        grid-column-start: 3;
-    }
-
-    .trust {
-        display: flex;
-        flex-direction: column;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 
     /*----------  Subsection Index END  ----------*/

@@ -74,6 +74,10 @@
         grid-template-rows: auto;
     }
 
+    .discover picture {
+        padding: 10px;
+    }
+
     .grow img {
         transition: 1s ease;
     }
