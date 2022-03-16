@@ -27,33 +27,30 @@
     }
 
     .event {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-
-    .weather {
-        grid-row-start: 3;
-        grid-row-end: 4;
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-
-    .spotlight1 {
-
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 2;
     }
 
-    .spotlight2 {
-
+    .weather {
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 2;
         grid-column-end: 3;
+    }
+
+    .spotlights {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .trust,
+    .gold {
+        display: flex;
+        flex-direction: column;
     }
 
     /*----------  Subsection Index END  ----------*/

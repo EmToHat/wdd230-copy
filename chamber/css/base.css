@@ -184,6 +184,7 @@ div.line {
 }
 
 /*Spotlight*/
+
 .trust {
     display: flex;
     flex-direction: column;
@@ -206,8 +207,13 @@ div.line {
     padding-top: 10px;
 }
 
-section h2 {
+section h2,
+div h2 {
     font-size: 30px;
+}
+
+section h3 {
+    font-size: 25px;
 }
 
 .center {

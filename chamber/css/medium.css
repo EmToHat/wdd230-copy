@@ -63,6 +63,13 @@
         padding-left: 30px;
     }
 
+    .trust,
+    .gold
+        {
+            display: flex;
+            flex-direction: row;
+        }
+
     /*----------  Subsection Index END  ----------*/
 
 
