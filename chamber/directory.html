@@ -1,129 +1,146 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <!--HEAD-->
-    <head>
-        <!--Title-->
-        <title>SGCC</title>
+  <!--HEAD-->
+  <head>
+    <!--Title-->
+    <title>SGCC</title>
 
-        <!--Meta-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="Chamber of Commerce Business Directory">
-        
-        <!--CSS-->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
+    <!--Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chamber of Commerce Business Directory" />
 
-        <!--Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
-    </head>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
-    <!--BODY-->
-    <body>
-        <!--Header-->
-        <header>
-            <!--JavaScript Banner-->
-            <span id="greeting" class="greeting"></span>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <div class="title">
-                <img src="images/sun250x250.png" alt="Sun image">
-            
-                <h1>
-                    St George <br>
-                    Chamber of Commerce
-                </h1>
-            </div>
+  <!--BODY-->
+  <body>
+    <!--Header-->
+    <header>
+      <!--JavaScript Banner-->
+      <span id="greeting" class="greeting"></span>
 
-            <nav role="navigation">
-                <ul class="navigation">
-                  <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="discover.html">Discover</a></li>
-                  <li><a href="join.html">Join</a></li>
-                  <li><a href="directory.html">Directory</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!--Main-->
-        <main class="directory">
-            <div class="menu">
-                <button><i id="list"></i> List</button>
-                <button><i id="grid"></i> Grid</button>
-            </div>
+      <div class="title">
+        <img src="images/sun250x250.png" alt="Sun image" />
 
-            <p>______________________________________________</p>
+        <h1>
+            <span class="stg">Southern Utah</span>
+            <br />
+            <span class="ch">Chamber of Commerce</span>
+        </h1>
+      </div>
 
-            <article class="grid">
-            <div class="businessCards"></div>
-            </article>
-        </main>
-        
-        <!--Footer-->
-        <footer>
-            <div>
-                <section class="box1">
-                    <h3>Contact Us!</h3>
-                    <p>
-                        St. George <br>
-                        Chamber of Commerce
-                    </p>
-                    <p>
-                        175 E 200 N, St. George, UT 84770
-                    </p>
-                    <p>
-                        info-sgcc@gmail.com
-                        <br>
-                        +14356274000
-                    </p>
-                </section>
-                
-                <section class="box2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101862.33242617044!2d-113.60634493720359!3d37.076593491677926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca44ce90467f7d%3A0x77948a1ded6ed8fd!2sCity%20of%20St.%20George!5e0!3m2!1sen!2sus!4v1646279642256!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
-                </section>
-    
-                <section class="box3">
-                    <h3>Additional Resources</h3>
-                    <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </section>
-                
-                <section class="box4">
-                    <h3>Stay Connected!</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
-                    </p>
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <img src="images/facebook64x64.png" alt="Facebook">
-                            </li>
-                            <li>
-                                <img src="images/linkedin64x64.png" alt="Linkedin">
-                            </li>
-                            <li>
-                                <img src="images/whatsapp64x64.png" alt="whatsapp">
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-            
+      <nav role="navigation">
+        <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <section class="box5">
-                <p>______________________________________________</p>
-                <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
-                <p>Last Update: <span id="modified"></span></p>
-            </section>
-        </footer>
+    <!--Main-->
+    <main class="directory">
+      <div class="menu">
+        <button><i id="list"></i> List</button>
+        <button><i id="grid"></i> Grid</button>
+      </div>
 
-        <!--JavaScript-->
-        <script src="js/index.js"></script>
-        <script src="js/directory.js"></script>
-    </body>
+      <p>______________________________________________</p>
+
+      <article class="grid">
+        <div class="businessCards"></div>
+      </article>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <div>
+        <section class="box1">
+          <h3>Contact Us!</h3>
+          <p>
+            Southern Utah <br />
+            Chamber of Commerce
+          </p>
+          <p>175 E 200 N, St. George, UT 84770</p>
+          <p>
+            info-sgcc@gmail.com
+            <br />
+            +14356274000
+          </p>
+        </section>
+
+        <section class="box2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101862.33242617044!2d-113.60634493720359!3d37.076593491677926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ca44ce90467f7d%3A0x77948a1ded6ed8fd!2sCity%20of%20St.%20George!5e0!3m2!1sen!2sus!4v1646279642256!5m2!1sen!2sus"
+            width="200"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            class="map"
+          ></iframe>
+        </section>
+
+        <section class="box3">
+          <h3>Additional Resources</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+
+        <section class="box4">
+          <h3>Stay Connected!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad
+            modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
+          </p>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/"
+                  ><img src="images/icons/facebook64x64.png" alt="Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/"
+                  ><img src="images/icons/linkedin64x64.png" alt="Linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/"
+                  ><img src="images/icons/whatsapp64x64.png" alt="whatsapp"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="box5">
+        <p>______________________________________________</p>
+        <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
+        <p>Last Update: <span id="modified"></span></p>
+        <p>Weather by: Openweathermap.org</p>
+        <p>News by: stgeorgeutah.com</p>
+      </section>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="js/index.js"></script>
+    <script src="js/directory.js"></script>
+  </body>
 </html>
