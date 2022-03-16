@@ -106,7 +106,7 @@
     =                   FOOTER                   =
     =============================================*/
 
-    footer div {
+    footer .footer {
         display: grid;
         grid-template-columns: repeat(2, 50%);
         padding-top: 30px;
@@ -125,6 +125,5 @@
     .social ul {
         grid-column: span 2;
     }
-
     /*=====  End of FOOTER  ======*/
 }

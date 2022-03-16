@@ -19,7 +19,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -40,6 +47,8 @@
           <span class="ch">Chamber of Commerce</span>
         </h1>
       </div>
+
+      <!--<span id="datetime" class="datetime"></span>-->
 
       <nav role="navigation">
         <ul class="navigation">
@@ -79,8 +88,8 @@
 
       <section class="event">
         <h2>Upcoming Events</h2>
-        <div class="line"></div>
-
+        <div class="darkline"></div>
+        <br />
         <!--Event-->
         <div class="calendar">
           <div class="date">
@@ -128,7 +137,7 @@
 
           <div class="eventinfo">
             <h3 class="eventtitle">
-              <span>Trail Biking</span>
+              <span>Goblin Valley</span>
             </h3>
             <div class="eventduration">
               <span class="eventdate">March 20</span>
@@ -141,12 +150,10 @@
 
       <section class="weather">
         <h2>
-          <span>St. George</span>
-          <br />
-          <span>Weather</span>
+          <span>Current Weather</span>
         </h2>
-        <div class="line"></div>
-
+        <div class="darkline"></div>
+        <br />
         <div class="weatherContainer">
           <div class="weatherTop">
             <figure>
@@ -164,28 +171,49 @@
 
       <section class="news">
         <h2>Local News</h2>
-        <div class="line"></div>
-        <br>
+        <div class="darkline"></div>
+        <br />
         <h3>Girl Scouts</h3>
         <p>
-          ST. GEORGE — Tis the season of Thin Mints and Tagalong cookies. Girl Scout Cookie booths are now open in Southern Utah. This annual fundraiser helps local Girl Scouts learn scrumptious business lessons and be part of the largest girl-led entrepreneurial program in the world.
-          <a href="https://www.stgeorgeutah.com/news/archive/2022/03/15/apk-southern-utah-girl-scouts-share-sweet-business-lessons/#.YjE2XRDMI-Q">Read Me</a>
+          ST. GEORGE — Tis the season of Thin Mints and Tagalong cookies. Girl
+          Scout Cookie booths are now open in Southern Utah. This annual
+          fundraiser helps local Girl Scouts learn scrumptious business lessons
+          and be part of the largest girl-led entrepreneurial program in the
+          world.
+          <a
+            href="https://www.stgeorgeutah.com/news/archive/2022/03/15/apk-southern-utah-girl-scouts-share-sweet-business-lessons/#.YjE2XRDMI-Q"
+            >Read Me</a
+          >
         </p>
         <h3>Wild Wolverine</h3>
         <p>
-          RANDOLPH — A wolverine that was spotted recently in Rich County is now wandering the Uinta Mountains with a GPS collar around its neck. Utah Division of Wildlife Resources biologists are excited to learn more about an elusive animal with only eight confirmed sightings in Utah since 1979.
-          <a href="https://www.stgeorgeutah.com/news/archive/2022/03/15/mar-15-edit-pfft-utah-wildlife-biologists-capture-collar-and-release-wolverine/#.YjE3PBDMI-Q">Read Me</a>
+          RANDOLPH — A wolverine that was spotted recently in Rich County is now
+          wandering the Uinta Mountains with a GPS collar around its neck. Utah
+          Division of Wildlife Resources biologists are excited to learn more
+          about an elusive animal with only eight confirmed sightings in Utah
+          since 1979.
+          <a
+            href="https://www.stgeorgeutah.com/news/archive/2022/03/15/mar-15-edit-pfft-utah-wildlife-biologists-capture-collar-and-release-wolverine/#.YjE3PBDMI-Q"
+            >Read Me</a
+          >
         </p>
         <h3>Wilderness Volunteers</h3>
         <p>
-          ST. GEORGE — The term “backlog” – though fitting for wilderness areas – doesn’t begin to describe the number of maintenance projects that have been deferred for more than a year at national parks and on other public land.
-          <a href="https://www.stgeorgeutah.com/news/archive/2022/03/14/ajt-25-years-and-counting-wilderness-volunteers-continues-to-play-vital-role-in-southern-utah-nation/#.YjE3lxDMI-Q">Read Me</a>
+          ST. GEORGE — The term “backlog” – though fitting for wilderness areas
+          – doesn’t begin to describe the number of maintenance projects that
+          have been deferred for more than a year at national parks and on other
+          public land.
+          <a
+            href="https://www.stgeorgeutah.com/news/archive/2022/03/14/ajt-25-years-and-counting-wilderness-volunteers-continues-to-play-vital-role-in-southern-utah-nation/#.YjE3lxDMI-Q"
+            >Read Me</a
+          >
         </p>
       </section>
+
       <section class="spotlights">
         <h2>Thank You for Your Membership!</h2>
-        <div class="line"></div>
-        <br>
+        <div class="darkline"></div>
+        <br />
         <div class="spotlight1">
           <h3>Trustee Members</h3>
 
@@ -222,7 +250,7 @@
 
     <!--Footer-->
     <footer>
-      <div>
+      <div class="footer">
         <section class="box1">
           <h3>Contact Us!</h3>
           <p>
@@ -284,7 +312,7 @@
       </div>
 
       <section class="box5">
-        <p>______________________________________________</p>
+        <div class="whiteline"></div>
         <p>&copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho</p>
         <p>Last Update: <span id="modified"></span></p>
         <p>Weather by: Openweathermap.org</p>

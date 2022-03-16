@@ -10,7 +10,10 @@
 }
 
 body {
-    font-family: 'Lato', Arial, Helvetica;
+    /*
+    font-family: 'Fredoka', sans-serif;
+    */
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -35,7 +38,7 @@ main {
 =                   HEADER                   =
 =============================================*/
 .greeting {
-    background-color: rgb(70, 98, 137);
+    background-color: rgb(8, 55, 88);
     color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
@@ -45,7 +48,7 @@ main {
 header {
     display: flex;
     flex-flow: column;
-    background-color: rgb(234, 110, 74);
+    background-color: rgb(200, 65, 16);
 }
 
 .title {
@@ -66,7 +69,7 @@ header {
 
 .stg {
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 45px;
 }
 
@@ -76,7 +79,7 @@ header {
 }
 
 nav {
-    background-color: rgb(190, 86, 57);
+    background-color: rgb(143, 42, 29);
     margin: 0 auto;
     width: 100%;
 }
@@ -104,7 +107,7 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: rgb(167, 75, 49);
+    background-color: rgb(124, 37, 25);
     color: rgb(255, 255, 255);
 }
 
@@ -126,10 +129,11 @@ nav {
     padding: 10px;
 }
 
-div.line {
+div.darkline {
     height: 8px;
     width: 110px;
-    background-color: rgb(70, 98, 137);
+    border-radius: 9px;
+    background-color: rgb(8, 55, 88);
 }
 
 /*Upcoming Events*/
@@ -263,7 +267,7 @@ section h3 {
 =============================================*/
 footer {
     align-items: center;
-    background-color: rgb(234, 110, 74);
+    background-color: rgb(200, 65, 16);
     color: rgb(255, 255, 255);
     display: flex;
     flex-flow: column;
@@ -308,6 +312,12 @@ footer section p {
     padding-bottom: 9px;
 }
 
+.whiteline {
+    height: 5px;
+    width: 300px;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+}
 /*=====  End of FOOTER   ======*/
 
 .clearfix:after {
