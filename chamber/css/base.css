@@ -125,7 +125,8 @@ nav {
 =============================================*/
 
 /*----------  Subsection Index STRT  ----------*/
-.home section {
+.home section,
+.welcome {
     padding: 10px;
 }
 
@@ -300,13 +301,18 @@ footer section.box4 div.social ul li {
 }
 
 .box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 8px;
     text-align: center;
 }
 
-footer section p {
-    padding-top: 9px;
-}
+.box5 h2
+    {
+        font-size: 16px;
+        padding: 10px;
+    }
 
 .box4 p {
     padding-bottom: 9px;
