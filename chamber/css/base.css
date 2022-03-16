@@ -13,7 +13,7 @@ body {
     /*
     font-family: 'Fredoka', sans-serif;
     */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif, arial;
     font-size: 16px;
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -131,7 +131,7 @@ nav {
 
 div.darkline {
     height: 8px;
-    width: 110px;
+    width: 150px;
     border-radius: 9px;
     background-color: rgb(8, 55, 88);
 }
