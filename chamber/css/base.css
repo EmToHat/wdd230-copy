@@ -132,9 +132,9 @@ nav {
 
 div.darkline {
     height: 8px;
-    width: 150px;
+    width: 145px;
     border-radius: 9px;
-    background-color: rgb(8, 55, 88);
+    background-color: rgb(200, 65, 16);
 }
 
 /*Upcoming Events*/
@@ -321,7 +321,7 @@ footer section.box4 div.social ul li {
 }
 
 .whiteline {
-    height: 5px;
+    height: 2px;
     width: 300px;
     border-radius: 9px;
     background-color: rgb(255, 255, 255);

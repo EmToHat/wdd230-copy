@@ -67,7 +67,7 @@ function dayOfweek() {
   weekdayValue = currentDate.getDay();
 
   if (weekdayValue == 2) {
-    message = "Join us for the chamber meet & greet Wednesday at 7:00 p.m.";
+    message = "📢 Join us for the chamber meet & greet Wednesday at 7:00 p.m.";
     document.getElementById("greeting").innerHTML = message;
   } else {
     /*else if (weekdayValue == 3)
