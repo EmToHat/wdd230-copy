@@ -1,88 +1,88 @@
 {
   "companies": [
     {
-      "name": "Outdoor Rush",
-      "address": "2042 Westcliff Dr, St George UT 847900",
+      "name": "Outback Route 66",
+      "address": "780 W. Howard St, St George UT 847900",
       "phone": "(435) 817-4215",
-      "website": "https://outdoorrush.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/rushlogo.png"
+      "website": "https://outbackroute66.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/outbackroute66logo.jpg"
     },
     {
-      "name": "Wildland Trekking",
-      "address": "935 N 1300 W #6d, St. George, UT 84770",
+      "name": "Equestrian Xpress",
+      "address": "925 Homestead Drive, St George, UT 84770",
       "phone": "(800) 715-4453",
-      "website": "https://wildlandtrekking.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/wildlandlogo.png"
+      "website": "https://equestrianxpresstrails.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/equestrianxpresslogo.jpg"
     },
     {
-      "name": "ATV Rentals Utah",
-      "address": "2643 E 3380 S, St. George, UT 84790",
+      "name": "Hidden Spur Historical Tours",
+      "address": "115 North Golf St, St. George, UT 84790",
       "phone": "(888) 352-4179",
-      "website": "https://www.atvrentalsutah.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/atvlogo.png"
+      "website": "https://hiddenspurhistory.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/hiddenspurlogo.jpg"
     },
     {
-      "name": "Southern Utah Scenic Tours",
-      "address": "PO Box 911772 St George, UT 84790",
+      "name": "Etna Jewelers",
+      "address": "9944 Harrison Dr. St George, UT 84790",
       "phone": "(435) 656-1504",
-      "website": "https://utahscenictours.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/scenictourslogo.png"
+      "website": "https://nativeamericanjewelry.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/etnajewlerslogo.jpg"
     },
     {
-      "name": "Educational Tours",
-      "address": "1079 East Riverside Dr, Suite 101 St George, UT 84790",
+      "name": "Amos & Cushman Designs",
+      "address": "710 West Miles Road St George, UT 84790",
       "phone": "(435)656-4849",
-      "website": "https://ettours.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/etourslogo.png"
+      "website": "https://southernstyleacdesigns.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/amoscushdesignslogo.jpg"
     },
     {
-      "name": "Red River Adventures",
-      "address": "1140 S . Main St. Moab, Utah 84532",
+      "name": "The Honey Crafter",
+      "address": "596 Joy Ridge Ave. Moab, Utah 84532",
       "phone": "(435) 265-3672",
-      "website": "https://redriveradventures.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/redriverlogo.png"
+      "website": "https://honeycrafter.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/honeylogo.jpg"
     },
     {
-      "name": "Red Rock Bicycle",
-      "address": "446 W 100 S, St. George, UT 84770",
+      "name": "Pueblo Bakery",
+      "address": "455 Eagle Drive, St. George, UT 84770",
       "phone": "(435) 674-3185",
-      "website": "https://www.redrockbicycle.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/redrocklogo.png"
+      "website": "https://pueblobakery.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
     },
     {
-      "name": "Paragon Adventures",
-      "address": "955 N. 1300 W. Suite 4 St. George Utah, 84770",
+      "name": "Molly and Joe’s Burgers",
+      "address": "718 Summit Ave. St. George Utah, 84770",
       "phone": "(435) 673-1709",
-      "website": "https://paragonadventure.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/paragonlogo.png"
+      "website": "https://mollyjoeburgers.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/burgerslogo.jpg"
     },
     {
-      "name": "St. George Ebikes",
-      "address": "491 N Bluff St Suite 102, St. George, UT 84770",
+      "name": "Paradiso Creamery",
+      "address": "8531 Meadow Ave. St. George, UT 84770",
       "phone": "(435) 522-3035",
-      "website": "https://www.stgeorgeebikes.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/ebikelogo.png"
+      "website": "https://paradisocreamery.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
     },
     {
-      "name": "Utah Geology Scenic Tours",
-      "address": "1740 S View Point Dr, St. George, UT 84770",
+      "name": "Ron’s Outdoor Equipment",
+      "address": "972 E. Sunset Court, St. George, UT 84770",
       "phone": "(435) 590-0344",
-      "website": "https://utahgeology.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/geologylogo.png"
+      "website": "ronsoutdoorequipment.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/equipmentlogo.jpg"
     },
     {
-      "name": "St. George Children's Museum",
-      "address": "86 S Main St, St. George, UT 84770",
+      "name": "Going Green Bikes",
+      "address": "467 Bayberry Street, St. George, UT 84770",
       "phone": "(435) 986-4000",
-      "website": "https://www.sgchildrensmuseum.org/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/childrenslogo.png"
+      "website": "https://gogreenbikes.com",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/ebikelogo.jpg"
     },
     {
-      "name": "Happy Trails Adventure Tours",
-      "address": "291 N Main St, Leeds, UT 84746",
+      "name": "B&L Scooter Rentals",
+      "address": "293 Snake Hill St. St George, UT 84746",
       "phone": "(435) 429-4498",
-      "website": "https://www.happytrailsadventure.com/",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/happytrailslogo.png"
+      "website": "https://blscooterrentals.com ",
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
     }
   ]
 }

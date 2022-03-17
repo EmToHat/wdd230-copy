@@ -196,19 +196,15 @@ div.darkline {
     align-items: center;
 }
 
-.trust img {
-    width: 200px;
-    padding: 10px;
-}
-
 .gold {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.gold img {
-    width: 300px;
+.gold img,
+.trust img {
+    width: 150px;
     padding-top: 10px;
 }
 
