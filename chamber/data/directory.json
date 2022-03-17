@@ -47,7 +47,7 @@
       "address": "455 Eagle Drive, St. George, UT 84770",
       "phone": "(435) 674-3185",
       "website": "https://pueblobakery.com",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/pueblologo.jpg"
     },
     {
       "name": "Molly and Joe’s Burgers",
@@ -57,11 +57,11 @@
       "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/burgerslogo.jpg"
     },
     {
-      "name": "Paradiso Creamery",
+      "name": "Paradise Creamery",
       "address": "8531 Meadow Ave. St. George, UT 84770",
       "phone": "(435) 522-3035",
       "website": "https://paradisocreamery.com",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/icecreamlogo.jpg"
     },
     {
       "name": "Ron’s Outdoor Equipment",
@@ -78,11 +78,11 @@
       "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/ebikelogo.jpg"
     },
     {
-      "name": "B&L Scooter Rentals",
+      "name": "Ralph's Scooter Rental",
       "address": "293 Snake Hill St. St George, UT 84746",
       "phone": "(435) 429-4498",
       "website": "https://blscooterrentals.com ",
-      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/?"
+      "imageurl": "https://emt0rres.github.io/wdd230/chamber/images/logos/scooterlogo.jpg"
     }
   ]
 }
