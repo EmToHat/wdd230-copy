@@ -148,6 +148,18 @@
         grid-row: 6/7;
     }
 
+    .red, .sign {
+        grid-row: 7/8;
+    }
+
+    .canyon, .blue {
+        grid-row: 8/9;
+    }
+
+    .road, .utah {
+        grid-row: 9/10;
+    }
+
     .discover picture {
         padding: 10px;
     }
