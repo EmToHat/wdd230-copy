@@ -80,6 +80,73 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
+/*
+    .angels
+    .arches
+    .sheep
+    .sculpture
+    .bryce
+    .canyon
+    .devil
+    .fairy
+    .reef
+    .utah
+    .road
+    .dixie
+    .blue
+    .red
+    .paint
+    .sign
+    */
+
+    .discover h1 {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .dixie {
+        grid-column: 1/2;
+        grid-row: 2/5;
+    }
+
+    .angels {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .paint {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .sheep {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .sculpture {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .devil {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    
+    .arches {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    .reef {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    .bryce, .fairy {
+        grid-row: 6/7;
+    }
 
     .discover picture {
         padding: 10px;

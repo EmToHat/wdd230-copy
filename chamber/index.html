@@ -62,20 +62,20 @@
         <picture>
           <source
             media="(max-width: 200px)"
-            srcset="images/nature/zionnationalpark200x133.jpg"
+            srcset="images/discover/utah-200.jpg"
           />
           <source
             media="(max-width: 500px)"
-            srcset="images/nature/zionnationalpark500x333.jpg"
+            srcset="images/discover/utah-500.jpg"
           />
           <source
             media="(max-width: 800px)"
-            srcset="images/nature/zionnationalpark800x533.jpg"
+            srcset="images/discover/utah-800.jpg"
           />
           <img
-            class="logo"
-            src="images/nature/zionnationalpark1100x733.jpg"
-            alt="Zion National Park"
+            src="images/discover/utah-1024.jpg"
+            data-src="images/discover/utah-1024.jpg"
+            alt="Cacti in Southern Utah"
           />
         </picture>
       </div>
@@ -152,13 +152,12 @@
           <div class="weatherTop">
             <figure>
               <img src="" alt="" id="weathericon" />
-              <figcaption></figcaption>
+              <figcaption>Currently: <span id="skies"></span></figcaption>
             </figure>
           </div>
           <div class="weatherBottom">
-            <p>Temperature: <span id="current-temp"></span>&#176; F</p>
-            <p>Speed <span id="speed"></span></p>
-            <p>Chill <span id="chill"></span></p>
+            <p>Temperature <br /><span id="current-temp"></span>&#176; F</p>
+            <p>Wind Speed <br /><span id="speed"></span></p>
           </div>
         </div>
       </section>

@@ -167,6 +167,7 @@ div.darkline {
     align-items: center;
     border-radius: 9px;
     text-align: center;
+    width: 300px;
 }
 
 .weatherBottom {
@@ -181,6 +182,14 @@ div.darkline {
 .weatherBottom p {
     padding-left: 20px;
     font-size: 18px;
+}
+
+figcaption {
+    padding-bottom: 10px;
+}
+
+.weatherContainer img {
+    width: 65px;
 }
 
 /*Local News*/
@@ -305,12 +314,11 @@ footer section.box4 div.social ul li {
     font-weight: 200;
 }
 
-.box5 h2
-    {
-        font-size: 16px;
-        padding: 10px;
-        font-weight: 200;
-    }
+.box5 h2 {
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 200;
+}
 
 .box4 p {
     padding-bottom: 9px;
@@ -322,6 +330,7 @@ footer section.box4 div.social ul li {
     border-radius: 9px;
     background-color: rgb(255, 255, 255);
 }
+
 /*=====  End of FOOTER   ======*/
 
 .clearfix:after {

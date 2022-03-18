@@ -4,21 +4,20 @@ let apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    //console.log(jsObject);
+    console.log(jsObject);
 
     const currentTemp = document.querySelector("#current-temp");
     const weatherIcon = document.querySelector("#weathericon");
-
-    const caption = document.querySelector("figcaption");
+    const caption = document.querySelector("#skies");
+    const speed = document.querySelector("#speed");
 
     currentTemp.textContent = jsObject.main.temp.toFixed(0);
+    speed.textContent = jsObject.wind.speed.toFixed(0);
 
     let imgsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 
     let imgalt = jsObject.weather[0].description;
-
-    currentTemp.textContent = jsObject.main.temp.toFixed(0);
     weatherIcon.setAttribute("src", imgsrc);
     weatherIcon.setAttribute("alt", imgalt);
-    caption.innerHTML = `Currently: ${imgalt}`;
+    caption.innerHTML = `${imgalt}`;
   });
