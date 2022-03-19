@@ -80,24 +80,7 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
-/*
-    .angels
-    .arches
-    .sheep
-    .sculpture
-    .bryce
-    .canyon
-    .devil
-    .fairy
-    .reef
-    .utah
-    .road
-    .dixie
-    .blue
-    .red
-    .paint
-    .sign
-    */
+
     .discover picture{
         margin: 3px;
     }
@@ -177,19 +160,23 @@
     /*----------  Subsection Discover END  ----------*/
 
     /*----------  Subsection Join STRT  ----------*/
-    .join {
+    .memberlvls{
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 50% 50%;
     }
 
-    .member {
-        grid-row: 1/2;
+    .free, .silver {
+        grid-column: 1/2;
     }
 
-    .joinContainer {
-        grid-row: 2/3;
+    .bronze, .goldm {
+        grid-column: 2/3;
     }
 
+    .join{
+        display: flex;
+        flex-direction: column;
+    }
     /*----------  Subsection Join END  ----------*/
 
     /*=====  End of MAIN   ======*/

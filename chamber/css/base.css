@@ -217,16 +217,6 @@ figcaption {
     padding-top: 10px;
 }
 
-/*
-section h2,
-div h2 {
-    font-size: 30px;
-}
-
-section h3 {
-    font-size: 25px;
-}*/
-
 .center {
     display: block;
     margin-left: auto;
@@ -252,32 +242,27 @@ section h3 {
 /*----------  Subsection Directory END  ----------*/
 
 /*----------  Subsection Join STRT ----------*/
-.join {
+.member {
+    padding: 10px;
+}
+
+.joinContainer {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.member{
-    padding: 20px;
-}
-
-.joinContainer {
-    width: 360px;
-    height: 400px;
-    margin-left: 8%;
-    margin-right: 8%;
-    background-color: white;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-}
-
-.joinContainer h3 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: lightblue;
+.joinContainer h2 {
+    width: 100%;
+    border: 3px solid rgb(253, 187, 20);
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .joinContainer form {
@@ -297,16 +282,60 @@ form input {
 }
 
 ::placeholder {
-    color: rgba(143, 42, 29, 0.514);
+    color: rgba(143, 42, 29, 0.603);
 }
 
 .btn-box {
     width: 100%;
     text-align: center;
+    display: flex;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(143, 42, 29);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-right: 10px;
+    border-style: none;
+    cursor: pointer;
 }
 
 #form2, #form3 {
     display: none;
+}
+
+.free, .bronze, .silver, .goldm, .trusteem {
+    padding: 10px;
+}
+
+.price{
+    background-color: rgb(253, 187, 20);
+    padding:5px;
+    border-radius: 5px;
+}
+
+.memberlvls{
+    padding-bottom: 10px;
+}
+
+.jointitle{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.memberlvls ul{
+    list-style: none;
+    padding: 0;
+}
+
+.step h2, .memberlvls h3{
+    margin-bottom: 10px;
+}
+
+.step h2{
+    text-align: center;
 }
 
 /*----------  Subsection Join END  ----------*/

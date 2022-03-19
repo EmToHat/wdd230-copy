@@ -91,11 +91,13 @@
 
 
     /*---------- Subsection Join STRT ----------*/
-    .join {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr auto;
+    .join{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    
     /*---------- Subsection Join END ----------*/
 
 
