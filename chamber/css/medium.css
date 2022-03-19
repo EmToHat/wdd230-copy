@@ -98,7 +98,9 @@
     .paint
     .sign
     */
-
+    .discover picture{
+        margin: 3px;
+    }
     .discover h1 {
         grid-column: span 2;
         text-align: center;
@@ -132,6 +134,7 @@
     .devil {
         grid-column: 1/2;
         grid-row: 4/5;
+        padding-top: 10px;
     }
     
     .arches {
@@ -160,10 +163,6 @@
         grid-row: 9/10;
     }
 
-    .discover picture {
-        padding: 10px;
-    }
-
     .grow img {
         transition: 1s ease;
     }
@@ -176,6 +175,23 @@
     }
 
     /*----------  Subsection Discover END  ----------*/
+
+    /*----------  Subsection Join STRT  ----------*/
+    .join {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .member {
+        grid-row: 1/2;
+    }
+
+    .joinContainer {
+        grid-row: 2/3;
+    }
+
+    /*----------  Subsection Join END  ----------*/
+
     /*=====  End of MAIN   ======*/
 
 

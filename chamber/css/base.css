@@ -217,6 +217,7 @@ figcaption {
     padding-top: 10px;
 }
 
+/*
 section h2,
 div h2 {
     font-size: 30px;
@@ -224,7 +225,7 @@ div h2 {
 
 section h3 {
     font-size: 25px;
-}
+}*/
 
 .center {
     display: block;
@@ -240,13 +241,74 @@ section h3 {
 .discover {
     text-align: center;
 }
+
+.discover picture {
+    padding: 8px;
+}
+
 /*----------  Subsection Discover END  ----------*/
 
 /*----------  Subsection Directory STRT ----------*/
 /*----------  Subsection Directory END  ----------*/
 
-
 /*----------  Subsection Join STRT ----------*/
+.join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member{
+    padding: 20px;
+}
+
+.joinContainer {
+    width: 360px;
+    height: 400px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.joinContainer h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: lightblue;
+}
+
+.joinContainer form {
+    width: 280px;
+    position: absolute;
+    padding: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgba(143, 42, 29, 0.514);
+}
+
+.btn-box {
+    width: 100%;
+    text-align: center;
+}
+
+#form2, #form3 {
+    display: none;
+}
+
 /*----------  Subsection Join END  ----------*/
 
 
