@@ -10,7 +10,6 @@ let back1 = document.getElementById("back1");
 let back2 = document.getElementById("back2");
 
 
-
 // Add Onclick events
 nxt1.onclick = function(){
     form1.style.display = "none";

@@ -1,6 +1,8 @@
 const requestURL = 'https://emt0rres.github.io/wdd230/chamber/data/directory.json';
 
 const cards = document.querySelector('.businessCards');
+const listButton = document.querySelector("#lbtn");
+const cardButton = document.querySelector("#cdbtn");
 
 fetch(requestURL)
   .then(function (response) {
@@ -22,26 +24,15 @@ function displayCompanies(company) {
     let companyPhone = document.createElement('p');
     let companyWebsite = document.createElement('a');
     
-    // Change the textContent property of the h2 element to contain the prophet's full name
     companyName.innerHTML = `${company.name}`;
     companyAddress.innerHTML = `${company.address}`;
     companyPhone.innerHTML = `${company.phone}`;
     companyWebsite.innerHTML = `${company.website}`;
 
-
-    
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-      // element.setAttribute(name, value)
-
     companyLogo.setAttribute('src', company.imageurl);
     companyLogo.setAttribute('alt', 'Logo of ' + `${company.name}`);
     companyLogo.setAttribute('loading', 'lazy');
     companyWebsite.setAttribute('href', `${company.website}`)
-  
-
-
-    // Add/append the section(card) with the h2 element
-      // element.appendChild(node)
     
     card.appendChild(companyLogo);
     card.appendChild(companyName);
@@ -49,8 +40,25 @@ function displayCompanies(company) {
     card.appendChild(companyPhone);
     card.appendChild(companyWebsite);
     
-    
-    // Add/append the existing HTML div with the cards class with the section(card)
-      // node.appendChild(node)
     cards.appendChild(card);
+}
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
 }

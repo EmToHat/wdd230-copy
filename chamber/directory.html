@@ -54,16 +54,25 @@
     </header>
 
     <!--Main-->
-    <main class="directory">
-      <div class="menu">
-        <button><i id="list"></i> List</button>
-        <button><i id="grid"></i> Grid</button>
+    <main>
+      <!--<section class="directory card-directory">
+        <h2>Business Directory</h2>
+        <div class="darkline"></div>
+        <div class="list-btn">
+          <button><i id="list"></i> List</button>
+          <button><i id="grid"></i> Grid</button>
+        </div>
+        <div class="businessCards list-view"></div>
+    </section>-->
+    <section class="directory wrapper">
+      <h2>Business Directory</h2>
+      <div class="view-btns">
+        <button onclick="listView()"><i class="list"></i> List</button>
+        <button onclick="gridView()"><i class="grid"></i> Grid</button>
       </div>
-      <br />
-      <div class="darkline"></div>
-      <article class="grid">
-        <div class="businessCards"></div>
-      </article>
+      <div class="businessCards column"></div>
+  </section>
+
     </main>
 
     <!--Footer-->
