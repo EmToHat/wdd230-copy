@@ -6,43 +6,30 @@
     =                   MAIN                     =
     =============================================*/
     /*----------Subsection Index STRT  ----------*/
-    /*.home {
+    .home{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr auto;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .welcome {
-        grid-column: 1/5;
-        grid-row: 1/2;
+    .welcome{
+        grid-column: span 3;
     }
 
-    .news {
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-
-    .event {
+    .event{
         grid-column: 1/2;
-        grid-row: 2/3;
     }
 
     .weather {
-        grid-column: 2/3;
-        grid-row: 2/3;
+        grid-column: span 2;
     }
 
-    .spotlights {
-        grid-column: 3/4;
-        grid-row: 2/4;
+    .news, .spotlights{
+        grid-column: span 3;
     }
 
-    .trust,
-    .gold {
-        display: flex;
-        flex-direction: column;
+    .spotlights img{
+        width: 250px;
     }
-    */
     /*----------  Subsection Index END  ----------*/
 
 
