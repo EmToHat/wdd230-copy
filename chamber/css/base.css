@@ -126,107 +126,100 @@ nav {
 
 /*----------  Subsection Index STRT  ----------*/
 
-
-
-/*.home section,
-.welcome {
-    padding: 10px;
+/* Images */
+.home img{
+    width: 100%;
 }
 
-div.darkline {
+.weather img{
+    width: 90px;
+}
+
+.spotlights img{
+    width: 130px;
+}
+
+/* Decorative Line */
+
+
+.darkline{
     height: 8px;
     width: 145px;
     border-radius: 9px;
     background-color: rgb(200, 65, 16);
-}*/
+    margin-bottom: 12px;
+}
 
-/*Upcoming Events
-.date {
+/* Whole box w/square class */
+.square{
+    padding: 8px;
+    margin: 10px;
+}
+
+/* Headers */
+.header{
+    text-align: left;
+}
+
+/* Sub-Headers */
+.sub-header{
+    text-align: left;
+}
+
+/* Events */
+.calendar{
+    display: grid;
+    grid-template-columns: 20% 80%; 
+}
+
+.date{
+    width: 70px;
     background-color: #fdbb14;
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-    border-radius: 9px;
+    margin: 9px;
+    padding: 15px;
+    border-radius: 8px;
     text-align: center;
 }
 
-.eventinfo {
-    padding-left: 10px;
+.eventinfo{
+    padding: 9px;
 }
 
-.calendar {
-    display: grid;
-    grid-template-columns: 15% 85%;
-    padding: 10px;
-}*/
-
-/*Weather
-.weatherContainer {
+/* Weather */
+.weather-container{
     background-color: rgb(70, 98, 137);
     color: rgb(255, 255, 255);
     margin: 9px;
+    padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    border-radius: 9px;
-    text-align: center;
-    width: 300px;
-}
-
-.weatherBottom {
-    background-color: rgb(91, 126, 173);
+    border-radius: 8px;
     width: 100%;
-    border-radius: 0 0 9px 9px;
-    padding: 35px;
-    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.weatherBottom p {
-    padding-left: 20px;
-    font-size: 18px;
-}
-
-figcaption {
-    padding-bottom: 10px;
-}
-
-.weatherContainer img {
-    width: 65px;
-}*/
-
-/*Local News
-.news p {
+.container-left, .container-right{
+    margin: 9px;
     padding: 10px;
-}*/
-
-/*Spotlight
-
-.trust {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
-.gold {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-right{
+    background-color: rgb(91, 126, 173);
+    width: 100%;
+    border-radius: 9px;
 }
 
-.gold img,
-.trust img {
-    width: 150px;
-    padding-top: 10px;
+/* News */
+.news-container{
+    padding: 10px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
-
+.newsie{
+    padding: 5px;
+}
 /*----------  Subsection Index END  ----------*/
 
 
