@@ -8,7 +8,7 @@ let nxt1 = document.getElementById("nxt1");
 let nxt2 = document.getElementById("nxt2");
 let back1 = document.getElementById("back1");
 let back2 = document.getElementById("back2");
-
+let sub = document.getElementById("submit");
 
 // Add Onclick events
 nxt1.onclick = function(){
@@ -32,4 +32,9 @@ back2.onclick = function(){
     form1.style.display = "none";
     form2.style.display = "block";
     form3.style.display = "none";
+}
+
+
+sub.onclick = function(){
+    document.location.href="thankyou.html";
 }

@@ -58,7 +58,11 @@
 
     <!--Main-->
     <main class="clearfix home">
-      <div class="welcome">
+      <div class="square welcome">
+        <div class="header">
+          <h2>Welcome to Southern Utah!</h2>
+          <div class="darkline"></div>
+        </div>
         <picture>
           <source
             media="(max-width: 200px)"
@@ -80,21 +84,19 @@
         </picture>
       </div>
 
-      <section class="event">
-        <h2>Upcoming Events</h2>
-        <div class="darkline"></div>
-        <br />
-        <!--Event-->
-        <div class="calendar">
+      <div class="square event">
+        <div class="header">
+          <h2>Upcoming Events</h2>
+          <div class="darkline"></div>
+        </div>
+
+        <div class="date1 calendar">
           <div class="date">
             <span class="datename">Tue</span>
             <span class="datenumber">29</span>
           </div>
-
           <div class="eventinfo">
-            <h3 class="eventtitle">
-              <span>Jewlery Charity Fundraiser</span>
-            </h3>
+            <h3 class="eventtitle"><span>Jewlery Charity Fundraiser</span></h3>
             <div class="eventduration">
               <span class="eventdate">March 29</span>
               <br />
@@ -103,17 +105,13 @@
           </div>
         </div>
 
-        <!--Event-->
-        <div class="calendar">
+        <div class="date2 calendar">
           <div class="date">
             <span class="datename">Thur</span>
             <span class="datenumber">14</span>
           </div>
-
           <div class="eventinfo">
-            <h3 class="eventtitle">
-              <span>Youth Trail Riding</span>
-            </h3>
+            <h3 class="eventtitle"><span>Youth Trail Riding</span></h3>
             <div class="eventduration">
               <span class="eventdate">April 14</span>
               <br />
@@ -122,17 +120,13 @@
           </div>
         </div>
 
-        <!--Event-->
-        <div class="calendar">
+        <div class="date3 calendar">
           <div class="date">
             <span class="datename">Wed</span>
             <span class="datenumber">11</span>
           </div>
-
           <div class="eventinfo">
-            <h3 class="eventtitle">
-              <span>Goblin Valley Nature Hike</span>
-            </h3>
+            <h3 class="eventtitle"><span>Goblin Valley Nature Hike</span></h3>
             <div class="eventduration">
               <span class="eventdate">May 11</span>
               <br />
@@ -140,76 +134,85 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="weather">
-        <h2>
-          <span>Current Weather</span>
-        </h2>
-        <div class="darkline"></div>
-        <br />
-        <div class="weatherContainer">
-          <div class="weatherTop">
+      <div class="square weather">
+        <div class="header">
+          <h2>Current Weather</h2>
+          <div class="darkline"></div>
+        </div>
+        <div class="weather-container">
+          <div class="container-left">
             <figure>
               <img src="" alt="" id="weathericon" />
               <figcaption>Currently: <span id="skies"></span></figcaption>
             </figure>
           </div>
-          <div class="weatherBottom">
+          <div class="container-right">
             <p>Temperature <br /><span id="current-temp"></span>&#176; F</p>
             <p>Wind Speed <br /><span id="speed"></span></p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="news">
-        <h2>Local News</h2>
-        <div class="darkline"></div>
-        <br />
-        <h3>Girl Scouts</h3>
-        <p>
-          ST. GEORGE — Tis the season of Thin Mints and Tagalong cookies. Girl
-          Scout Cookie booths are now open in Southern Utah. This annual
-          fundraiser helps local Girl Scouts learn scrumptious business lessons
-          and be part of the largest girl-led entrepreneurial program in the
-          world.
-          <a
-            href="https://www.stgeorgeutah.com/news/archive/2022/03/15/apk-southern-utah-girl-scouts-share-sweet-business-lessons/#.YjE2XRDMI-Q"
-            >Read Me</a
-          >
-        </p>
-        <h3>Wild Wolverine</h3>
-        <p>
-          RANDOLPH — A wolverine that was spotted recently in Rich County is now
-          wandering the Uinta Mountains with a GPS collar around its neck. Utah
-          Division of Wildlife Resources biologists are excited to learn more
-          about an elusive animal with only eight confirmed sightings in Utah
-          since 1979.
-          <a
-            href="https://www.stgeorgeutah.com/news/archive/2022/03/15/mar-15-edit-pfft-utah-wildlife-biologists-capture-collar-and-release-wolverine/#.YjE3PBDMI-Q"
-            >Read Me</a
-          >
-        </p>
-        <h3>Wilderness Volunteers</h3>
-        <p>
-          ST. GEORGE — The term “backlog” – though fitting for wilderness areas
-          – doesn’t begin to describe the number of maintenance projects that
-          have been deferred for more than a year at national parks and on other
-          public land.
-          <a
-            href="https://www.stgeorgeutah.com/news/archive/2022/03/14/ajt-25-years-and-counting-wilderness-volunteers-continues-to-play-vital-role-in-southern-utah-nation/#.YjE3lxDMI-Q"
-            >Read Me</a
-          >
-        </p>
-      </section>
+      <div class="square news">
+        <div class="header">
+          <h2>Local News</h2>
+          <div class="darkline"></div>
+        </div>
+        <div class="news-container">
+          <div class="news1">
+            <h3 class="sub-header">Girl Scouts</h3>
+            <p>
+              ST. GEORGE — Tis the season of Thin Mints and Tagalong cookies.
+              Girl Scout Cookie booths are now open in Southern Utah. This
+              annual fundraiser helps local Girl Scouts learn scrumptious
+              business lessons and be part of the largest girl-led
+              entrepreneurial program in the world.
+              <a
+                href="https://www.stgeorgeutah.com/news/archive/2022/03/15/apk-southern-utah-girl-scouts-share-sweet-business-lessons/#.YjE2XRDMI-Q"
+                >Read Me...</a
+              >
+            </p>
+          </div>
+          <div class="news2">
+            <h3 class="sub-header">Wild Wolverine</h3>
+            <p>
+              RANDOLPH — A wolverine that was spotted recently in Rich County is
+              now wandering the Uinta Mountains with a GPS collar around its
+              neck. Utah Division of Wildlife Resources biologists are excited
+              to learn more about an elusive animal with only eight confirmed
+              sightings in Utah since 1979.
+              <a
+                href="https://www.stgeorgeutah.com/news/archive/2022/03/15/mar-15-edit-pfft-utah-wildlife-biologists-capture-collar-and-release-wolverine/#.YjE3PBDMI-Q"
+                >Read Me...</a
+              >
+            </p>
+          </div>
+          <div class="news3">
+            <h3 class="sub-header">Wilderness Volunteers</h3>
+            <p>
+              ST. GEORGE — The term “backlog” – though fitting for wilderness
+              areas – doesn’t begin to describe the number of maintenance
+              projects that have been deferred for more than a year at national
+              parks and on other public land.
+              <a
+                href="https://www.stgeorgeutah.com/news/archive/2022/03/14/ajt-25-years-and-counting-wilderness-volunteers-continues-to-play-vital-role-in-southern-utah-nation/#.YjE3lxDMI-Q"
+                >Read Me...</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
 
-      <section class="spotlights">
-        <h2>Thank You for Your Membership!</h2>
-        <div class="darkline"></div>
-        <br />
-        <div class="spotlight1">
-          <h3>Trustee Members</h3>
-          <div class="trust">
+      <div class="square spotlights">
+        <div class="header">
+          <h2>Thank You for Your Membership!</h2>
+          <div class="darkline"></div>
+        </div>
+        <div class="membership">
+          <div class="spot1">
+            <h3 class="sub-header">Trustee Members</h3>
             <span class="ebikes"
               ><img src="images/logos/ebikelogo.jpg" alt="Electric Bikes Logo"
             /></span>
@@ -224,10 +227,9 @@
                 alt="Molly and Joe's Burgers logo"
             /></span>
           </div>
-        </div>
-        <div class="spotlight2">
-          <h3>Gold Members</h3>
-          <div class="gold">
+
+          <div class="spot2">
+            <h3 class="sub-header">Gold Members</h3>
             <span class="jewlery">
               <img
                 src="images/logos/etnajewlerslogo.jpg"
@@ -242,7 +244,7 @@
             </span>
           </div>
         </div>
-      </section>
+      </div>
     </main>
 
     <!--Footer-->
@@ -276,16 +278,18 @@
 
         <section class="box3">
           <h3>Additional Resources</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>
+            <a href="join.html">Join Today!</a>
+            <br />
+            <a href="directory.html">Chamber Directory</a>
+            <br />
+            <a href="contact.html">Contact Us</a>
+          </p>
         </section>
 
         <section class="box4">
           <h3>Stay Connected!</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad
-            modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
-          </p>
+          <p>Feel free to follow us on social media!</p>
           <div class="social">
             <ul>
               <li>

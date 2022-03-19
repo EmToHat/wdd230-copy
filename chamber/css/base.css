@@ -125,7 +125,10 @@ nav {
 =============================================*/
 
 /*----------  Subsection Index STRT  ----------*/
-.home section,
+
+
+
+/*.home section,
 .welcome {
     padding: 10px;
 }
@@ -135,9 +138,9 @@ div.darkline {
     width: 145px;
     border-radius: 9px;
     background-color: rgb(200, 65, 16);
-}
+}*/
 
-/*Upcoming Events*/
+/*Upcoming Events
 .date {
     background-color: #fdbb14;
     height: 50px;
@@ -155,9 +158,9 @@ div.darkline {
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 10px;
-}
+}*/
 
-/*Weather*/
+/*Weather
 .weatherContainer {
     background-color: rgb(70, 98, 137);
     color: rgb(255, 255, 255);
@@ -190,14 +193,14 @@ figcaption {
 
 .weatherContainer img {
     width: 65px;
-}
+}*/
 
-/*Local News*/
+/*Local News
 .news p {
     padding: 10px;
-}
+}*/
 
-/*Spotlight*/
+/*Spotlight
 
 .trust {
     display: flex;
@@ -222,7 +225,7 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
+} */
 
 /*----------  Subsection Index END  ----------*/
 
@@ -238,20 +241,24 @@ figcaption {
 /*----------  Subsection Discover END  ----------*/
 
 /*----------  Subsection Directory STRT ----------*/
-/*List View*/
 
 
 /*----------  Subsection Directory END ----------*/
 
 /*----------  Subsection Join STRT ----------*/
-.member {
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.member, .levels {
+    width: 100%;
     padding: 10px;
 }
 
 .joinContainer {
-    width: 350px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
@@ -260,17 +267,16 @@ figcaption {
     justify-content: center;
 }
 
-.joinContainer h2 {
-    width: 100%;
-    border: 3px solid rgb(253, 187, 20);
-    padding: 10px;
-    border-radius: 8px;
+form {
+    width: 400px;
+    margin: 9px;
 }
 
-.joinContainer form {
-    width: 280px;
-    position: absolute;
-    padding: 20px;
+form h2 {
+    width: 100%;
+    border: 3px solid rgb(253, 187, 20);
+    padding: 8px;
+    border-radius: 8px;
 }
 
 form input {
@@ -356,7 +362,6 @@ form input {
     padding: 10px;
     border-radius: 9px;
 }
-
 /*----------  Subsection Contact END  ----------*/
 
 /*=====  End of MAIN   ======*/
@@ -399,6 +404,11 @@ footer section.box4 div.social ul li {
 
 .box2 {
     padding: 8px;
+}
+
+.box3 a:hover{
+    color:rgb(176, 167, 224);
+    text-decoration: none;
 }
 
 .box5 {

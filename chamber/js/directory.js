@@ -1,8 +1,6 @@
 const requestURL = 'https://emt0rres.github.io/wdd230/chamber/data/directory.json';
 
 const cards = document.querySelector('.businessCards');
-const listButton = document.querySelector("#lbtn");
-const cardButton = document.querySelector("#cdbtn");
 
 fetch(requestURL)
   .then(function (response) {

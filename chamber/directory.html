@@ -55,24 +55,14 @@
 
     <!--Main-->
     <main>
-      <!--<section class="directory card-directory">
-        <h2>Business Directory</h2>
-        <div class="darkline"></div>
-        <div class="list-btn">
-          <button><i id="list"></i> List</button>
-          <button><i id="grid"></i> Grid</button>
-        </div>
-        <div class="businessCards list-view"></div>
-    </section>-->
-    <section class="directory wrapper">
-      <h2>Business Directory</h2>
-      <div class="view-btns">
-        <button onclick="listView()"><i class="list"></i> List</button>
-        <button onclick="gridView()"><i class="grid"></i> Grid</button>
+      <div class="directory-view">
+        <ul>
+            <li><button onclick="listView()"><i class="list"></i> &#9776; List</button></li>
+            <li><button onclick="gridView()"><i class="grid"></i> &#9783; Grid</button></li>
+        </ul>
       </div>
-      <div class="businessCards column"></div>
-  </section>
 
+      <div class="businessCards column"></div>
     </main>
 
     <!--Footer-->
@@ -106,15 +96,20 @@
 
         <section class="box3">
           <h3>Additional Resources</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>
+            <a href="join.html">Join Today!</a>
+            <br>
+            <a href="directory.html">Chamber Directory</a>
+            <br>
+            <a href="contact.html">Contact Us</a>
+          </p>
+
         </section>
 
         <section class="box4">
           <h3>Stay Connected!</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            consectetur dicta nemo ipsum itaque eum amet modi maxime vero! Ad
-            modi ipsam fugiat eius sint omnis veritatis enim ratione nemo.
+            Feel free to follow us on social media! 
           </p>
           <div class="social">
             <ul>
@@ -130,7 +125,7 @@
               </li>
               <li>
                 <a href="https://www.whatsapp.com/" target="_blank"
-                  ><img src="images/icons/whatsapp64x64.png" alt="whatsapp" 
+                  ><img src="images/icons/whatsapp64x64.png" alt="whatsapp"
                 /></a>
               </li>
             </ul>

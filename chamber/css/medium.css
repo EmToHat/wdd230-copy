@@ -48,7 +48,7 @@
     =                   MAIN                      =
     =============================================*/
     /*----------  Subsection Index STRT  ----------*/
-    .home {
+    /*.home {
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -56,9 +56,9 @@
     .welcome,
     .news {
         grid-column: span 2;
-    }
+    }*/
 
-    /*Events*/
+    /*Events
     .eventinfo {
         padding-left: 30px;
     }
@@ -68,7 +68,7 @@
         {
             display: flex;
             flex-direction: row;
-        }
+        }*/
 
     /*----------  Subsection Index END  ----------*/
 
@@ -159,8 +159,11 @@
 
     /*----------  Subsection Directory STRT  ----------*/
     
+    .cards section,
+    .cards section p {
+        max-width: 23em;
+    }
 
-    
     /*----------  Subsection Directory END  ----------*/
 
     /*----------  Subsection Join STRT  ----------*/
