@@ -48,28 +48,26 @@
     =                   MAIN                      =
     =============================================*/
     /*----------  Subsection Index STRT  ----------*/
-    /*.home {
+    
+    .home{
         display: grid;
         grid-template-columns: 50% 50%;
     }
 
-    .welcome,
-    .news {
+    .welcome {
+        grid-row: 1/2;
         grid-column: span 2;
-    }*/
-
-    /*Events
-    .eventinfo {
-        padding-left: 30px;
     }
 
-    .trust,
-    .gold
-        {
-            display: flex;
-            flex-direction: row;
-        }*/
+    .calendar {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
 
+    .date {
+        height: 60px;
+        padding: 9px;
+    }
     /*----------  Subsection Index END  ----------*/
 
     /*----------  Subsection Discover STRT  ----------*/
