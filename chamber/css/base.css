@@ -463,19 +463,19 @@ form input {
 
 /*----------  Subsection Join END  ----------*/
 
-
-/*----------  Subsection Thank-you STRT ----------*/
-/*----------  Subsection Thank-you END  ----------*/
-
-
 /*----------  Subsection Contact STRT ----------*/
-.card {
-    background-color: violet;
-    height: 200px;
-    width: 200px;
-    margin: 9px;
-    padding: 10px;
-    border-radius: 9px;
+.contact .header{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usrform{
+    width: 100%;
 }
 /*----------  Subsection Contact END  ----------*/
 

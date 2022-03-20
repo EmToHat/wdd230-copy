@@ -54,17 +54,30 @@
     </header>
 
     <!--Main-->
-    <main class="clearfix home">
-      <h2>Board of Directors</h2>
+    <main class="clearfix">
+      <div class="contact">
+        <div class="header">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="form">
+          <form action="thankyou.html">
 
-      <div class="card" tabindex="0">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <h3>Front</h3>
-          </div>
-          <div class="flip-card-back">
-            <h3>Back</h3>
-          </div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="email">Email</label>
+            <input type="text" id="lname" name="email" placeholder="Your email address..">
+            
+            <label for="usrform">Comments</label>
+            <br>
+            <textarea name="comment" form="usrform" id="usrform" placeholder="Enter text here..."></textarea>
+            <br>
+        
+            <button type="submit" id="submit" class="btn submit">Submit</button>
+          </form>
         </div>
       </div>
     </main>
