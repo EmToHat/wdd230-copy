@@ -238,20 +238,124 @@ nav ul li.active a {
 /*----------  Subsection Discover END  ----------*/
 
 /*----------  Subsection Directory STRT ----------*/
-.directory-container-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.view{
+    margin: 10px;
 }
 
-.directory-container-grid{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.businessCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
-.directory img{
+
+.businessCards section {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(200, 65, 16);
+    width: 350px;
+    margin: 9px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.businessCards section p {
+    width: 320px;
+    padding: 3px;
+}
+
+.businessCards img {
     width: 200px;
+}
+
+.businessCards section p:first-child {
+    font-size: 16px;
+}
+
+.businessCards a:hover{
+    color: rgb(253, 187, 20);
+    text-decoration: none;
+}
+
+.switchListView {
+    display: block;
+}
+
+.switchListView img {
+    display: none;
+}
+
+.switchListView section {
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px
+}
+
+.switchListView section p1, .switchListView section p2  {
+    text-align: center;
+    padding: 9px;
+}
+.switchListView section a, .businessCards section a {
+    color: blue;
+    align-self: center;
+}
+
+.switchListView section{
+    border: 3px solid rgb(200, 65, 16);
+    border-radius: 10px;
+}
+
+.switchListView section:first-child {
+    background-color: rgb(255, 255, 255);
+}
+
+.switchListView section:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+.switchListView section:nth-child(odd) {
+    background-color: rgb(200, 65, 16);
+    color:rgb(255, 255, 255);
+}
+
+.switchListView section:nth-child(odd) a{
+    color:rgb(255, 255, 255);
+}
+
+.switchListView section:nth-child(odd) a:hover,
+.switchListView section:nth-child(even) a:hover{
+    color: rgb(253, 187, 20);
+    text-decoration: none;
+}
+
+.selectViewDirectory ul {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.selectViewDirectory ul li {
+    margin: 5px;
+}
+
+.selectViewDirectory a {
+ color: rgb(0, 0, 0);
+}
+
+.selectViewDirectory li {
+    list-style: none;
+}
+
+.gridViewbtn a,
+.listViewbtn a {
+    text-decoration: none;
+    background-color: rgb(90, 126, 173);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+
 }
 
 /*----------  Subsection Directory END ----------*/

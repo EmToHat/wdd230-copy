@@ -1,6 +1,6 @@
 const requestURL = 'https://emt0rres.github.io/wdd230/chamber/data/directory.json';
 
-const cards = document.querySelector('.businessCards');
+const cards = document.querySelector('div.businessCards');
 
 fetch(requestURL)
   .then(function (response) {
@@ -40,3 +40,13 @@ function displayCompanies(company) {
     
     cards.appendChild(card);
 }
+
+const gridView = document.querySelector('.gridViewbtn');
+// const selectView = document.querySelector('.cards');
+const listView = document.querySelector('.listViewbtn');
+
+gridView.addEventListener('click', () => {cards.classList.add('businessCards')}, once="true");
+gridView.addEventListener('click', () => {cards.classList.remove('switchListView')}, once="true");
+
+listView.addEventListener('click', () => {cards.classList.add('switchListView')}, once="true");
+listView.addEventListener('click', () => {cards.classList.remove('businessCards')}, once="true");

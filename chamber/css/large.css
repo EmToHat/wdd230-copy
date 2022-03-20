@@ -6,16 +6,16 @@
     =                   MAIN                     =
     =============================================*/
     /*----------Subsection Index STRT  ----------*/
-    .home{
+    .home {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .welcome{
+    .welcome {
         grid-column: span 3;
     }
 
-    .event{
+    .event {
         grid-column: 1/2;
     }
 
@@ -23,13 +23,14 @@
         grid-column: span 2;
     }
 
-    .news, .spotlights{
+    .news, .spotlights {
         grid-column: span 3;
     }
 
-    .spotlights img{
+    .spotlights img {
         width: 250px;
     }
+
     /*----------  Subsection Index END  ----------*/
 
 
@@ -40,7 +41,7 @@
         text-align: center;
     }
 
-    .discover h1{
+    .discover h1 {
         grid-column: span 3;
     }
 
@@ -74,15 +75,17 @@
     .sign, .canyon, .blue {
         grid-row: 6/7;
     }
+
     /*---------- Subsection Discover END ----------*/
 
 
     /*---------- Subsection Join STRT ----------*/
-    .join{
+    .join {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     /*---------- Subsection Join END ----------*/
 
 
@@ -91,7 +94,17 @@
 
 
     /*---------- Subsection Directory STRT ----------*/
-  
+    /* end */
+
+    @media (min-width: 1040px) {
+
+        .businessCards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+    }
+
     /*---------- Subsection Directory END ----------*/
 
     /*=====  End of MAIN CONTENT  ======*/

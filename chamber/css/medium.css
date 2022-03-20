@@ -156,10 +156,10 @@
     /*----------  Subsection Discover END  ----------*/
 
     /*----------  Subsection Directory STRT  ----------*/
-    
-    .cards section,
-    .cards section p {
-        max-width: 23em;
+    .businessCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }
 
     /*----------  Subsection Directory END  ----------*/
