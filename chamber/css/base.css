@@ -115,6 +115,11 @@ nav {
     display: block;
 }
 
+nav ul li.active a {
+    color: rgb(253, 187, 20);
+    text-decoration: underline;
+  }
+
 /*=====  End of HEADER   ======*/
 
 
@@ -172,7 +177,7 @@ nav {
 
 .date{
     width: 70px;
-    background-color: #fdbb14;
+    background-color: rgb(253, 187, 20);
     margin: 9px;
     padding: 15px;
     border-radius: 8px;
@@ -224,15 +229,30 @@ nav {
 /*----------  Subsection Discover STRT  ----------*/
 .discover {
     text-align: center;
+    margin: 9px;
 }
 
-.discover picture {
+.grow {
     padding: 8px;
 }
 /*----------  Subsection Discover END  ----------*/
 
 /*----------  Subsection Directory STRT ----------*/
+.directory-container-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.directory-container-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.directory img{
+    width: 200px;
+}
 
 /*----------  Subsection Directory END ----------*/
 
@@ -397,8 +417,11 @@ footer section.box4 div.social ul li {
     padding: 8px;
 }
 
+.box3 a{
+    color:rgb(255, 255, 255);
+}
 .box3 a:hover{
-    color:rgb(176, 167, 224);
+    color: rgb(253, 187, 20);
     text-decoration: none;
 }
 

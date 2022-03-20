@@ -45,7 +45,7 @@
         <ul class="navigation">
           <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="discover.html">Discover</a></li>
+          <li class="active"><a href="discover.html">Discover</a></li>
           <li><a href="join.html">Join</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -54,322 +54,383 @@
     </header>
 
     <!--Main-->
-    <main class="clearfix discover">
-      <h1>Come Discover Southern Utah!</h1>
-      <div class="discoverdarkline"></div>
-      <picture class="grow angels">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/angels-landing-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/angels-landing-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/angels-landing-800.jpg"
-        />
-        <img
-          src="images/discover/angels-landing-1024.jpg"
-          data-src="images/discover/angels-landing-1024.jpg"
-          alt="Angels Landing"
-        />
-      </picture>
-      <picture class="grow arches">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/arches-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/arches-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/arches-800.jpg"
-        />
-        <img
-          src="images/discover/arches-1024.jpg"
-          data-src="images/discover/arches-1024.jpg"
-          alt="Arches in Southern Utah"
-        />
-      </picture>
-      <picture class="grow sheep">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/bighorn-sheep-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/bighorn-sheep-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/bighorn-sheep-800.jpg"
-        />
-        <img
-          src="images/discover/bighorn-sheep-1024.jpg"
-          data-src="images/discover/bighorn-sheep-1024.jpg"
-          alt="Big Horned Sheep"
-        />
-      </picture>
-      <picture class="grow sculpture">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/bronze-sculpture-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/bronze-sculpture-500.jpg"
-        />
-        <source
-          media="(max-width:
-        800px)"
-          srcset="images/discover/bronze-sculpture-800.jpg"
-        />
-        <img
-          src="images/discover/bronze-sculpture-1024.jpg"
-          data-src="images/discover/bronze-sculpture-1024.jpg"
-          alt="Native American Sculpture"
-        />
-      </picture>
-      <picture class="grow bryce">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/bryce-canyon-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/bryce-canyon-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/bryce-canyon-800.jpg"
-        />
-        <img
-          src="images/discover/bryce-canyon-1024.jpg"
-          data-src="images/discover/bryce-canyon-1024.jpg"
-          alt="Bryce Canyon"
-        />
-      </picture>
-      <picture class="grow canyon">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/canyon-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/canyon-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/canyon-800.jpg"
-        />
-        <img
-          src="images/discover/canyon-1024.jpg"
-          data-src="images/discover/canyon-1024.jpg"
-          alt="Red Canyon"
-        />
-      </picture>
-      <picture class="grow devil">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/devils-garden-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/devils-garden-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/devils-garden-800.jpg"
-        />
-        <img
-          src="images/discover/devils-garden-1024.jpg"
-          data-src="images/discover/devils-garden-1024.jpg"
-          alt="Devils Garden"
-        />
-      </picture>
-      <picture class="grow fairy">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/fairyland-canyon-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/fairyland-canyon-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/fairyland-canyon-800.jpg"
-        />
-        <img
-          src="images/discover/fairyland-canyon-1024.jpg"
-          data-src="images/discover/fairyland-canyon-1024.jpg"
-          alt="Fairyland under the Stars"
-        />
-      </picture>
+    <main class="clearfix">
+      <div class="discover">
+        <div class="header">
+          <h2>Come Discover Southern Utah!</h2>
+          <div class="darkline"></div>
+        </div>
 
-      <picture class="grow reef">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/silver-reef200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/silver-reef500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/silver-reef800.jpg"
-        />
-        <img
-          src="images/discover/silver-reef1024.jpg"
-          data-src="images/discover/silver-reef1024.jpg"
-          alt="Silver Reef Sign"
-        />
-      </picture>
+        <div class="grow angels">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/angels-landing-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/angels-landing-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/angels-landing-800.jpg"
+            />
+            <img
+              src="images/discover/angels-landing-1024.jpg"
+              data-src="images/discover/angels-landing-1024.jpg"
+              alt="Angels Landing"
+            />
+          </picture>
+          <div class="caption">Angels Landing</div>
+        </div>
 
-      <picture class="grow utah">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/southern-utah1-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/southern-utah1-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/southern-utah1-800.jpg"
-        />
-        <img
-          src="images/discover/southern-utah1-1024.jpg"
-          data-src="images/discover/southern-utah1-1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow arches">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/arches-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/arches-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/arches-800.jpg"
+            />
+            <img
+              src="images/discover/arches-1024.jpg"
+              data-src="images/discover/arches-1024.jpg"
+              alt="Arches in Southern Utah"
+            />
+          </picture>
+          <div class="caption">Arches in Southern Utah</div>
+        </div>
 
-      <picture class="grow road">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/southern-utah200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/southern-utah500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/southern-utah800.jpg"
-        />
-        <img
-          src="images/discover/southern-utah1024.jpg"
-          data-src="images/discover/southern-utah1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow sheep">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/bighorn-sheep-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/bighorn-sheep-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/bighorn-sheep-800.jpg"
+            />
+            <img
+              src="images/discover/bighorn-sheep-1024.jpg"
+              data-src="images/discover/bighorn-sheep-1024.jpg"
+              alt="Big Horned Sheep"
+            />
+          </picture>
+          <div class="caption">Big Horn Sheep in the Canyon</div>
+        </div>
 
-      <picture class="grow dixie">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/zion-national-park-1-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/zion-national-park-1-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/zion-national-park-1-800.jpg"
-        />
-        <img
-          src="images/discover/zion-national-park-1-1024.jpg"
-          data-src="images/discover/zion-national-park-1-1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow sculpture">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/bronze-sculpture-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/bronze-sculpture-500.jpg"
+            />
+            <source
+              media="(max-width:
+            800px)"
+              srcset="images/discover/bronze-sculpture-800.jpg"
+            />
+            <img
+              src="images/discover/bronze-sculpture-1024.jpg"
+              data-src="images/discover/bronze-sculpture-1024.jpg"
+              alt="Native American Sculpture"
+            />
+          </picture>
+          <div class="caption">Native American Sculpture in St. George</div>
+        </div>
+        
+        <div class="grow bryce">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/bryce-canyon-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/bryce-canyon-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/bryce-canyon-800.jpg"
+            />
+            <img
+              src="images/discover/bryce-canyon-1024.jpg"
+              data-src="images/discover/bryce-canyon-1024.jpg"
+              alt="Bryce Canyon"
+            />
+          </picture>
+          <div class="caption">Bryce Canyon</div>
+        </div>
+        
+        <div class="grow canyon">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/canyon-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/canyon-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/canyon-800.jpg"
+            />
+            <img
+              src="images/discover/canyon-1024.jpg"
+              data-src="images/discover/canyon-1024.jpg"
+              alt="Red Canyon"
+            />
+          </picture>
+          <div class="caption">Canyon</div>
+        </div>
+        
+        <div class="grow devil">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/devils-garden-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/devils-garden-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/devils-garden-800.jpg"
+            />
+            <img
+              src="images/discover/devils-garden-1024.jpg"
+              data-src="images/discover/devils-garden-1024.jpg"
+              alt="Devils Garden"
+            />
+          </picture>
+          <div class="caption">Devil's Garden</div>
+        </div>
+        
+        <div class="grow fairy">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/fairyland-canyon-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/fairyland-canyon-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/fairyland-canyon-800.jpg"
+            />
+            <img
+              src="images/discover/fairyland-canyon-1024.jpg"
+              data-src="images/discover/fairyland-canyon-1024.jpg"
+              alt="Fairyland under the Stars"
+            />
+          </picture>
+          <div class="caption">Fairyland Canyon under the stars</div>
+        </div>
 
-      <picture class="grow blue">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/arches-national-park-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/arches-national-park-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/arches-national-park-800.jpg"
-        />
-        <img
-          src="images/discover/arches-national-park-1024.jpg"
-          data-src="images/discover/arches-national-park-1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow reef">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/silver-reef200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/silver-reef500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/silver-reef800.jpg"
+            />
+            <img
+              src="images/discover/silver-reef1024.jpg"
+              data-src="images/discover/silver-reef1024.jpg"
+              alt="Silver Reef Sign"
+            />
+          </picture>
+          <div class="caption">Silver Reef</div>
+        </div>
 
-      <picture class="grow red">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/zion-national-park-3-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/zion-national-park-3-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/zion-national-park-3-800.jpg"
-        />
-        <img
-          src="images/discover/zion-national-park-3-1024.jpg"
-          data-src="images/discover/zion-national-park-3-1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow utah">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/southern-utah1-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/southern-utah1-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/southern-utah1-800.jpg"
+            />
+            <img
+              src="images/discover/southern-utah1-1024.jpg"
+              data-src="images/discover/southern-utah1-1024.jpg"
+              alt="Southern Utah"
+            />
+          </picture>
+          <div class="caption">Southern Utah</div>
+        </div>
 
-      <picture class="grow paint">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/zion-national-park-200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/zion-national-park-500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/zion-national-park-800.jpg"
-        />
-        <img
-          src="images/discover/zion-national-park-1024.jpg"
-          data-src="images/discover/zion-national-park-1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow road">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/southern-utah200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/southern-utah500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/southern-utah800.jpg"
+            />
+            <img
+              src="images/discover/southern-utah1024.jpg"
+              data-src="images/discover/southern-utah1024.jpg"
+              alt="Road in Southern Utah"
+            />
+          </picture>
+          <div class="caption">Southern Utah, St. George Road</div>
+        </div>
+        
+        <div class="grow dixie">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/zion-national-park-1-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/zion-national-park-1-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/zion-national-park-1-800.jpg"
+            />
+            <img
+              src="images/discover/zion-national-park-1-1024.jpg"
+              data-src="images/discover/zion-national-park-1-1024.jpg"
+              alt="Dixie National Forest"
+            />
+          </picture>
+          <div class="caption">Dixie National Forest</div>
+        </div>
 
-      <picture class="grow sign">
-        <source
-          media="(max-width: 200px)"
-          srcset="images/discover/zion-national-park200.jpg"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcset="images/discover/zion-national-park500.jpg"
-        />
-        <source
-          media="(max-width: 800px)"
-          srcset="images/discover/zion-national-park800.jpg"
-        />
-        <img
-          src="images/discover/zion-national-park1024.jpg"
-          data-src="images/discover/zion-national-park1024.jpg"
-          alt="Cacti in Southern Utah"
-        />
-      </picture>
+        <div class="grow blue">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/arches-national-park-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/arches-national-park-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/arches-national-park-800.jpg"
+            />
+            <img
+              src="images/discover/arches-national-park-1024.jpg"
+              data-src="images/discover/arches-national-park-1024.jpg"
+              alt="Arches National Park"
+            />
+          </picture>
+          <div class="caption">Arches National Park</div>
+        </div>
+
+        <div class="grow red">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/zion-national-park-3-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/zion-national-park-3-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/zion-national-park-3-800.jpg"
+            />
+            <img
+              src="images/discover/zion-national-park-3-1024.jpg"
+              data-src="images/discover/zion-national-park-3-1024.jpg"
+              alt="Arches"
+            />
+          </picture>
+          <div class="caption">Arches National Park</div>
+        </div>
+
+        <div class="grow paint">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/zion-national-park-200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/zion-national-park-500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/zion-national-park-800.jpg"
+            />
+            <img
+              src="images/discover/zion-national-park-1024.jpg"
+              data-src="images/discover/zion-national-park-1024.jpg"
+              alt="Cacti in Southern Utah"
+            />
+          </picture>
+          <div class="caption">Zion National Park</div>
+        </div>
+
+        <div class="grow sign">
+          <picture>
+            <source
+              media="(max-width: 200px)"
+              srcset="images/discover/zion-national-park200.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              srcset="images/discover/zion-national-park500.jpg"
+            />
+            <source
+              media="(max-width: 800px)"
+              srcset="images/discover/zion-national-park800.jpg"
+            />
+            <img
+              src="images/discover/zion-national-park1024.jpg"
+              data-src="images/discover/zion-national-park1024.jpg"
+              alt="Zion National Park Sign"
+            />
+          </picture>
+          <div class="caption">Zion National Park Sign</div>
+        </div>
+        
+      </div>
     </main>
 
     <!--Footer-->
@@ -405,19 +466,16 @@
           <h3>Additional Resources</h3>
           <p>
             <a href="join.html">Join Today!</a>
-            <br>
+            <br />
             <a href="directory.html">Chamber Directory</a>
-            <br>
+            <br />
             <a href="contact.html">Contact Us</a>
           </p>
-
         </section>
 
         <section class="box4">
           <h3>Stay Connected!</h3>
-          <p>
-            Feel free to follow us on social media! 
-          </p>
+          <p>Feel free to follow us on social media!</p>
           <div class="social">
             <ul>
               <li>

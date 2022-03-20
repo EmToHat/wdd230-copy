@@ -47,22 +47,27 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="directory.html">Directory</a></li>
+          <li class="active"><a href="directory.html">Directory</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <!--Main-->
-    <main>
-      <div class="directory-view">
-        <ul>
-            <li><button onclick="listView()"><i class="list"></i> &#9776; List</button></li>
-            <li><button onclick="gridView()"><i class="grid"></i> &#9783; Grid</button></li>
-        </ul>
+    <main class="clearfix">
+      <div class="square directory">
+        <div class="header">
+          <h2>Business Directory</h2>
+          <div class="darkline"></div>
+        </div>
+        <div class="directory-view">
+          <button>&#9776; List</button>
+          <button>&#9783; Grid</button>
+        </div>
+        <div class="directory-container-list directory-container-grid"></div>
+          <div class="businessCards"></div>
+        </div>
       </div>
-
-      <div class="businessCards column"></div>
     </main>
 
     <!--Footer-->
