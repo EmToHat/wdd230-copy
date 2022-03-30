@@ -1,0 +1,167 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the home/landing page for the Temple Inn and Suites Website. It displays snipits of information regarding this fictional hotel."
+    />
+
+    <!--Hamburger Menu Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Temple Inn and Suites</title>
+  </head>
+  <body>
+<header>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <div class="title">
+            <img src="images/logo.png" id="logo" alt="logo">
+            <h1 class="active">Temple Inn & Suites</h1>
+        </div>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="curved-background">
+        <img src="images/headerbg.svg" id="bg" alt="background">
+    </div>
+
+    </header>
+    <main>
+      <span id="closeableWeather">Weather Alert</span>
+
+      <div class="box">
+        <h2>Save time and money! Book your next temple trip today!</h2>
+        <button>Book Today!</button>
+      </div>
+
+      <!--<div class="box">
+        <img src="" alt="Hotel Image" />
+      </div>-->
+
+      <div class="box">
+        <h2>
+          The Temple Inn & Suites is a hotel chain that is owned and operated by
+          The Church of Jesus Christ of Latter-day Saints. These are hotel
+          accomidations for those of the LDS faith.
+        </h2>
+        <button>Learn More</button>
+        <button>Book Now!</button>
+      </div>
+
+      <div class="box">
+        <h2>Contact Info</h2>
+        <p>+51 41 244952382</p>
+        <p>F6, La Molina 15024, Peru</p>
+        <!--<img src="" alt="Temple Inn & Suites Hotel Map" />-->
+      </div>
+
+      <div class="box">
+        <h2>Amenities</h2>
+        <!--<img src="" alt="Wifi Icon" />
+        <img src="" alt="Free Breakfast Icon" />
+        <img src="" alt="Gym Icon" />-->
+        <button>View More</button>
+      </div>
+
+      <div class="box">
+        <h2>Places to See</h2>
+        <!--<img src="" alt="Left Arrow" />
+
+        <img src="" alt="Peruvian Restaurant" />
+        <img src="" alt="Peruvian History" />
+        <img src="" alt="Peruvian People" />
+
+        <img src="" alt="Right Arrow" />-->
+
+        <button>View More</button>
+      </div>
+
+      <div class="box">
+        <h2>Rooms</h2>
+        <!--<img src="" alt="Left Arrow" />
+
+        <img src="" alt="Large Room" />
+        <img src="" alt="Youth Room" />
+        <img src="" alt="Newly Wed's Room" />
+
+        <img src="" alt="Right Arrow" />-->
+
+        <button>More Info</button>
+      </div>
+
+      <div class="box">
+        <!--<img src="" alt="Lima Peru LDS Temple" />-->
+        <h2>Temple</h2>
+        <p>Temple Information</p>
+        <button>More Info</button>
+      </div>
+
+      <div class="box">
+        <h2>Weather</h2>
+        <h3>Lima,Peru</h3>
+        <p>Sun 27 March</p>
+        <!--<img src="" alt="Weather Icon" />-->
+        <h3>69 °F</h3>
+        <p>Rainy</p>
+        <h3>18%</h3>
+        <p>Percipitation</p>
+        <h3>8mph</h3>
+        <p>Wind</p>
+        <h3>78%</h3>
+        <p>Humidity</p>
+        <!--<img src="" alt="Weather Icon" />-->
+        <h3>Mon</h3>
+        <p>77 °F</p>
+        <!--<img src="" alt="Weather Icon" />-->
+        <h3>Tue</h3>
+        <p>76 °F</p>
+        <!--<img src="" alt="Weather Icon" />-->
+        <h3>Wed</h3>
+        <p>75 °F</p>
+      </div>
+    </main>
+    <footer>
+        <div class="box footer">
+            <img src="images/footerbg.svg" id="footerbg" alt="background">
+            <div>
+                <h2>Location</h2>
+                <p>Temple Inn & Suites</p>
+                <p>F6, La Molina 15024, Peru</p>
+                <p>Headquarters</p>
+                <p>Bethesda, MD</p>
+                <p>©2022 Emilee Hatch  |  BYU-Idaho</p>
+              </div>
+        </div>
+        
+
+          <script src="js/index.js"></script>
+    </footer>
+  </body>
+</html>
