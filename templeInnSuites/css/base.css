@@ -1,98 +1,96 @@
-
 /* Small View */
-
-
 
 /*=============================================
 =                  All Elements               =
 =============================================*/
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Barlow', sans-serif;
-    /*font-family: 'M PLUS 1', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  /*font-family: 'M PLUS 1', sans-serif;
     font-family: 'M PLUS Rounded 1c', sans-serif;*/
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 header, footer {
-    background-color: #0A97DC;
-    color: white;
-    text-align: center;
+  background-color: #0A97DC;
+  color: white;
+  text-align: center;
 }
 
 .title {
-    padding: 10px;
+  padding: 10px;
 }
 
-/* Style the navigation menu */
+/* nav menu */
 .topnav {
-    overflow: hidden;
-    background-color: #0A97DC;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: #0A97DC;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #0A97DC;
-    color: #2B4C9D;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #0A97DC;
-    color: white;
-    padding: 20px;
-  }
+  overflow: hidden;
+  background-color: #0A97DC;
+  position: relative;
+}
+
+/* hides links */
+.topnav #myNavLinks {
+  display: none;
+}
+
+/* Nav links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Hamburger Menu */
+.topnav a.icon {
+  background: #0A97DC;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Hover */
+.topnav a:hover {
+  background-color: #0A97DC;
+  color: #2B4C9D;
+}
+
+/* Active "link" */
+.active {
+  background-color: #0A97DC;
+  color: white;
+  padding: 20px;
+}
 
 main {
-    margin: 10px;
+  margin: 10px;
 }
 
 button {
-    width: 100px;
-    height: 25px;
-    background-color: gray;
-    border-radius: 2rem;
-    border-style: none;
+  width: 100px;
+  height: 25px;
+  background-color: #2B4C9D;
+  color: white;
+  border-radius: 2rem;
+  border-style: none;
 }
 
 .title {
-    display: flex;
-    text-align: left;
-    font-size: 14px;
-    justify-content: center;
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  justify-content: center;
 }
 
 #logo {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 /*=====  End of All Elements  ======*/
@@ -102,8 +100,11 @@ button {
 =            Home Elements                    =
 =============================================*/
 .box {
-    background-color: #0A97DC;
-    margin: 10px;
+  border-style: solid;
+  border-color: #0A97DC;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
 }
 
 
