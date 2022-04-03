@@ -16,7 +16,7 @@ img {
 }
 
 header, footer {
-  background-color: #0A97DC;
+  background-color: #32657F;
   color: white;
   text-align: center;
 }
@@ -28,7 +28,7 @@ header, footer {
 /* nav menu */
 .topnav {
   overflow: hidden;
-  background-color: #0A97DC;
+  background-color: #32657F;
   position: relative;
 }
 
@@ -48,7 +48,7 @@ header, footer {
 
 /* Hamburger Menu */
 .topnav a.icon {
-  background: #0A97DC;
+  background: #32657F;
   display: block;
   position: absolute;
   right: 0;
@@ -57,13 +57,13 @@ header, footer {
 
 /* Hover */
 .topnav a:hover {
-  background-color: #0A97DC;
-  color: #2B4C9D;
+  background-color: #32657F;
+  color: white;
 }
 
 /* Active "link" */
 .active {
-  background-color: #0A97DC;
+  background-color: #32657F;
   color: white;
   padding: 20px;
 }
@@ -75,7 +75,7 @@ main {
 button {
   width: 100px;
   height: 25px;
-  background-color: #2B4C9D;
+  background-color: #E5A988;
   color: white;
   border-radius: 2rem;
   border-style: none;
@@ -93,6 +93,15 @@ button {
   width: 50px;
 }
 
+.alert {
+  background-color: #E5A988;
+}
+
+.footerb{
+  background-color: #32657F;
+  padding: 10px;
+}
+
 /*=====  End of All Elements  ======*/
 
 
@@ -107,5 +116,7 @@ button {
   text-align: center;
 }
 
-
+.weather {
+  background-color: #E5A988;
+}
 /*=====  End of Home Elements  ======*/
