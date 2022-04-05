@@ -6,9 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Barlow', sans-serif;
-  /*font-family: 'M PLUS 1', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;*/
+  font-family: 'Barlow', sans-serif, Arial;
 }
 
 img {
@@ -21,9 +19,8 @@ header, footer {
   text-align: center;
 }
 
-.title {
-  padding: 10px;
-}
+/*----------  Header  ----------*/
+/* title, logo, nav links, hamburger menu icon, light blue line, and weather alert*/
 
 /* nav menu */
 .topnav {
@@ -32,6 +29,51 @@ header, footer {
   position: relative;
 }
 
+/* class = title */
+/* logo and title */
+.title {
+  padding: 10px;
+}
+
+.hamburger-icon {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#hamburger {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  padding: 10px;
+  grid-column: 2/3;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Active "link" */
+.active {
+  background-color: #32657F;
+  color: white;
+  padding: 20px;
+  grid-column: span 2;
+  grid-row: 3/4;
+}
+
+.active h1 {
+  font-weight: 600;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+/* id = myNavLinks */
 /* hides links */
 .topnav #myNavLinks {
   display: none;
@@ -61,45 +103,42 @@ header, footer {
   color: white;
 }
 
-/* Active "link" */
-.active {
+.alert {
+  background-color: #E5A988;
+  width: 100%;
+  padding: 15px;
+}
+
+#close {
+  height: 20px;
+  width: 20px;
+  float: left;
+  cursor: pointer;
+}
+
+.footerb {
   background-color: #32657F;
-  color: white;
-  padding: 20px;
+  padding: 10px;
 }
 
-main {
-  margin: 10px;
+.blue-background {
+  width: 100%;
+  height: 40px;
+  background-color: #89B5C3;
 }
 
+/*----------  Main  ----------*/
+/* title, logo, nav links, hamburger menu icon, light blue line, and weather alert*/
 button {
-  width: 100px;
-  height: 25px;
+  width: 125px;
+  height: 30px;
   background-color: #E5A988;
   color: white;
   border-radius: 2rem;
   border-style: none;
-}
-
-.title {
-  display: flex;
-  text-align: left;
-  font-size: 14px;
-  justify-content: center;
-}
-
-#logo {
-  height: 50px;
-  width: 50px;
-}
-
-.alert {
-  background-color: #E5A988;
-}
-
-.footerb{
-  background-color: #32657F;
-  padding: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /*=====  End of All Elements  ======*/
@@ -118,5 +157,12 @@ button {
 
 .weather {
   background-color: #E5A988;
+  border-radius: 8px;
 }
+
+h2 {
+  font-weight: 400;
+  padding: 10px;
+}
+
 /*=====  End of Home Elements  ======*/
