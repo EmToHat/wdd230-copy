@@ -7,7 +7,7 @@
         "phone": "(54) 11-4693-9700",
         "website": "https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng",
         "closures": "Mon, 18 April 2022 - Mon, 2 May 2022 | Wed, 18 May 2022 (Limited Operations) | Sat, 1 Oct 2022 (Limited Operations) | Mon, 3 Oct 2022 - Mon, 17 Oct 2022 | Sat, 24 Dec 2022 - Sun, 25 Dec 2022 | Sat, 31 Dec 2022 - Sun, 1 Jan 2023",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/buenos_aires.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/buenos_aires.jpg"
       },
       {
         "name": "Córdoba Argentina Temple",
@@ -16,7 +16,7 @@
         "phone": "(54) 354-340-6200",
         "website": "https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng",
         "closures": "Mon, 2 May 2022 - Mon, 16 May 2022 | Wed, 18 May 2022 | Sat, 9 July 2022 | Sat, 1 Oct 2022 | Mon, 3 Oct 2022 - Mon, 12 Dec 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/cordoba.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/cordoba.jpg"
       },
       {
         "name": "Cochabamba Bolivia Temple",
@@ -25,7 +25,7 @@
         "phone": "(591) 4-429-3161",
         "website": "https://www.churchofjesuschrist.org/temples/details/cochabamba-bolivia-temple?lang=eng",
         "closures": "Mon, 11 April 2022 - Mon, 6 June 2022 | Sat, 6 Aug 2022 | Sat, 1 Oct 2022 | Mon, 3 Oct 2022 - Mon, 17 Oct 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/cochabamba.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/cochabamba.jpg"
       },
       {
         "name": "Campinas Brazil Temple",
@@ -34,7 +34,7 @@
         "phone": "(55) 19-2102-5800",
         "website": "https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
         "closures": "Mon, 19 Sep 2022 - Mon, 28 Nov 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/campinas.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/campinas.jpg"
       },
       {
         "name": "Fortaleza Brazil Temple",
@@ -43,7 +43,7 @@
         "phone": "(55) 85-3533-7150",
         "website": "https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng",
         "closures": "Mon, 28 Mar 2022 - Mon, 11 April 2022 | Fri, 15 April 2022 (Limited Operations)| Thurs, 21 April 2022 (Limited Operations) | Sat, 1 Oct 2022 | Tues, 15 Nov 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/fortaleza.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/fortaleza.jpg"
       },
       {
         "name": "Manaus Brazil Temple",
@@ -52,7 +52,7 @@
         "phone": "(55) 92-3212-7270",
         "website": "https://www.churchofjesuschrist.org/temples/details/manaus-brazil-temple?lang=eng",
         "closures": "Fri, 15 April 2022 (Limited Operations) | Thurs, 21 April 2022 (Limited Operations)| Mon, 6 June 2022 - Mon, 15 Aug 2022 | Thurs, 16 June 2022 (Limited Operations) | Wed, 7 Sep 2022 (Limited Operations) | Sat, 1 Oct 2022 - Sun, 2 Oct 2022 | Wed, 12 Oct 2022 (Limited Operations) | Wed, 2 Nov 2022 (Limited Operations) | Tues, 15 Nov 2022 (Limited Operations)| Thurs, 8 Dec 2022 (Limited Operations)| Sat, 24 Dec 2022 - Sun, 25 Dec 2022 | Sat, 31 Dec 2022 - Sun, 1 Jan 2023",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/manaus.png"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/manaus.png"
       },
       {
         "name": "Recife Brazil Temple",
@@ -61,7 +61,7 @@
         "phone": "(55) 81-2129-4300",
         "website": "https://www.churchofjesuschrist.org/temples/details/recife-brazil-temple?lang=eng",
         "closures": "Mon, 4 April 2022 - Mon, 18 April 2022 | Sat, 1 Oct 2022 | Mon, 3 Oct 2022 - Mon, 17 Oct 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/recife.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/recife.jpg"
       },
       {
         "name": "São Paulo Brazil Temple",
@@ -70,7 +70,7 @@
         "phone": "(55) 11-3723-7600",
         "website": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
         "closures": "Mon, 1 Aug 2022 - Mon, 15 Aug 2022 | Wed, 7 Sep 2022 | Sat, 1 Oct 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/sao_paulo.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/sao_paulo.jpg"
       },
       {
         "name": "Concepción Chile Temple",
@@ -79,7 +79,7 @@
         "phone": "(56) 41-3834700",
         "website": "https://www.churchofjesuschrist.org/temples/details/concepcion-chile-temple?lang=eng",
         "closures": "Mon, 9 May 2022 - Mon, 23 May 2022 | Sat, 1 Oct 2022 | Mon, 14 Nov 2022 - Mon, 28 Nov 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/concepcion.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/concepcion.jpg"
       },
       {
         "name": "Santiago Chile Temple",
@@ -88,7 +88,7 @@
         "phone": "(56) 22-340-5070",
         "website": "https://www.churchofjesuschrist.org/temples/details/santiago-chile-temple?lang=eng",
         "closures": "Sat, 21 May 2022 | Mon, 1 Aug 2022 - Mon, 29 Aug 2022 | Sat, 17 Sep 2022 | Sat, 1 Oct 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/santiago.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/santiago.jpg"
       },
       {
         "name": "Bogotá Colombia Temple",
@@ -97,7 +97,7 @@
         "phone": "(57) 1-625-8000",
         "website": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
         "closures": "Wed, 20 July 2022 | Mon, 19 Sep 2022 - Mon, 28 Nov 2022 | Thurs, 8 Dec 2022 | Sat, 24 Dec 2022 | Sat, 31 Dec 2022 - Sun, 1 Jan 2023",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/bogota.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/bogota.jpg"
       },
       {
         "name": "Arequipa Peru Temple",
@@ -106,7 +106,7 @@
         "phone": "(51) 54-640-300",
         "website": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng",
         "closures": "Thurs, 28 July 2022 - Fri, 29 July 2022 | Mon, 1 Aug 2022 - Mon, 15 Aug 2022 |Sat, 1 Oct 2022 | Sat, 24 Dec 2022 |Sat, 31 Dec 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/arequipa.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/arequipa.jpg"
       },
       {
         "name": "Lima Peru Temple",
@@ -115,7 +115,7 @@
         "phone": "(51) 1-612-7200",
         "website": "https://www.churchofjesuschrist.org/temples/details/lima-peru-temple?lang=eng",
         "closures": "Mon, 18 April 2022 - Mon, 2 May 2022 | Thur, 28 July 2022 - Fri, 29 July 2022 | Sat, 1 Oct 2022 | Mon, 3 Oct 2022 - Mon, 17 Oct 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/lima.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/lima.jpg"
       },
       {
         "name": "Trujillo Peru Temple",
@@ -124,7 +124,7 @@
         "phone": "(51) 44-602-130",
         "website": "https://www.churchofjesuschrist.org/temples/details/trujillo-peru-temple?lang=eng",
         "closures": "Mon, 28 Mar 2022 - Mon, 6 June 2022 | Thurs, 28 July 2022 - Fri, 29 July 2022 | Sat, 1 Oct 2022 | Sat, 24 Dec 2022 | Sat, 31 December 2022",
-        "imageurl": "https://emt0rres.github.io/wdd230/templeinnsuites/images/temples/trujillo.jpg"
+        "imageurl": "https://emt0rres.github.io/wdd230/templeInnSuites/images/temples/trujillo.jpg"
       }
     ]
   }
