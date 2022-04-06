@@ -8,12 +8,6 @@
       content="This is the home/landing page for the Temple Inn and Suites Website. It displays snipits of information regarding this fictional hotel."
     />
 
-    <!--Hamburger Menu Icon-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-
     <!--CSS Files-->
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -56,10 +50,10 @@
         <!-- hidden nav links-->
         <div id="myNavLinks">
           <a href="#home">Home</a>
-          <a href="#news">Temple</a>
-          <a href="#contact">Reservation</a>
-          <a href="#about">Services</a>
-          <a href="#about">Contact Us</a>
+          <a href="temple.html">Temple</a>
+          <a href="reservation.html">Reservation</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
         </div>
       </div>
 
@@ -72,94 +66,108 @@
 
       <div class="box two">
         <h2>Save time and money!<br />Book your next temple trip today!</h2>
-        <button>Book Today!</button>
+        <button><a href="">Book Today!</a></button>
       </div>
 
       <div class="box three">
         <h2>Amenities</h2>
-        <!--<img src="" alt="Left Arrow" />
-
-        <img src="" alt="Large Room" />
-        <img src="" alt="Youth Room" />
-        <img src="" alt="Newly Wed's Room" />
-
-        <img src="" alt="Right Arrow" />-->
-
-        <button>More Info</button>
+        <button><a href="">More Info</a></button>
       </div>
 
-      <!-- Slideshow container -->
       <div class="box four">
         <h2>Rooms</h2>
-        <div class="slideshow-container">
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img1.jpg" style="width: 100%" />
-            <div class="text">Caption Text</div>
+        <div class="slideshow fade">
+          <div class="img-box">
+            <div class="pg-num">1 / 3</div>
+            <img src="images/rooms/graybed.jpg">
+            <div class="caption">Couple's Suite</div>
           </div>
 
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img2.jpg" style="width: 100%" />
-            <div class="text">Caption Two</div>
+          <div class="img-box">
+            <div class="pg-num">2 / 3</div>
+            <img src="images/rooms/goldpillows.jpg">
+            <div class="caption">Newly Wed Suite</div>
           </div>
 
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img3.jpg" style="width: 100%" />
-            <div class="text">Caption Three</div>
+          <div class="img-box">
+            <div class="pg-num">3 / 3</div>
+            <img src="images/rooms/greenpillow.jpg"/>
+            <div class="caption">Family Suite</div>
           </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <br />
 
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
+        <div class="three-dots">
+          <span class="dots" onclick="currentImage(1)"></span>
+          <span class="dots" onclick="currentImage(2)"></span>
+          <span class="dots" onclick="currentImage(3)"></span>
+        </div>  
       </div>
 
       <div class="box five">
         <h2>Temple Activities</h2>
+        <div class="foto-container">
+          <div class="photo left">
+            <img src="images/temple-activities/wedding.jpg" alt="Weddings" />
+            <div class="img-caption">
+              Photo by<a href="https://unsplash.com/@drewcoffman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Drew Coffman</a> on<a href="https://unsplash.com/s/photos/marriage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
+            </div>
+          </div>
 
-        <div class="photo left">
-          <img src="images/temple-activities/wedding.jpg" alt="Weddings" />
-          Photo by<a href="https://unsplash.com/@drewcoffman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Drew Coffman</a> on<a href="https://unsplash.com/s/photos/marriage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
-        </div>
-        
-        <div class="photo bottom-middle">
-          <img src="images/temple-activities/gardens.jpg" alt="Gardens" />
-          Photo by <a href="https://unsplash.com/@igcorreia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ignacio Correia</a> on<a href="https://unsplash.com/s/photos/garden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
-        </div>
-        
-        <div class="photo top-middle">
-          <img src="images/temple-activities/familyhistory.jpg"alt="Family History"/>
-          Photo by <a href="https://unsplash.com/@stayandroam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gemma Evans</a> on<a href="https://unsplash.com/s/photos/family-history?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
-        </div>
-    
-        <div class="photo right">
-          <img src="images/temple-activities/christ.jpg" alt="Come unto Christ"/>
-          Photo by <a href="https://unsplash.com/@wesleyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wesley Tingey</a>  on<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
-        </div>
+          <div class="photo top-middle">
+            <img src="images/temple-activities/familyhistory.jpg"alt="Family History"/>
+            <div class="img-caption">
+              Photo by <a href="https://unsplash.com/@stayandroam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gemma Evans</a> on<a href="https://unsplash.com/s/photos/family-history?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
+            </div>
+          </div>
 
-        <button>View More</button>
+          <div class="photo bottom-middle">
+            <img src="images/temple-activities/gardens.jpg" alt="Gardens" />
+            <div class="img-caption">
+              Photo by <a href="https://unsplash.com/@igcorreia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ignacio Correia</a> on<a href="https://unsplash.com/s/photos/garden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
+            </div>
+          </div>
+
+          <div class="img-caption">
+            <img src="images/temple-activities/christ.jpg" alt="Come unto Christ"/>
+            <div class="text">
+              Photo by <a href="https://unsplash.com/@wesleyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wesley Tingey</a> on<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="box temple-img six">
         <h2>Temple of the Day</h2>
-        <img
-          src="images/temples/lima_temple.jpg"
-          alt="Lima Peru LDS Temple France Temple"
-        />
-        <h3>Lima Peru Temple</h3>
-        <p>Temple Information</p>
-        <button>More Info</button>
+        <img src="images/temples/lima_temple.jpg"alt="Lima Peru LDS Temple France Temple" />
+        <div class="six-temple">
+          <h3 class="temple-box temple-top">Lima Peru Temple</h3>
+          <div class="temple-box temple-left">
+            <h4>Address</h4>
+            <p>Av. Javier Prado Este 6420
+              <br>
+              Urb. Santa Patricia
+              <br>
+              La Molina, Lima 12, Peru
+            </p>
+          </div>
+
+          <div class="temple-box temple-bottom">
+            <h4>Temple Ordinances</h4>
+            <p>Currently Phase 3: All living ordinances and limited proxy ordinances.</p>
+            <p>All ordinances are only available by appointment.</p>
+            <p>Patrons are highly encouraged to bring their own temple clothing.</p>
+          </div>
+
+          <div class="temple-box temple-right">
+            <h4>Temple Closures for 2022</h4>
+            <p>Monday, 18 April 2022 - Monday, 2 May 2022</p>
+            <p>Thursday, 28 July 2022 - Friday, 29 July 2022</p>
+            <p>Saturday, 1 October 2022</p>
+            <p>Monday, 3 October 2022 - Monday, 17 October 2022</p>
+          </div>
+        </div>
+  
+        <button><a href="">See More Temples!</a></button>
       </div>
 
       <div class="box weather seven">
@@ -214,6 +222,7 @@
         <p>©2022 Emilee Hatch | BYU-Idaho</p>
       </div>
       <script src="js/index.js"></script>
+      <script src="js/imageslideshow.js"></script>
     </footer>
   </body>
 </html>

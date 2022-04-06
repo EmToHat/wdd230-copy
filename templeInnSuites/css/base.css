@@ -4,6 +4,7 @@
 =                  All Elements               =
 =============================================*/
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Barlow', sans-serif, Arial;
@@ -41,8 +42,8 @@ header, footer {
 }
 
 #hamburger {
-  height: 25px;
-  width: 25px;
+  height: 64px;
+  width: 64px;
   cursor: pointer;
   padding: 10px;
   grid-column: 2/3;
@@ -62,10 +63,6 @@ header, footer {
   padding: 20px;
   grid-column: span 2;
   grid-row: 3/4;
-}
-
-.active h1 {
-  font-weight: 600;
 }
 
 #logo {
@@ -127,18 +124,45 @@ header, footer {
   background-color: #89B5C3;
 }
 
+h1 {
+  font-weight: 800;
+}
+
+h2{
+  font-weight: 500;
+  padding: 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+
 /*----------  Main  ----------*/
 /* title, logo, nav links, hamburger menu icon, light blue line, and weather alert*/
 button {
-  width: 125px;
-  height: 30px;
+  width: 200px;
+  height: 35px;
   background-color: #E5A988;
   color: white;
   border-radius: 2rem;
   border-style: none;
   cursor: pointer;
+}
+
+button a {
   font-weight: 400;
   font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  color: black;
 }
 
 /*=====  End of All Elements  ======*/
@@ -148,21 +172,142 @@ button {
 =            Home Elements                    =
 =============================================*/
 .box {
-  border-style: solid;
-  border-color: #0A97DC;
   margin: 10px;
   padding: 5px;
   text-align: center;
 }
 
+.two, .three, .four, .five, .six, .eight {
+  border: 2px dotted;
+  border-color: #32657F;
+  border-radius: 8px;
+}
+
+/* Box one */
+
+
+/* Box two */
+
+
+/* Box three */
+
+
+/* Box four */
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.img-box {
+  display: none;
+}
+
+.caption {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.461);
+  width: 200px;
+  font-size: 16px;
+  padding: 14px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.pg-num {
+  color: #ececed;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.dots {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 3px;
+  background-color: #89B5C3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+
+.three-dots {
+  padding: 10px;
+  text-align: center;
+}
+
+.enable, .dots:hover {
+  background-color: #32657F;
+}
+/* Box five */
+.foto-container{
+  display: flex;
+  flex-direction: column;
+}
+.photo{
+  padding: 8px;
+}
+.photo img{
+  width: 340px;
+  box-shadow: 5px 5px #dedede;
+}
+
+.img-caption {
+  padding: 8px;
+}
+/* Box six */
+.six-temple{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr;
+  padding: 10px;
+  gap: 9px;
+}
+
+.temple-top{
+  padding: 8px;
+  grid-column: span 2;
+}
+
+.six p {
+  font-weight: 300;
+  padding: 2px;
+}
+
+.temple-box {
+  padding: 10px;
+  background-color: #89B5C3;
+  border-radius: 8px;
+}
+
+.temple-bottom{
+  grid-column: span 2;
+  text-align: center;
+}
+
+.temple-left{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.temple-right{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+/* Box seven */
 .weather {
   background-color: #E5A988;
   border-radius: 8px;
 }
 
-h2 {
-  font-weight: 400;
-  padding: 10px;
-}
+/* Box eight */
+
 
 /*=====  End of Home Elements  ======*/
