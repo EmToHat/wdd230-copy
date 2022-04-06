@@ -17,26 +17,32 @@ function displayTemples(temple) {
   // Create elements to add to the document
     let card = document.createElement('section');
     let templeImg = document.createElement('img');
-    let templeName = document.createElement('h2');
+    let templeName = document.createElement('h3');
+    let countryName = document.createElement('h4');
     let templeAddress = document.createElement('p');
     let templePhone = document.createElement('p');
     let templeWebsite = document.createElement('a');
+    let templeClosures = document.createElement('p');
     
     templeName.innerHTML = `${temple.name}`;
+    countryName.innerHTML = `${temple.country}`;
     templeAddress.innerHTML = `${temple.address}`;
     templePhone.innerHTML = `${temple.phone}`;
     templeWebsite.innerHTML = `${temple.website}`;
+    templeClosures.innerHTML = `${temple.closures}`;
 
     templeImg.setAttribute('src', temple.imageurl);
-    templeImg.setAttribute('alt', 'Logo of ' + `${temple.name}`);
+    templeImg.setAttribute('alt', 'Image of ' + `${temple.name}`);
     templeImg.setAttribute('loading', 'lazy');
     templeWebsite.setAttribute('href', `${temple.website}`)
     
     card.appendChild(templeImg);
     card.appendChild(templeName);
+    card.appendChild(countryName);
     card.appendChild(templeAddress);
     card.appendChild(templePhone);
     card.appendChild(templeWebsite);
+    card.appendChild(templeClosures);
     
     cards.appendChild(card);
 }
