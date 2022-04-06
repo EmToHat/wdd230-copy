@@ -25,11 +25,11 @@ function displayTemples(temple) {
     let templeClosures = document.createElement('p');
     
     templeName.innerHTML = `${temple.name}`;
-    countryName.innerHTML = `${temple.country}`;
-    templeAddress.innerHTML = `${temple.address}`;
-    templePhone.innerHTML = `${temple.phone}`;
-    templeWebsite.innerHTML = `${temple.website}`;
-    templeClosures.innerHTML = `${temple.closures}`;
+    countryName.innerHTML = `Country: ${temple.country}`;
+    templeAddress.innerHTML = `Address: ${temple.address}`;
+    templePhone.innerHTML = `Phone Number: ${temple.phone}`;
+    templeWebsite.innerHTML = `Website: ${temple.website}`;
+    templeClosures.innerHTML = `Closures: ${temple.closures}`;
 
     templeImg.setAttribute('src', temple.imageurl);
     templeImg.setAttribute('alt', 'Image of ' + `${temple.name}`);

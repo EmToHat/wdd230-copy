@@ -15,7 +15,7 @@ img {
 }
 
 header, footer {
-  background-color: #32657F;
+  background-color: rgb(50, 102, 129);
   color: white;
   text-align: center;
 }
@@ -26,7 +26,7 @@ header, footer {
 /* nav menu */
 .topnav {
   overflow: hidden;
-  background-color: #32657F;
+  background-color: rgb(50, 101, 127);
   position: relative;
 }
 
@@ -58,8 +58,8 @@ header, footer {
 
 /* Active "link" */
 .active {
-  background-color: #32657F;
-  color: white;
+  background-color: rgb(50, 101, 127);
+  color: rgb(255, 255, 255);
   padding: 20px;
   grid-column: span 2;
   grid-row: 3/4;
@@ -78,7 +78,7 @@ header, footer {
 
 /* Nav links */
 .topnav a {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -87,7 +87,7 @@ header, footer {
 
 /* Hamburger Menu */
 .topnav a.icon {
-  background: #32657F;
+  background: rgb(50, 102, 129);
   display: block;
   position: absolute;
   right: 0;
@@ -96,12 +96,12 @@ header, footer {
 
 /* Hover */
 .topnav a:hover {
-  background-color: #32657F;
+  background-color: rgb(50, 101, 127);
   color: white;
 }
 
 .alert {
-  background-color: #E5A988;
+  background-color: rgb(229, 169, 136);
   width: 100%;
   padding: 15px;
 }
@@ -114,14 +114,14 @@ header, footer {
 }
 
 .footerb {
-  background-color: #32657F;
+  background-color: rgb(50, 101, 127);
   padding: 10px;
 }
 
 .blue-background {
   width: 100%;
   height: 40px;
-  background-color: #89B5C3;
+  background-color: rgb(137, 181, 195);
 }
 
 h1 {
@@ -147,8 +147,8 @@ h4 {
 button {
   width: 200px;
   height: 35px;
-  background-color: #E5A988;
-  color: white;
+  background-color: rgb(229, 169, 136);
+  color: rgb(255, 255, 255);
   border-radius: 2rem;
   border-style: none;
   cursor: pointer;
@@ -158,11 +158,11 @@ button a {
   font-weight: 400;
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 button a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /*=====  End of All Elements  ======*/
@@ -179,7 +179,7 @@ button a:hover {
 
 .two, .three, .four, .five, .six, .eight {
   border: 2px dotted;
-  border-color: #32657F;
+  border-color: rgb(50, 101, 127);
   border-radius: 8px;
 }
 
@@ -193,7 +193,7 @@ button a:hover {
 
 
 /* Box four */
-.slideshow {
+.image-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -203,8 +203,32 @@ button a:hover {
   display: none;
 }
 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
 .caption {
-  color: #000000;
+  color: rgb(0, 0, 0);
   background-color: rgba(255, 255, 255, 0.461);
   width: 200px;
   font-size: 16px;
@@ -217,7 +241,7 @@ button a:hover {
 }
 
 .pg-num {
-  color: #ececed;
+  color: rgb(236, 236, 237);
   font-size: 14px;
   padding: 10px 14px;
   position: absolute;
@@ -229,7 +253,7 @@ button a:hover {
   height: 20px;
   width: 20px;
   margin: 0 3px;
-  background-color: #89B5C3;
+  background-color: rgb(137, 181, 195);
   border-radius: 50%;
   display: inline-block;
   transition: 0.5s ease;
@@ -241,24 +265,36 @@ button a:hover {
 }
 
 .enable, .dots:hover {
-  background-color: #32657F;
+  background-color: rgb(50, 101, 127);
 }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
 /* Box five */
 .foto-container{
   display: flex;
   flex-direction: column;
 }
+
 .photo{
-  padding: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
+
 .photo img{
-  width: 340px;
-  box-shadow: 5px 5px #dedede;
+  width: 200px;
 }
 
 .img-caption {
-  padding: 8px;
+  width: 380px;
+  padding: 10px;
+  text-align: justify;
 }
+
 /* Box six */
 .six-temple{
   display: grid;
@@ -280,7 +316,7 @@ button a:hover {
 
 .temple-box {
   padding: 10px;
-  background-color: #89B5C3;
+  background-color: rgb(137, 181, 195);
   border-radius: 8px;
 }
 
@@ -303,12 +339,29 @@ button a:hover {
 
 /* Box seven */
 .weather {
-  background-color: #E5A988;
+  background-color: rgb(229, 169, 136);
   border-radius: 8px;
 }
 
 /* Box eight */
+.contact {
+  display: flex;
+  flex-direction: row;
+  padding: 9px;
+  align-items: center;
+  justify-content: center;
+}
 
+.contact-img {
+  width: 64px;
+  height: 64px;
+  padding: 9px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
 
 /*=====  End of Home Elements  ======*/
 
@@ -316,6 +369,10 @@ button a:hover {
 /*=============================================
 =            Temple Elements                  =
 =============================================*/
+.temple-pg{
+  margin: 20px 50px 20px 45px;
+}
+
 .view{
   margin: 10px;
 }
@@ -328,8 +385,8 @@ button a:hover {
 
 .templeCards section {
   background-color: rgb(255, 255, 255);
-  border: 3px solid rgb(200, 65, 16);
-  width: 350px;
+  border: 3px solid rgb(229, 169, 136);
+  width: 400px;
   margin: 9px;
   padding: 10px;
   border-radius: 10px;
@@ -337,20 +394,20 @@ button a:hover {
 
 }
 .templeCards section p {
-  width: 320px;
-  padding: 3px;
+  padding: 20px;
+  font-size: 10px;
 }
 
 .templeCards img {
   width: 200px;
 }
 
-.templeCards section p:first-child {
+/*.templeCards section p:first-child {
   font-size: 16px;
-}
+}*/
 
 .templeCards a:hover{
-  color: rgb(253, 187, 20);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -366,22 +423,29 @@ button a:hover {
   width: 100%;
   display: grid;
   padding: 10px;
-  font-size: 14px;
   text-align: center;
-  margin: 10px
+  margin: 10px;
 }
+
+.switchListView section h3 {
+  font-size: 16px;
+}
+
 
 .switchListView section p1, .switchListView section p2  {
   text-align: center;
   padding: 9px;
+  font-size: 14px;
 }
-.switchListView section a, .businessCards section a {
-  color: blue;
+
+.switchListView section a, .templeCards section a {
+  color: rgb(0, 0, 255);
   align-self: center;
+  font-size: 14px;
 }
 
 .switchListView section{
-  border: 3px solid rgb(200, 65, 16);
+  border: 3px solid rgb(229, 169, 136);
   border-radius: 10px;
 }
 
@@ -394,7 +458,7 @@ button a:hover {
 }
 
 .switchListView section:nth-child(odd) {
-  background-color: rgb(200, 65, 16);
+  background-color: rgb(229, 169, 136);
   color:rgb(255, 255, 255);
 }
 
@@ -404,7 +468,7 @@ button a:hover {
 
 .switchListView section:nth-child(odd) a:hover,
 .switchListView section:nth-child(even) a:hover{
-  color: rgb(253, 187, 20);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -415,7 +479,7 @@ button a:hover {
 }
 
 .selectViewDirectory ul li {
-  margin: 5px;
+  margin: 10px;
 }
 
 .selectViewDirectory a {

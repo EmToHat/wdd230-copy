@@ -1,8 +1,12 @@
 let imagePosition = 1;
 imageSlideshow(imagePosition);
 
-function currentImage(x) {
-  imageSlideshow(imagePosition = x);
+function currentImage(n) {
+  imageSlideshow(imagePosition += n);
+}
+
+function currentImage(n) {
+  imageSlideshow(imagePosition = n);
 }
 
 function imageSlideshow(n) {
@@ -11,9 +15,9 @@ function imageSlideshow(n) {
   let images = document.getElementsByClassName("img-box");
   let dots = document.getElementsByClassName("dots");
   
-  if (x > images.length) {imagePosition = 1}
+  if (n > images.length) {imagePosition = 1}
   
-  if (x < 1) {imagePosition = images.length}
+  if (n < 1) {imagePosition = images.length}
   
   for (i = 0; i < images.length; i++) {
     images[i].style.display = "none";
