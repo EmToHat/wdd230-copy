@@ -343,6 +343,17 @@ button a:hover {
   border-radius: 8px;
 }
 
+/*.weather-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.weather-container img {
+  width: 90px;
+}
+
 /* Box eight */
 .contact {
   display: flex;
