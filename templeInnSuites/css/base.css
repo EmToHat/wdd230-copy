@@ -128,7 +128,7 @@ h1 {
   font-weight: 800;
 }
 
-h2{
+h2 {
   font-weight: 500;
   padding: 10px;
 }
@@ -224,7 +224,7 @@ button a:hover {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .caption {
@@ -274,18 +274,18 @@ button a:hover {
 }
 
 /* Box five */
-.foto-container{
+.foto-container {
   display: flex;
   flex-direction: column;
 }
 
-.photo{
+.photo {
   padding: 20px;
   display: flex;
   flex-direction: row;
 }
 
-.photo img{
+.photo img {
   width: 200px;
 }
 
@@ -296,7 +296,7 @@ button a:hover {
 }
 
 /* Box six */
-.six-temple{
+.six-temple {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 1fr 1fr;
@@ -304,7 +304,7 @@ button a:hover {
   gap: 9px;
 }
 
-.temple-top{
+.temple-top {
   padding: 8px;
   grid-column: span 2;
 }
@@ -320,18 +320,18 @@ button a:hover {
   border-radius: 8px;
 }
 
-.temple-bottom{
+.temple-bottom {
   grid-column: span 2;
   text-align: center;
 }
 
-.temple-left{
+.temple-left {
   grid-column: 2/3;
   grid-row: 2/3;
   text-align: center;
 }
 
-.temple-right{
+.temple-right {
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
@@ -369,11 +369,11 @@ button a:hover {
 /*=============================================
 =            Temple Elements                  =
 =============================================*/
-.temple-pg{
+.temple-pg {
   margin: 20px 50px 20px 45px;
 }
 
-.view{
+.view {
   margin: 10px;
 }
 
@@ -387,26 +387,21 @@ button a:hover {
   background-color: rgb(255, 255, 255);
   border: 3px solid rgb(229, 169, 136);
   width: 400px;
-  margin: 9px;
   padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   text-align: center;
-
 }
+
 .templeCards section p {
   padding: 20px;
-  font-size: 10px;
 }
 
 .templeCards img {
   width: 200px;
 }
 
-/*.templeCards section p:first-child {
-  font-size: 16px;
-}*/
-
-.templeCards a:hover{
+.templeCards a:hover {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
@@ -422,7 +417,6 @@ button a:hover {
 .switchListView section {
   width: 100%;
   display: grid;
-  padding: 10px;
   text-align: center;
   margin: 10px;
 }
@@ -432,19 +426,18 @@ button a:hover {
 }
 
 
-.switchListView section p1, .switchListView section p2  {
-  text-align: center;
-  padding: 9px;
-  font-size: 14px;
+.switchListView section p, .templeCards section p {
+  text-align: left;
+  font-size: 12px;
 }
 
 .switchListView section a, .templeCards section a {
   color: rgb(0, 0, 255);
   align-self: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-.switchListView section{
+.switchListView section {
   border: 3px solid rgb(229, 169, 136);
   border-radius: 10px;
 }
@@ -459,15 +452,15 @@ button a:hover {
 
 .switchListView section:nth-child(odd) {
   background-color: rgb(229, 169, 136);
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
-.switchListView section:nth-child(odd) a{
-  color:rgb(255, 255, 255);
+.switchListView section:nth-child(odd) a {
+  color: rgb(255, 255, 255);
 }
 
 .switchListView section:nth-child(odd) a:hover,
-.switchListView section:nth-child(even) a:hover{
+.switchListView section:nth-child(even) a:hover {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
@@ -475,7 +468,6 @@ button a:hover {
 .selectViewDirectory ul {
   display: flex;
   justify-content: center;
-  font-size: 16px;
 }
 
 .selectViewDirectory ul li {
@@ -483,7 +475,7 @@ button a:hover {
 }
 
 .selectViewDirectory a {
-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .selectViewDirectory li {
@@ -494,7 +486,7 @@ color: rgb(0, 0, 0);
 .listViewbtn a {
   text-decoration: none;
   background-color: rgb(90, 126, 173);
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
 
@@ -502,4 +494,3 @@ color: rgb(0, 0, 0);
 
 
 /*=====  End of Temple Elements  ======*/
-
