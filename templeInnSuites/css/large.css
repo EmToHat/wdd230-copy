@@ -1,0 +1,11 @@
+@media (min-width: 765px) {
+
+    @media (min-width: 1040px) {
+
+        .templeCards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+    }
+}
