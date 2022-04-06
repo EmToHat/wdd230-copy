@@ -8,14 +8,12 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-
-    let timeZone = document.querySelector("#timezone");
+    
     const currentTemp = document.querySelector("#current-temp");
     const weatherIcon = document.querySelector("#weathericon");
     const caption = document.querySelector("#skies");
     const speed = document.querySelector("#speed");
 
-    timeZone.textContent = jsObject.main.timezone.toFixed(0);
     currentTemp.textContent = jsObject.main.temp.toFixed(0);
     speed.textContent = jsObject.wind.speed.toFixed(0);
 
