@@ -20,6 +20,26 @@ header, footer {
   text-align: center;
 }
 
+footer img {
+  width: 35px;
+  padding: 5px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+}
+
+iframe {
+  padding: 9px;
+}
+
+.header-img {
+  width: 30px;
+}
 /*----------  Header  ----------*/
 /* title, logo, nav links, hamburger menu icon, light blue line, and weather alert*/
 
@@ -144,55 +164,60 @@ h4 {
 
 /*----------  Main  ----------*/
 /* title, logo, nav links, hamburger menu icon, light blue line, and weather alert*/
-button {
-  width: 200px;
-  height: 35px;
-  background-color: rgb(229, 169, 136);
+.box-h a {
   color: rgb(255, 255, 255);
-  border-radius: 2rem;
   border-style: none;
   cursor: pointer;
+  padding: 10px;
+  background-color: rgb(229, 169, 136);
+  border-radius: 2rem;
 }
 
-button a {
+.box-h a {
   font-weight: 400;
   font-size: 20px;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-button a:hover {
-  color: rgb(0, 0, 0);
+.box-h a:hover {
+  color: rgb(40, 82, 105);
 }
 
 /*=====  End of All Elements  ======*/
 
-
 /*=============================================
-=            Home Elements                    =
+=                   Home                     =
 =============================================*/
-.box {
+.box-h {
   margin: 10px;
-  padding: 5px;
+  padding: 20px;
   text-align: center;
 }
 
-.two, .three, .four, .five, .six, .eight {
+.two-h, .three-h, .four-h, .five-h, .six-h, .eight-h {
   border: 2px dotted;
   border-color: rgb(50, 101, 127);
   border-radius: 8px;
 }
 
-/* Box one */
+/* Box three ----> Amenities Box */
+.amenities-container{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.amenities-img {
+  width: 64px;
+}
 
+.amenities {
+  padding: 10px;
+}
 
-/* Box two */
-
-
-/* Box three */
-
-
-/* Box four */
+/* Box four ----> Rooms Box */
 .image-container {
   max-width: 1000px;
   position: relative;
@@ -273,7 +298,12 @@ button a:hover {
   animation-duration: 1.5s;
 }
 
-/* Box five */
+/* Box five ----> Temple Activities Box */
+.five-h {
+  display: flex;
+  flex-direction: column;
+}
+
 .foto-container {
   display: flex;
   flex-direction: column;
@@ -282,21 +312,20 @@ button a:hover {
 .photo {
   padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.photo img {
-  width: 200px;
+.photo img{
+  width: 64px;
 }
 
 .img-caption {
-  width: 380px;
   padding: 10px;
   text-align: justify;
 }
 
-/* Box six */
-.six-temple {
+/* Box six ----> Temple of the Day Box*/
+.temple-boxes-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 1fr 1fr;
@@ -304,57 +333,63 @@ button a:hover {
   gap: 9px;
 }
 
-.temple-top {
-  padding: 8px;
-  grid-column: span 2;
-}
-
-.six p {
-  font-weight: 300;
-  padding: 2px;
+.six-h img {
+  width: 400px;
 }
 
 .temple-box {
   padding: 10px;
   background-color: rgb(137, 181, 195);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.temple-bottom {
+.temple-box img {
+  width: 64px;
+}
+
+.t-t {
+  padding: 8px;
   grid-column: span 2;
-  text-align: center;
 }
 
-.temple-left {
+.six-h p {
+  font-weight: 300;
+  padding: 2px;
+  text-align: justify;
+}
+
+.t-b {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+.t-l {
   grid-column: 2/3;
   grid-row: 2/3;
-  text-align: center;
 }
 
-.temple-right {
+.t-r {
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
 }
 
-/* Box seven */
-.weather {
+/* Box seven ----> Weather Box */
+.seven-h {
   background-color: rgb(229, 169, 136);
   border-radius: 8px;
 }
 
-/*.weather-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}*/
-
-.weather-container img {
-  width: 90px;
+.weather-container{
+  padding: 20px;
+  background-color: beige;
 }
 
-/* Box eight */
+/* Box eight ----> Contact Box */
 .contact {
   display: flex;
   flex-direction: row;
@@ -372,10 +407,10 @@ button a:hover {
 .contact-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-
-/*=====  End of Home Elements  ======*/
-
+/*=====  End of Home  ======*/
 
 /*=============================================
 =            Temple Elements                  =
@@ -500,8 +535,91 @@ button a:hover {
   color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
+}
+/*=====  End of Temple Elements  ======*/
 
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+/* Style the form */
+#reservation-form {
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
 }
 
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid rgb(170, 170, 170);
+}
 
-/*=====  End of Temple Elements  ======*/
+input.invalid {
+  background-color: rgb(255, 221, 221);
+}
+
+.tab {
+  display: none;
+}
+
+.step {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  background-color: rgb(137, 181, 195);
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: rgb(229, 169, 136);
+}
+
+#prevBtn, #nextBtn {
+  width: 80px;
+  color: rgb(255, 255, 255);
+  border-style: none;
+  cursor: pointer;
+  padding: 6px;
+  margin-top: 10px;
+  background-color: rgb(229, 169, 136);
+  border-radius: 2rem;
+  font-size: 18px;
+}
+
+#prevBtn {
+  float: left;
+}
+
+#nextBtn {
+  float: right;
+}
+
+.btns-group {
+  overflow: auto;
+}
+
+.step-circles {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.number {
+  float: right;
+}
+
+/*=====  End of Section comment block  ======*/
+

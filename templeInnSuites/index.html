@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,7 +26,6 @@
   </head>
   <body>
     <header>
-      <!-- Top Navigation Menu -->
       <div class="topnav">
         <div class="alert">
           <img src="images/svg/close.svg" id="close" alt="close weather" />
@@ -54,44 +54,93 @@
           <a href="reservation.html">Reservation</a>
           <a href="services.html">Services</a>
           <a href="contact.html">Contact Us</a>
+          <a href="facebook.com"
+            ><img
+              src="images/facebook.png"
+              alt="facebook icon"
+              class="header-img"
+          /></a>
+          <a href="instagram.com"
+            ><img
+              src="images/instagram.png"
+              alt="instagram icon"
+              class="header-img"
+          /></a>
+          <a href="twitter.com"
+            ><img
+              src="images/twitter.png"
+              alt="twitter icon"
+              class="header-img"
+          /></a>
         </div>
       </div>
 
       <div class="blue-background"></div>
     </header>
     <main>
-      <div class="box one">
+      <div class="box-h one-h">
         <img src="images/hotel.jpg" alt="Hotel Image" />
       </div>
 
-      <div class="box two">
+      <div class="box-h two-h">
         <h2>Save time and money!<br />Book your next temple trip today!</h2>
-        <button><a href="">Book Today!</a></button>
+        <a href="reservation.html" class="button">Book Today!</a>
       </div>
 
-      <div class="box three">
+      <div class="box-h three-h">
         <h2>Amenities</h2>
-        <button><a href="">More Info</a></button>
+        <div class="amenities-container">
+          <div class="amenities">
+            <img
+              src="images/disabled.png"
+              alt="handicap icon"
+              class="amenities-img"
+            />
+            <p>Handicap Accessible</p>
+          </div>
+          <div class="amenities">
+            <img src="images/dog.png" alt="dog icon" class="amenities-img" />
+            <p>Service Animals Allowed</p>
+          </div>
+          <div class="amenities">
+            <img
+              src="images/restaurant.png"
+              alt="fork and knife icon"
+              class="amenities-img"
+            />
+            <p>Free Breakfast</p>
+          </div>
+
+          <div class="amenities">
+            <img
+              src="images/parking.png"
+              alt="parking icon"
+              class="amenities-img"
+            />
+            <p>Free Parking</p>
+          </div>
+        </div>
+        <a href="services.html" class="button">More Info</a>
       </div>
 
-      <div class="box four">
+      <div class="box-h four-h">
         <h2>Rooms</h2>
         <div class="image-container">
           <div class="img-box fade">
             <div class="pg-num">1 / 3</div>
-            <img src="images/rooms/graybed.jpg" />
+            <img src="images/rooms/graybed.jpg" alt="picture of room 1" />
             <div class="caption">Couple's Suite</div>
           </div>
 
           <div class="img-box fade">
             <div class="pg-num">2 / 3</div>
-            <img src="images/rooms/goldpillows.jpg" />
+            <img src="images/rooms/goldpillows.jpg" alt="picture of room 2" />
             <div class="caption">Newly Wed Suite</div>
           </div>
 
           <div class="img-box fade">
             <div class="pg-num">3 / 3</div>
-            <img src="images/rooms/greenpillow.jpg" />
+            <img src="images/rooms/greenpillow.jpg" alt="picture of room 3" />
             <div class="caption">Family Suite</div>
           </div>
         </div>
@@ -102,22 +151,23 @@
         </div>
       </div>
 
-      <div class="box five">
+      <div class="box-h five-h">
         <h2>Temple Activities</h2>
         <div class="foto-container">
           <div class="photo">
-            <img src="images/templeActivities/wedding.jpg" alt="Wedding" />
+            <img
+              src="images/templeActivities/wedding-rings.png"
+              alt="Wedding"
+            />
             <div class="img-caption">
               <h3>Sealing</h3>
-              <p>
-                The temple is the 
-              </p>
+              <p>The temple is the</p>
             </div>
           </div>
 
           <div class="photo">
             <img
-              src="images/templeActivities/familyhistory.jpg"
+              src="images/templeActivities/family-tree.png"
               alt="Family History"
             />
             <div class="img-caption">
@@ -132,97 +182,130 @@
           </div>
 
           <div class="photo">
-            <img src="images/templeActivities/gardens.jpg" alt="Gardens" />
+            <img src="images/templeActivities/gardening.png" alt="Gardens" />
             <div class="img-caption">
               <h3>Visit the Gardens</h3>
               <p>
-                Come meet with the wonderful missionaries who are eager to help
-                you learn more about your ancestors. Come learn how to make your
-                family tree.
+                The gardens are a beautiful place to ponder and come closer to
+                God. It is a place of beauty and peace.
               </p>
             </div>
           </div>
 
           <div class="photo">
-            <img src="images/templeActivities/christ.jpg" alt="Come unto Christ" />
+            <img
+              src="images/templeActivities/christ.png"
+              alt="Come unto Christ"
+            />
             <div class="img-caption">
               <h3>Come unto Christ</h3>
               <p>
-                The temple is a place of peace and a place you can learn of Christ and all that he has done for us. 
+                The temple is a place of peace and a place you can learn of
+                Christ and all that he has done for us.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="box temple-img six">
+      <div class="box-h six-h">
         <h2>Temple of the Day</h2>
-        <img
-          src="images/temples/lima.jpg"
-          alt="Lima Peru LDS Temple France Temple"
-        />
-        <div class="six-temple">
-          <h3 class="temple-box temple-top">Lima Peru Temple</h3>
-          <div class="temple-box temple-left">
-            <h4>Address</h4>
-            <p>
-              Av. Javier Prado Este 6420
-              <br />
-              Urb. Santa Patricia
-              <br />
-              La Molina, Lima 12, Peru
-            </p>
+        <img src="images/temples/lima.jpg" alt="Lima Peru LDS Temple" />
+        <div class="temple-boxes-container">
+          <h3 class="temple-box t-t">Lima Peru Temple</h3>
+          <div class="temple-box t-l">
+            <div class="t-box1">
+              <img src="images/map.png" alt="map icon" />
+              <h4>Address</h4>
+              <p>
+                Av. Javier Prado Este 6420
+                <br />
+                Urb. Santa Patricia
+                <br />
+                La Molina, Lima 12, Peru
+              </p>
+            </div>
           </div>
 
-          <div class="temple-box temple-bottom">
-            <h4>Temple Ordinances</h4>
-            <p>
-              Currently Phase 3: All living ordinances and limited proxy
-              ordinances.
-            </p>
-            <p>All ordinances are only available by appointment.</p>
-            <p>
-              Patrons are highly encouraged to bring their own temple clothing.
-            </p>
+          <div class="temple-box t-r">
+            <div class="t-box2">
+              <img src="images/svg/logo.svg" alt="logo icon" />
+              <h4>Temple Ordinances</h4>
+              <p>This temple is currently in Phase 3.</p>
+              <p>All living ordinances and limited proxy ordinances.</p>
+              <p>Ordinances are only available by appointment.</p>
+              <p>
+                Patrons are highly encouraged to bring their own temple
+                clothing.
+              </p>
+            </div>
           </div>
 
-          <div class="temple-box temple-right">
-            <h4>Temple Closures for 2022</h4>
-            <p>Monday, 18 April 2022 - Monday, 2 May 2022</p>
-            <p>Thursday, 28 July 2022 - Friday, 29 July 2022</p>
-            <p>Saturday, 1 October 2022</p>
-            <p>Monday, 3 October 2022 - Monday, 17 October 2022</p>
+          <div class="temple-box t-b">
+            <div class="t-box3">
+              <img src="images/closed.png" alt="closed sign icon" />
+              <h4>Temple Closures for 2022</h4>
+              <p>
+                Monday, 18 April 2022 - Monday, 2 May 2022
+                <br />
+                Thursday, 28 July 2022 - Friday, 29 July 2022
+                <br />
+                Saturday, 1 October 2022
+                <br />
+                Monday, 3 October 2022 - Monday, 17 October 2022
+              </p>
+            </div>
           </div>
         </div>
 
-        <button><a href="temple.html">See More Temples!</a></button>
+        <a href="temple.html"><span class="button">See More Temples!</span></a>
       </div>
 
-      <div class="box weather seven">
+      <div class="box-h seven-h">
         <div class="weather-container">
-          <div>
+          <h2><span id="country-city-name"></span>, <span id="country-name"></span></h2>
+
+          <div class="current-weather-container">
+            <img src="#" alt="weather icon" id="weathericon" />
+            <figcaption><span id="skies"></span></figcaption>
+            <p>Temperature: <span id="current-temp"></span>&#176; F</p>
+            <p>Wind Speed: <span id="speed"></span></p>
+
+            <!--Current Weather-->
+            <!--Condition Description-->
+            <!--Humidity-->
+          </div>
+
+          <div class="future-weather-container">
+            <div id="forecast">
+
+            </div>
+            <!--Day-->
+            <!--Date-->
+            <!--Time-->
+            <!--Current Weather-->
+            <!--Condition Description-->
+            <!--Humidity-->
+          </div>
+          <!--<div>
             <h2>Lima, Peru</h2>
-            <h3><span id="timezone"></span></h3>
-            <figure>
-              <img src="" alt="weather icon" id="weathericon"/>
-              <figcaption><span id="skies"></span></figcaption>
-            </figure>
+            
           </div>
           <div>
             <p>Temperature: <span id="current-temp"></span>&#176; F</p>
             <p>Wind Speed: <span id="speed"></span></p>
-          </div>
+          </div>-->
         </div>
       </div>
 
-      <div class="box eight">
+      <div class="box-h eight-h">
         <h2>Contact Info</h2>
         <div class="contact-container">
           <div class="contact">
             <img src="images/phone-call.png" alt="phone" class="contact-img" />
             <p>+51 41 244952382</p>
           </div>
-          
+
           <div class="contact">
             <img src="images/location.png" alt="location" class="contact-img" />
             <p>F6, La Molina 15024, Peru</p>
@@ -234,15 +317,51 @@
       <div class="blue-background"></div>
       <div class="footerb">
         <h2>Location</h2>
-        <p>Temple Inn & Suites</p>
-        <p>F6, La Molina 15024, Peru</p>
-        <p>Headquarters</p>
-        <p>Bethesda, MD</p>
-        <p>©2022 Emilee Hatch | BYU-Idaho</p>
+        <h3>Temple Inn & Suites</h3>
+        <div class="footer-flex">
+          <img src="images/map.png" alt="map" />
+          <p>F6, La Molina 15024, Peru</p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.615499984674!2d-76.95187533532408!3d-12.06995489145186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ef79a83093%3A0x8f53f6854bc0bcf9!2sF6%2C%20La%20Molina%2015024%2C%20Peru!5e0!3m2!1sen!2sus!4v1649247363702!5m2!1sen!2sus"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h3>Headquarters</h3>
+        <div class="footer-flex">
+          <img src="images/map.png" alt="map" />
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050188057963!2d-77.0955318!3d38.9832518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649247259221!5m2!1sen!2sus"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h2>Social Media</h2>
+        <h3>Stay Connected with Us!</h3>
+        <div class="footer-flex">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/instagram.png" alt="instagram icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+        </div>
+        <p>
+          &copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho
+          <br />
+          Last Update: <span id="modified"></span>
+        </p>
       </div>
       <script src="js/index.js"></script>
       <script src="js/imageslideshow.js"></script>
-      <script src="js/weather.js"></script>
+      <script src="js/currentweather.js"></script>
+      <script src="js/futureweather.js"></script>
     </footer>
   </body>
 </html>

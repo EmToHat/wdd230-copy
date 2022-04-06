@@ -4,4 +4,16 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
+
+    .foto-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+    .photo {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

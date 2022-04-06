@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,7 +26,6 @@
   </head>
   <body>
     <header>
-      <!-- Top Navigation Menu -->
       <div class="topnav">
         <div class="alert">
           <img src="images/svg/close.svg" id="close" alt="close weather" />
@@ -54,6 +54,24 @@
           <a href="reservation.html">Reservation</a>
           <a href="services.html">Services</a>
           <a href="contact.html">Contact Us</a>
+          <a href="facebook.com"
+            ><img
+              src="images/facebook.png"
+              alt="facebook icon"
+              class="header-img"
+          /></a>
+          <a href="instagram.com"
+            ><img
+              src="images/instagram.png"
+              alt="instagram icon"
+              class="header-img"
+          /></a>
+          <a href="twitter.com"
+            ><img
+              src="images/twitter.png"
+              alt="twitter icon"
+              class="header-img"
+          /></a>
         </div>
       </div>
 
@@ -79,11 +97,46 @@
       <div class="blue-background"></div>
       <div class="footerb">
         <h2>Location</h2>
-        <p>Temple Inn & Suites</p>
-        <p>F6, La Molina 15024, Peru</p>
-        <p>Headquarters</p>
-        <p>Bethesda, MD</p>
-        <p>©2022 Emilee Hatch | BYU-Idaho</p>
+        <h3>Temple Inn & Suites</h3>
+        <div class="footer-flex">
+          <img src="images/map.png" alt="map" />
+          <p>F6, La Molina 15024, Peru</p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.615499984674!2d-76.95187533532408!3d-12.06995489145186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ef79a83093%3A0x8f53f6854bc0bcf9!2sF6%2C%20La%20Molina%2015024%2C%20Peru!5e0!3m2!1sen!2sus!4v1649247363702!5m2!1sen!2sus"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h3>Headquarters</h3>
+        <div class="footer-flex">
+          <img src="images/map.png" alt="map" />
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050188057963!2d-77.0955318!3d38.9832518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649247259221!5m2!1sen!2sus"
+          width="300"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h2>Social Media</h2>
+        <h3>Stay Connected with Us!</h3>
+        <div class="footer-flex">
+          <img src="images/facebook.png" alt="facebook icon" />
+          <img src="images/instagram.png" alt="instagram icon" />
+          <img src="images/twitter.png" alt="twitter icon" />
+        </div>
+        <p>
+          &copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho
+          <br />
+          Last Update: <span id="modified"></span>
+        </p>
       </div>
       <script src="js/index.js"></script>
       <script src="js/directory.js"></script>
