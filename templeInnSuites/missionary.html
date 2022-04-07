@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="This is the contact page for the Temple Inn and Suites Website. It displays snipits of information regarding this fictional hotel."
+      content="This is the services information page for the Temple Inn and Suites Website. It displays snipits of information regarding this fictional hotel."
     />
 
     <!--CSS Files-->
@@ -74,61 +74,33 @@
           /></a>
         </div>
       </div>
-
       <div class="blue-background"></div>
     </header>
-    <main>
-      <form id="contact-us-form" action="">
-        <h2 class="contact-title">Contact Us!</h2>
+    <main class="missionary">
+        <img src="images/temples/arequipa.jpg" alt="arequipa temple img">
+        <h2>Missionaries</h2>
+        <div class="missionary-boxes-container">
+            <div class="missionary-box">
+                <h3>Senior Missionary Couples</h3>
+                <br>
+                <img src="images/temples/couplesmissionary.jpg" alt="Couple's Room">
+                <p>For our senior couple missionaries we offer a cozy room with queen sized bed, a small kitchenette and bathroom.</p>
+            </div>
 
-        <!-- One "tab" for each step in the form: -->
-
-        <div class="tab">
-          <p>
-            Have any questions or concerns? Feel free to send us a message here!
-          </p>
-          <br />
-          <p>
-            Please be advised we usually respond within 24 to 48 hrs.
-          </p>
-          <br />
-          <h3>Contact Information:</h3>
-          <p><input placeholder="First name..." oninput="showTab()" /></p>
-          <p><input placeholder="Last name..." oninput="showTab()" /></p>
-          <p><input placeholder="E-mail..." oninput="showTab()" /></p>
-          <p><input placeholder="Phone..." oninput="showTab()" /></p>
-          <div class="number">1/2</div>
-          <br />
+            <div class="missionary-box">
+                <h3>Missionary Pairs</h3>
+                <br>
+                <img src="images/temples/missionary.jpg" alt="Couple's Room">
+                <p>For our Elder and Sister companionships we offer a simlar sized room with two twin beds a small kitchenette and bathroom.</p>
+            </div>
         </div>
 
-
-        <div class="tab">
-          <p>
-            Please let us know your questions or concerns in the box below. We look forward to helping you.
-          </p>
-          <br />
-          <h3>Commentary:</h3>
-          <textarea name="comment" form="usrform" placeholder="Type here..."></textarea>
-          <div class="number">2/2</div>
-          <br />
+        <h2>Helpful Links</h2>
+        <div class="links">
+            <a href="https://www.churchofjesuschrist.org/comeuntochrist/belong/share-goodness/10-things-to-know-about-missionaries">10 Things to know about Missionaries</a>
+            <br>
+            <a href="https://www.churchofjesuschrist.org/comeuntochrist/belong/share-goodness/10-things-to-know-about-missionaries">Meet with the Missionaries</a>
         </div>
-
-        <div class="btns-group">
-          <div class="btns">
-            <button type="button" id="prevBtn" onclick="nextPrev(-1)">
-              Previous
-            </button>
-            <button type="button" id="nextBtn" onclick="nextPrev(1)">
-              Next
-            </button>
-          </div>
-        </div>
-
-        <div class="step-circles">
-          <span class="step"></span>
-          <span class="step"></span>
-        </div>
-      </form>
     </main>
     <footer>
       <div class="blue-background"></div>
@@ -176,7 +148,6 @@
         </p>
       </div>
       <script src="js/index.js"></script>
-      <script src="js/reservation.js"></script>
     </footer>
   </body>
 </html>

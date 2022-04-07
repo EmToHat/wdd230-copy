@@ -46,7 +46,7 @@ iframe {
 /* nav menu */
 .topnav {
   overflow: hidden;
-  background-color: rgb(50, 101, 127);
+  background-color: #32657f;
   position: relative;
 }
 
@@ -384,9 +384,15 @@ h4 {
   border-radius: 8px;
 }
 
+.seven-h img{
+  width: 64px;
+}
+
 .weather-container{
   padding: 20px;
-  background-color: beige;
+  background-color: rgb(40, 82, 105);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
 }
 
 /* Box eight ----> Contact Box */
@@ -409,6 +415,12 @@ h4 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+form {
+  border: 2px dotted;
+  border-color: rgb(50, 101, 127);
+  border-radius: 8px;
 }
 /*=====  End of Home  ======*/
 
@@ -540,11 +552,11 @@ h4 {
 
 
 /*=============================================
-=            Section comment block            =
+=            Reservation            =
 =============================================*/
 
 /* Style the form */
-#reservation-form {
+#reservation-form, #contact-us-form {
   margin: 100px auto;
   padding: 40px;
   width: 70%;
@@ -621,5 +633,59 @@ input.invalid {
   float: right;
 }
 
-/*=====  End of Section comment block  ======*/
+/*=====  End of Reservation  ======*/
+
+
+/*=============================================
+=               Services                     =
+=============================================*/
+.services {
+  padding: 10px;
+}
+
+.one-s ul li{
+  list-style-type: none;
+  padding: 8px;
+}
+
+.two-s-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.two-s-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/*=====  End of Services  ======*/
+
+
+/*=============================================
+=            Missionary            =
+=============================================*/
+.missionary {
+  padding: 10px;
+}
+
+.links {
+  padding: 10px;
+}
+
+.missionary-boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionary-box{
+  padding: 10px;
+}
+
+.missionary-box img{
+  width: 400px;
+}
+/*=====  End of Missionary  ======*/
 

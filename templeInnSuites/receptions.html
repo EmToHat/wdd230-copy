@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the services information page for the Temple Inn and Suites Website. It displays snipits of information regarding this fictional hotel."
+    />
+
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Temple Inn and Suites</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <div class="alert">
+          <img src="images/svg/close.svg" id="close" alt="close weather" />
+          <span id="closeableWeather">Weather Alert</span>
+        </div>
+        <div class="hamburger-icon">
+          <img
+            src="images/svg/menu.svg"
+            id="hamburger"
+            alt="hamburger icon"
+            class="icon"
+            onclick="myFunction()"
+          />
+        </div>
+
+        <div class="title">
+          <div class="flex">
+            <img src="images/svg/logo.svg" id="logo" alt="logo" />
+            <h1 class="active">Temple Inn & Suites</h1>
+          </div>
+        </div>
+        <!-- hidden nav links-->
+        <div id="myNavLinks">
+          <a href="index.html">Home</a>
+          <a href="temple.html">Temple</a>
+          <a href="reservation.html">Reservation</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="facebook.com"
+            ><img
+              src="images/facebook.png"
+              alt="facebook icon"
+              class="header-img"
+          /></a>
+          <a href="instagram.com"
+            ><img
+              src="images/instagram.png"
+              alt="instagram icon"
+              class="header-img"
+          /></a>
+          <a href="twitter.com"
+            ><img
+              src="images/twitter.png"
+              alt="twitter icon"
+              class="header-img"
+          /></a>
+        </div>
+      </div>
+      <div class="blue-background"></div>
+    </header>
+    <main></main>
+    <footer>
+        <div class="blue-background"></div>
+        <div class="footerb">
+          <h2>Location</h2>
+          <h3>Temple Inn & Suites</h3>
+          <div class="footer-flex">
+            <img src="images/map.png" alt="map" />
+            <p>F6, La Molina 15024, Peru</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.615499984674!2d-76.95187533532408!3d-12.06995489145186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ef79a83093%3A0x8f53f6854bc0bcf9!2sF6%2C%20La%20Molina%2015024%2C%20Peru!5e0!3m2!1sen!2sus!4v1649247363702!5m2!1sen!2sus"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h3>Headquarters</h3>
+          <div class="footer-flex">
+            <img src="images/map.png" alt="map" />
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050188057963!2d-77.0955318!3d38.9832518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649247259221!5m2!1sen!2sus"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h2>Social Media</h2>
+          <h3>Stay Connected with Us!</h3>
+          <div class="footer-flex">
+            <img src="images/facebook.png" alt="facebook icon" />
+            <img src="images/instagram.png" alt="instagram icon" />
+            <img src="images/twitter.png" alt="twitter icon" />
+          </div>
+          <p>
+            &copy;<span id="year"></span> | Emilee Hatch | Utah | BYU-Idaho
+            <br />
+            Last Update: <span id="modified"></span>
+          </p>
+        </div>
+        <script src="js/index.js"></script>
+      </footer>
+    </body>
+</html>

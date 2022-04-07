@@ -1,20 +1,22 @@
-let currentTab = 0;
-showTab(currentTab);
+/* Help from W3Schools Website */
 
-function showTab(n) {
+let currentPg = 0;
+showPg(currentPg);
+
+function showPg(n) {
   
   let x = document.getElementsByClassName("tab");
   x[n].style.display = "block";
  
   if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
+    document.querySelector("#prevBtn").style.display = "none";
   } else {
-    document.getElementById("prevBtn").style.display = "inline";
+    document.querySelector("#prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.querySelector("#nextBtn").innerHTML = "Submit";
   } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
+    document.querySelector("#nextBtn").innerHTML = "Next";
   }
 
   fixStepIndicator(n)
@@ -25,19 +27,20 @@ function nextPrev(n) {
   let x = document.getElementsByClassName("tab");
 
   if (n == 1 && !validateForm()) return false;
-  x[currentTab].style.display = "none";
-  currentTab = currentTab + n;
-  if (currentTab >= x.length) {
-    document.getElementById("reservation-form").submit();
+  x[currentPg].style.display = "none";
+  currentPg = currentPg + n;
+  
+  if (currentPg >= x.length) {
+    document.querySelector("#reservation-form").submit();
     return false;
   }
-  showTab(currentTab);
+  showPg(currentPg);
 }
 
 function validateForm() {
   let x, y, i, valid = true;
   x = document.getElementsByClassName("tab");
-  y = x[currentTab].getElementsByTagName("input");
+  y = x[currentPg].getElementsByTagName("input");
   for (i = 0; i < y.length; i++) {
     if (y[i].value == "") {
       y[i].className += " invalid";
@@ -46,7 +49,7 @@ function validateForm() {
   }
 
   if (valid) {
-    document.getElementsByClassName("step")[currentTab].className += " finish";
+    document.getElementsByClassName("step")[currentPg].className += " finish";
   }
   return valid;
 }
