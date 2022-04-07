@@ -6,14 +6,15 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     
-    const countryTimeZone = document.querySelector("#country-time-zone");
     const countryCityName = document.querySelector("#country-city-name");
     const countryName = document.querySelector("#country-name");
     const currentTemp = document.querySelector("#current-temp");
     const weatherIcon = document.querySelector("#weathericon");
     const caption = document.querySelector("#skies");
     const speed = document.querySelector("#speed");
+    const humidity = document.querySelector("#humidity");
 
+    humidity.textContent = jsObject.main.humidity
     countryCityName.textContent = jsObject.name
     countryName.textContent = jsObject.sys.country
     //countryTimeZone = jsObject.timezone
